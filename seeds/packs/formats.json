@@ -1,0 +1,355 @@
+{
+ "pack": "formats",
+ "terms": [
+  {
+   "text": "PDF",
+   "aliases": [
+    "p d f"
+   ]
+  },
+  {
+   "text": "DOCX",
+   "aliases": [
+    "doc x",
+    "d o c x"
+   ]
+  },
+  {
+   "text": "DOC",
+   "aliases": [
+    "doc file"
+   ]
+  },
+  {
+   "text": "XLSX",
+   "aliases": [
+    "x l s x",
+    "excel file"
+   ]
+  },
+  {
+   "text": "PPTX",
+   "aliases": [
+    "p p t x"
+   ]
+  },
+  {
+   "text": "CSV",
+   "aliases": [
+    "c s v"
+   ]
+  },
+  {
+   "text": "TSV",
+   "aliases": [
+    "t s v"
+   ]
+  },
+  {
+   "text": "JSON",
+   "aliases": [
+    "jason",
+    "j s o n"
+   ]
+  },
+  {
+   "text": "YAML",
+   "aliases": [
+    "yaml",
+    "ya ml"
+   ]
+  },
+  {
+   "text": "TOML",
+   "aliases": [
+    "toml",
+    "tom l"
+   ]
+  },
+  {
+   "text": "XML",
+   "aliases": [
+    "x m l"
+   ]
+  },
+  {
+   "text": "HTML",
+   "aliases": [
+    "h t m l"
+   ]
+  },
+  {
+   "text": "CSS",
+   "aliases": [
+    "c s s"
+   ]
+  },
+  {
+   "text": "SVG",
+   "aliases": [
+    "s v g"
+   ]
+  },
+  {
+   "text": "PNG",
+   "aliases": [
+    "p n g",
+    "ping file"
+   ]
+  },
+  {
+   "text": "JPEG",
+   "aliases": [
+    "j peg",
+    "jpeg"
+   ]
+  },
+  {
+   "text": "JPG",
+   "aliases": [
+    "j p g"
+   ]
+  },
+  {
+   "text": "GIF",
+   "aliases": [
+    "gif",
+    "jif"
+   ]
+  },
+  {
+   "text": "WebP",
+   "aliases": [
+    "web p",
+    "webp"
+   ]
+  },
+  {
+   "text": "HEIC",
+   "aliases": [
+    "heic",
+    "h e i c"
+   ]
+  },
+  {
+   "text": "TIFF",
+   "aliases": [
+    "tiff"
+   ]
+  },
+  {
+   "text": "MP3",
+   "aliases": [
+    "m p three",
+    "mp3"
+   ]
+  },
+  {
+   "text": "MP4",
+   "aliases": [
+    "m p four",
+    "mp4"
+   ]
+  },
+  {
+   "text": "WAV",
+   "aliases": [
+    "wav",
+    "wave file"
+   ]
+  },
+  {
+   "text": "AAC",
+   "aliases": [
+    "a a c"
+   ]
+  },
+  {
+   "text": "FLAC",
+   "aliases": [
+    "flac"
+   ]
+  },
+  {
+   "text": "MOV",
+   "aliases": [
+    "m o v",
+    "mov file"
+   ]
+  },
+  {
+   "text": "MKV",
+   "aliases": [
+    "m k v"
+   ]
+  },
+  {
+   "text": "WebM",
+   "aliases": [
+    "web m",
+    "webm"
+   ]
+  },
+  {
+   "text": "ZIP",
+   "aliases": [
+    "zip"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "TAR",
+   "aliases": [
+    "tar"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "gzip",
+   "aliases": [
+    "g zip",
+    "gzip"
+   ]
+  },
+  {
+   "text": "DMG",
+   "aliases": [
+    "d m g"
+   ]
+  },
+  {
+   "text": "PKG",
+   "aliases": [
+    "p k g"
+   ]
+  },
+  {
+   "text": "APK",
+   "aliases": [
+    "a p k"
+   ]
+  },
+  {
+   "text": "IPA",
+   "aliases": [
+    "i p a"
+   ]
+  },
+  {
+   "text": "EXE",
+   "aliases": [
+    "e x e"
+   ]
+  },
+  {
+   "text": "ISO",
+   "aliases": [
+    "i s o"
+   ]
+  },
+  {
+   "text": "Markdown",
+   "aliases": [
+    "markdown",
+    "mark down"
+   ]
+  },
+  {
+   "text": "TXT",
+   "aliases": [
+    "t x t"
+   ]
+  },
+  {
+   "text": "RTF",
+   "aliases": [
+    "r t f"
+   ]
+  },
+  {
+   "text": "EPUB",
+   "aliases": [
+    "e pub",
+    "epub"
+   ]
+  },
+  {
+   "text": "ICS",
+   "aliases": [
+    "i c s"
+   ]
+  },
+  {
+   "text": "VCF",
+   "aliases": [
+    "v c f"
+   ]
+  },
+  {
+   "text": "SQL",
+   "aliases": [
+    "s q l",
+    "sequel"
+   ]
+  },
+  {
+   "text": "Base64",
+   "aliases": [
+    "base sixty four",
+    "base 64"
+   ]
+  },
+  {
+   "text": "UTF-8",
+   "aliases": [
+    "u t f eight",
+    "utf eight"
+   ]
+  },
+  {
+   "text": "Unicode",
+   "aliases": [
+    "unicode"
+   ]
+  },
+  {
+   "text": "ASCII",
+   "aliases": [
+    "ascii",
+    "ask ee"
+   ]
+  },
+  {
+   "text": "SHA-256",
+   "aliases": [
+    "sha two fifty six",
+    "sha 256"
+   ]
+  },
+  {
+   "text": "MD5",
+   "aliases": [
+    "m d five",
+    "md5"
+   ]
+  },
+  {
+   "text": "UUID",
+   "aliases": [
+    "u u i d"
+   ]
+  },
+  {
+   "text": "URL",
+   "aliases": [
+    "u r l"
+   ]
+  },
+  {
+   "text": "URI",
+   "aliases": [
+    "u r i"
+   ]
+  }
+ ]
+}

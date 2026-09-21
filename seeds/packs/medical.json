@@ -1,0 +1,564 @@
+{
+ "pack": "medical",
+ "terms": [
+  {
+   "text": "BP",
+   "aliases": [
+    "b p",
+    "blood pressure"
+   ]
+  },
+  {
+   "text": "HR",
+   "aliases": [
+    "h r",
+    "heart rate"
+   ]
+  },
+  {
+   "text": "SpO2",
+   "aliases": [
+    "s p o two",
+    "spo2",
+    "sp o two"
+   ]
+  },
+  {
+   "text": "BMI",
+   "aliases": [
+    "b m i"
+   ]
+  },
+  {
+   "text": "ECG",
+   "aliases": [
+    "e c g"
+   ]
+  },
+  {
+   "text": "EKG",
+   "aliases": [
+    "e k g"
+   ]
+  },
+  {
+   "text": "MRI",
+   "aliases": [
+    "m r i"
+   ]
+  },
+  {
+   "text": "CT",
+   "aliases": [
+    "c t",
+    "c t scan"
+   ]
+  },
+  {
+   "text": "CBC",
+   "aliases": [
+    "c b c"
+   ]
+  },
+  {
+   "text": "BMP",
+   "aliases": [
+    "b m p"
+   ]
+  },
+  {
+   "text": "A1C",
+   "aliases": [
+    "a one c",
+    "a1c"
+   ]
+  },
+  {
+   "text": "LDL",
+   "aliases": [
+    "l d l"
+   ]
+  },
+  {
+   "text": "HDL",
+   "aliases": [
+    "h d l"
+   ]
+  },
+  {
+   "text": "PRN",
+   "aliases": [
+    "p r n"
+   ]
+  },
+  {
+   "text": "BID",
+   "aliases": [
+    "b i d"
+   ]
+  },
+  {
+   "text": "TID",
+   "aliases": [
+    "t i d"
+   ]
+  },
+  {
+   "text": "QID",
+   "aliases": [
+    "q i d"
+   ]
+  },
+  {
+   "text": "PO",
+   "aliases": [
+    "p o"
+   ]
+  },
+  {
+   "text": "IV",
+   "aliases": [
+    "i v"
+   ]
+  },
+  {
+   "text": "IM",
+   "aliases": [
+    "i m"
+   ]
+  },
+  {
+   "text": "NPO",
+   "aliases": [
+    "n p o"
+   ]
+  },
+  {
+   "text": "ICD-10",
+   "aliases": [
+    "i c d ten",
+    "i c d one zero"
+   ]
+  },
+  {
+   "text": "CPT",
+   "aliases": [
+    "c p t"
+   ]
+  },
+  {
+   "text": "EHR",
+   "aliases": [
+    "e h r"
+   ]
+  },
+  {
+   "text": "EMR",
+   "aliases": [
+    "e m r"
+   ]
+  },
+  {
+   "text": "Epic",
+   "aliases": [
+    "epic"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Cerner",
+   "aliases": [
+    "cerner"
+   ]
+  },
+  {
+   "text": "ibuprofen",
+   "aliases": [
+    "ibuprofen",
+    "eye byou pro fen"
+   ]
+  },
+  {
+   "text": "acetaminophen",
+   "aliases": [
+    "acetaminophen",
+    "a seat a min o fen"
+   ]
+  },
+  {
+   "text": "amoxicillin",
+   "aliases": [
+    "amoxicillin",
+    "a mox i sillin"
+   ]
+  },
+  {
+   "text": "metformin",
+   "aliases": [
+    "metformin",
+    "met for min"
+   ]
+  },
+  {
+   "text": "lisinopril",
+   "aliases": [
+    "lisinopril",
+    "lie sin oh pril"
+   ]
+  },
+  {
+   "text": "atorvastatin",
+   "aliases": [
+    "atorvastatin",
+    "a tor va sta tin"
+   ]
+  },
+  {
+   "text": "omeprazole",
+   "aliases": [
+    "omeprazole",
+    "oh mep ra zole"
+   ]
+  },
+  {
+   "text": "hypertension",
+   "aliases": [
+    "hypertension"
+   ]
+  },
+  {
+   "text": "diabetes mellitus",
+   "aliases": [
+    "diabetes mellitus"
+   ]
+  },
+  {
+   "text": "COPD",
+   "aliases": [
+    "c o p d"
+   ]
+  },
+  {
+   "text": "GERD",
+   "aliases": [
+    "gerd"
+   ]
+  },
+  {
+   "text": "UTI",
+   "aliases": [
+    "u t i"
+   ]
+  },
+  {
+   "text": "tachycardia",
+   "aliases": [
+    "tachycardia",
+    "tacky cardia"
+   ]
+  },
+  {
+   "text": "bradycardia",
+   "aliases": [
+    "bradycardia"
+   ]
+  },
+  {
+   "text": "arrhythmia",
+   "aliases": [
+    "arrhythmia",
+    "a rith mia"
+   ]
+  },
+  {
+   "text": "myocardial infarction",
+   "aliases": [
+    "myocardial infarction"
+   ]
+  },
+  {
+   "text": "anaphylaxis",
+   "aliases": [
+    "anaphylaxis"
+   ]
+  },
+  {
+   "text": "sepsis",
+   "aliases": [
+    "sepsis"
+   ]
+  },
+  {
+   "text": "edema",
+   "aliases": [
+    "edema",
+    "ih dee ma"
+   ]
+  },
+  {
+   "text": "dyspnea",
+   "aliases": [
+    "dyspnea",
+    "disp nee ah"
+   ]
+  },
+  {
+   "text": "syncope",
+   "aliases": [
+    "syncope",
+    "sin ko pee"
+   ]
+  },
+  {
+   "text": "cyanosis",
+   "aliases": [
+    "cyanosis"
+   ]
+  },
+  {
+   "text": "jaundice",
+   "aliases": [
+    "jaundice"
+   ]
+  },
+  {
+   "text": "auscultation",
+   "aliases": [
+    "auscultation"
+   ]
+  },
+  {
+   "text": "palpation",
+   "aliases": [
+    "palpation"
+   ]
+  },
+  {
+   "text": "stethoscope",
+   "aliases": [
+    "stethoscope"
+   ]
+  },
+  {
+   "text": "sphygmomanometer",
+   "aliases": [
+    "sphygmomanometer",
+    "blood pressure cuff"
+   ]
+  },
+  {
+   "text": "otoscope",
+   "aliases": [
+    "otoscope"
+   ]
+  },
+  {
+   "text": "cannula",
+   "aliases": [
+    "cannula"
+   ]
+  },
+  {
+   "text": "suture",
+   "aliases": [
+    "suture"
+   ]
+  },
+  {
+   "text": "biopsy",
+   "aliases": [
+    "biopsy"
+   ]
+  },
+  {
+   "text": "prognosis",
+   "aliases": [
+    "prognosis"
+   ]
+  },
+  {
+   "text": "diagnosis",
+   "aliases": [
+    "diagnosis"
+   ]
+  },
+  {
+   "text": "differential diagnosis",
+   "aliases": [
+    "differential diagnosis"
+   ]
+  },
+  {
+   "text": "comorbidity",
+   "aliases": [
+    "comorbidity"
+   ]
+  },
+  {
+   "text": "contraindication",
+   "aliases": [
+    "contraindication"
+   ]
+  },
+  {
+   "text": "anesthesia",
+   "aliases": [
+    "anesthesia"
+   ]
+  },
+  {
+   "text": "analgesic",
+   "aliases": [
+    "analgesic"
+   ]
+  },
+  {
+   "text": "anticoagulant",
+   "aliases": [
+    "anticoagulant"
+   ]
+  },
+  {
+   "text": "vasodilator",
+   "aliases": [
+    "vasodilator"
+   ]
+  },
+  {
+   "text": "beta blocker",
+   "aliases": [
+    "beta blocker"
+   ]
+  },
+  {
+   "text": "ACE inhibitor",
+   "aliases": [
+    "a c e inhibitor",
+    "ace inhibitor"
+   ]
+  },
+  {
+   "text": "statin",
+   "aliases": [
+    "statin"
+   ]
+  },
+  {
+   "text": "insulin",
+   "aliases": [
+    "insulin"
+   ]
+  },
+  {
+   "text": "epinephrine",
+   "aliases": [
+    "epinephrine"
+   ]
+  },
+  {
+   "text": "naloxone",
+   "aliases": [
+    "naloxone",
+    "narcan"
+   ]
+  },
+  {
+   "text": "defibrillator",
+   "aliases": [
+    "defibrillator"
+   ]
+  },
+  {
+   "text": "ventilator",
+   "aliases": [
+    "ventilator"
+   ]
+  },
+  {
+   "text": "intubation",
+   "aliases": [
+    "intubation"
+   ]
+  },
+  {
+   "text": "resuscitation",
+   "aliases": [
+    "resuscitation"
+   ]
+  },
+  {
+   "text": "CPR",
+   "aliases": [
+    "c p r"
+   ]
+  },
+  {
+   "text": "triage",
+   "aliases": [
+    "triage",
+    "tree ahj"
+   ]
+  },
+  {
+   "text": "discharge summary",
+   "aliases": [
+    "discharge summary"
+   ]
+  },
+  {
+   "text": "outpatient",
+   "aliases": [
+    "outpatient"
+   ]
+  },
+  {
+   "text": "inpatient",
+   "aliases": [
+    "inpatient"
+   ]
+  },
+  {
+   "text": "telehealth",
+   "aliases": [
+    "telehealth"
+   ]
+  },
+  {
+   "text": "subcutaneous",
+   "aliases": [
+    "subcutaneous"
+   ]
+  },
+  {
+   "text": "intramuscular",
+   "aliases": [
+    "intramuscular"
+   ]
+  },
+  {
+   "text": "intravenous",
+   "aliases": [
+    "intravenous"
+   ]
+  },
+  {
+   "text": "musculoskeletal",
+   "aliases": [
+    "musculoskeletal"
+   ]
+  },
+  {
+   "text": "gastrointestinal",
+   "aliases": [
+    "gastrointestinal",
+    "g i"
+   ]
+  },
+  {
+   "text": "duodenum",
+   "aliases": [
+    "duodenum"
+   ]
+  }
+ ]
+}

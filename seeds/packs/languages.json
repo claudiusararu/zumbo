@@ -1,0 +1,791 @@
+{
+ "pack": "languages",
+ "terms": [
+  {
+   "text": "TypeScript",
+   "aliases": [
+    "type script",
+    "typescript"
+   ]
+  },
+  {
+   "text": "JavaScript",
+   "aliases": [
+    "java script",
+    "javascript"
+   ]
+  },
+  {
+   "text": "Python",
+   "aliases": [
+    "python"
+   ]
+  },
+  {
+   "text": "Swift",
+   "aliases": [
+    "swift"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "SwiftUI",
+   "aliases": [
+    "swift u i",
+    "swift ui"
+   ]
+  },
+  {
+   "text": "Objective-C",
+   "aliases": [
+    "objective c"
+   ]
+  },
+  {
+   "text": "Kotlin",
+   "aliases": [
+    "kotlin"
+   ]
+  },
+  {
+   "text": "Java",
+   "aliases": [
+    "java"
+   ]
+  },
+  {
+   "text": "Go",
+   "aliases": [
+    "golang",
+    "go lang"
+   ]
+  },
+  {
+   "text": "Rust",
+   "aliases": [
+    "rust"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "C++",
+   "aliases": [
+    "c plus plus"
+   ]
+  },
+  {
+   "text": "C#",
+   "aliases": [
+    "c sharp"
+   ]
+  },
+  {
+   "text": "Ruby",
+   "aliases": [
+    "ruby"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "PHP",
+   "aliases": [
+    "p h p"
+   ]
+  },
+  {
+   "text": "Elixir",
+   "aliases": [
+    "elixir"
+   ]
+  },
+  {
+   "text": "Scala",
+   "aliases": [
+    "scala"
+   ]
+  },
+  {
+   "text": "Haskell",
+   "aliases": [
+    "haskell"
+   ]
+  },
+  {
+   "text": "Dart",
+   "aliases": [
+    "dart"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Flutter",
+   "aliases": [
+    "flutter"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "React",
+   "aliases": [
+    "react"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "React Native",
+   "aliases": [
+    "react native"
+   ]
+  },
+  {
+   "text": "Next.js",
+   "aliases": [
+    "next j s",
+    "next js",
+    "next dot js"
+   ]
+  },
+  {
+   "text": "Remix",
+   "aliases": [
+    "remix"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Vue",
+   "aliases": [
+    "vue",
+    "view j s"
+   ]
+  },
+  {
+   "text": "Nuxt",
+   "aliases": [
+    "nuxt"
+   ]
+  },
+  {
+   "text": "Svelte",
+   "aliases": [
+    "svelte"
+   ]
+  },
+  {
+   "text": "SvelteKit",
+   "aliases": [
+    "svelte kit"
+   ]
+  },
+  {
+   "text": "Angular",
+   "aliases": [
+    "angular"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Astro",
+   "aliases": [
+    "astro"
+   ]
+  },
+  {
+   "text": "SolidJS",
+   "aliases": [
+    "solid j s",
+    "solid js"
+   ]
+  },
+  {
+   "text": "Qwik",
+   "aliases": [
+    "qwik",
+    "quick j s"
+   ]
+  },
+  {
+   "text": "HTMX",
+   "aliases": [
+    "h t m x"
+   ]
+  },
+  {
+   "text": "Alpine.js",
+   "aliases": [
+    "alpine j s",
+    "alpine js"
+   ]
+  },
+  {
+   "text": "jQuery",
+   "aliases": [
+    "j query",
+    "jquery"
+   ]
+  },
+  {
+   "text": "Tailwind",
+   "aliases": [
+    "tailwind",
+    "tail wind"
+   ]
+  },
+  {
+   "text": "Bootstrap",
+   "aliases": [
+    "bootstrap"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "shadcn",
+   "aliases": [
+    "shad c n",
+    "shadcn"
+   ]
+  },
+  {
+   "text": "Radix",
+   "aliases": [
+    "radix"
+   ]
+  },
+  {
+   "text": "Chakra",
+   "aliases": [
+    "chakra"
+   ]
+  },
+  {
+   "text": "Material UI",
+   "aliases": [
+    "material u i",
+    "material ui"
+   ]
+  },
+  {
+   "text": "Express",
+   "aliases": [
+    "express"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Fastify",
+   "aliases": [
+    "fastify"
+   ]
+  },
+  {
+   "text": "Hono",
+   "aliases": [
+    "hono"
+   ]
+  },
+  {
+   "text": "NestJS",
+   "aliases": [
+    "nest j s",
+    "nest js"
+   ]
+  },
+  {
+   "text": "Koa",
+   "aliases": [
+    "koa"
+   ]
+  },
+  {
+   "text": "Django",
+   "aliases": [
+    "django"
+   ]
+  },
+  {
+   "text": "FastAPI",
+   "aliases": [
+    "fast a p i",
+    "fast api"
+   ]
+  },
+  {
+   "text": "Flask",
+   "aliases": [
+    "flask"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Rails",
+   "aliases": [
+    "rails",
+    "ruby on rails"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Laravel",
+   "aliases": [
+    "laravel"
+   ]
+  },
+  {
+   "text": "Spring Boot",
+   "aliases": [
+    "spring boot"
+   ]
+  },
+  {
+   "text": "Phoenix",
+   "aliases": [
+    "phoenix"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Prisma",
+   "aliases": [
+    "prisma"
+   ]
+  },
+  {
+   "text": "Drizzle",
+   "aliases": [
+    "drizzle"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "TypeORM",
+   "aliases": [
+    "type o r m",
+    "type orm"
+   ]
+  },
+  {
+   "text": "Sequelize",
+   "aliases": [
+    "sequelize"
+   ]
+  },
+  {
+   "text": "Mongoose",
+   "aliases": [
+    "mongoose"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "SQLAlchemy",
+   "aliases": [
+    "s q l alchemy",
+    "sql alchemy"
+   ]
+  },
+  {
+   "text": "PostgreSQL",
+   "aliases": [
+    "post gres q l",
+    "postgres",
+    "postgres sql",
+    "postgresql"
+   ]
+  },
+  {
+   "text": "MySQL",
+   "aliases": [
+    "my s q l",
+    "my sequel",
+    "mysql"
+   ]
+  },
+  {
+   "text": "SQLite",
+   "aliases": [
+    "s q lite",
+    "sqlite",
+    "sequel light"
+   ]
+  },
+  {
+   "text": "MongoDB",
+   "aliases": [
+    "mongo d b",
+    "mongo db",
+    "mongo"
+   ]
+  },
+  {
+   "text": "MariaDB",
+   "aliases": [
+    "maria d b",
+    "maria db"
+   ]
+  },
+  {
+   "text": "CockroachDB",
+   "aliases": [
+    "cockroach d b",
+    "cockroach db"
+   ]
+  },
+  {
+   "text": "PlanetScale",
+   "aliases": [
+    "planet scale"
+   ]
+  },
+  {
+   "text": "Neon",
+   "aliases": [
+    "neon"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Turso",
+   "aliases": [
+    "turso"
+   ]
+  },
+  {
+   "text": "ClickHouse",
+   "aliases": [
+    "click house",
+    "clickhouse"
+   ]
+  },
+  {
+   "text": "DuckDB",
+   "aliases": [
+    "duck d b",
+    "duck db"
+   ]
+  },
+  {
+   "text": "SQL",
+   "aliases": [
+    "s q l",
+    "sequel"
+   ]
+  },
+  {
+   "text": "NoSQL",
+   "aliases": [
+    "no s q l",
+    "no sequel"
+   ]
+  },
+  {
+   "text": "ORM",
+   "aliases": [
+    "o r m"
+   ]
+  },
+  {
+   "text": "JSON",
+   "aliases": [
+    "jason",
+    "j s o n"
+   ]
+  },
+  {
+   "text": "YAML",
+   "aliases": [
+    "yaml",
+    "ya ml"
+   ]
+  },
+  {
+   "text": "TOML",
+   "aliases": [
+    "toml",
+    "tom l"
+   ]
+  },
+  {
+   "text": "XML",
+   "aliases": [
+    "x m l"
+   ]
+  },
+  {
+   "text": "HTML",
+   "aliases": [
+    "h t m l"
+   ]
+  },
+  {
+   "text": "CSS",
+   "aliases": [
+    "c s s"
+   ]
+  },
+  {
+   "text": "Sass",
+   "aliases": [
+    "sass"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "WebAssembly",
+   "aliases": [
+    "web assembly"
+   ]
+  },
+  {
+   "text": "Wasm",
+   "aliases": [
+    "wasm"
+   ]
+  },
+  {
+   "text": "async await",
+   "aliases": [
+    "async await"
+   ]
+  },
+  {
+   "text": "useEffect",
+   "aliases": [
+    "use effect"
+   ]
+  },
+  {
+   "text": "useState",
+   "aliases": [
+    "use state"
+   ]
+  },
+  {
+   "text": "useMemo",
+   "aliases": [
+    "use memo"
+   ]
+  },
+  {
+   "text": "useCallback",
+   "aliases": [
+    "use callback"
+   ]
+  },
+  {
+   "text": "useRef",
+   "aliases": [
+    "use ref"
+   ]
+  },
+  {
+   "text": "NSPanel",
+   "aliases": [
+    "n s panel",
+    "ns panel"
+   ]
+  },
+  {
+   "text": "NSWindow",
+   "aliases": [
+    "n s window",
+    "ns window"
+   ]
+  },
+  {
+   "text": "NSView",
+   "aliases": [
+    "n s view",
+    "ns view"
+   ]
+  },
+  {
+   "text": "UIKit",
+   "aliases": [
+    "u i kit",
+    "ui kit"
+   ]
+  },
+  {
+   "text": "AppKit",
+   "aliases": [
+    "app kit",
+    "appkit"
+   ]
+  },
+  {
+   "text": "SwiftData",
+   "aliases": [
+    "swift data"
+   ]
+  },
+  {
+   "text": "CoreData",
+   "aliases": [
+    "core data"
+   ]
+  },
+  {
+   "text": "CoreML",
+   "aliases": [
+    "core m l",
+    "core ml"
+   ]
+  },
+  {
+   "text": "Combine",
+   "aliases": [
+    "combine"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Metal",
+   "aliases": [
+    "metal"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "ARKit",
+   "aliases": [
+    "a r kit",
+    "ar kit"
+   ]
+  },
+  {
+   "text": "StoreKit",
+   "aliases": [
+    "store kit",
+    "storekit"
+   ]
+  },
+  {
+   "text": "CloudKit",
+   "aliases": [
+    "cloud kit",
+    "cloudkit"
+   ]
+  },
+  {
+   "text": "WidgetKit",
+   "aliases": [
+    "widget kit",
+    "widgetkit"
+   ]
+  },
+  {
+   "text": "AVFoundation",
+   "aliases": [
+    "a v foundation",
+    "av foundation"
+   ]
+  },
+  {
+   "text": "Accessibility API",
+   "aliases": [
+    "accessibility a p i",
+    "accessibility api"
+   ]
+  },
+  {
+   "text": "xcodebuild",
+   "aliases": [
+    "xcode build",
+    "x code build"
+   ]
+  },
+  {
+   "text": "Xcode",
+   "aliases": [
+    "xcode",
+    "x code"
+   ]
+  },
+  {
+   "text": "kubectl",
+   "aliases": [
+    "cube c t l",
+    "cube control",
+    "kube control",
+    "kube c t l"
+   ]
+  },
+  {
+   "text": "nginx",
+   "aliases": [
+    "engine x",
+    "n g i n x"
+   ]
+  },
+  {
+   "text": "Apache",
+   "aliases": [
+    "apache"
+   ]
+  },
+  {
+   "text": "Caddy",
+   "aliases": [
+    "caddy"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Traefik",
+   "aliases": [
+    "traefik",
+    "traffic proxy"
+   ]
+  },
+  {
+   "text": "Nix",
+   "aliases": [
+    "nix"
+   ]
+  },
+  {
+   "text": "Ubuntu",
+   "aliases": [
+    "ubuntu"
+   ]
+  },
+  {
+   "text": "Debian",
+   "aliases": [
+    "debian"
+   ]
+  },
+  {
+   "text": "Arch Linux",
+   "aliases": [
+    "arch linux"
+   ]
+  },
+  {
+   "text": "Linux",
+   "aliases": [
+    "linux"
+   ]
+  },
+  {
+   "text": "Windows",
+   "aliases": [
+    "windows"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "WSL",
+   "aliases": [
+    "w s l"
+   ]
+  },
+  {
+   "text": "PowerShell",
+   "aliases": [
+    "power shell",
+    "powershell"
+   ]
+  }
+ ]
+}

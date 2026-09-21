@@ -1,0 +1,693 @@
+{
+ "pack": "finance",
+ "terms": [
+  {
+   "text": "ARR",
+   "aliases": [
+    "a r r"
+   ]
+  },
+  {
+   "text": "MRR",
+   "aliases": [
+    "m r r"
+   ]
+  },
+  {
+   "text": "ARPU",
+   "aliases": [
+    "a r p u",
+    "arpu"
+   ]
+  },
+  {
+   "text": "LTV",
+   "aliases": [
+    "l t v"
+   ]
+  },
+  {
+   "text": "CAC",
+   "aliases": [
+    "c a c",
+    "kack"
+   ]
+  },
+  {
+   "text": "churn",
+   "aliases": [
+    "churn"
+   ]
+  },
+  {
+   "text": "NRR",
+   "aliases": [
+    "n r r"
+   ]
+  },
+  {
+   "text": "EBITDA",
+   "aliases": [
+    "ebitda",
+    "e bit dah",
+    "e b i t d a"
+   ]
+  },
+  {
+   "text": "P&L",
+   "aliases": [
+    "p and l",
+    "p l"
+   ]
+  },
+  {
+   "text": "COGS",
+   "aliases": [
+    "cogs",
+    "c o g s"
+   ]
+  },
+  {
+   "text": "GAAP",
+   "aliases": [
+    "gap",
+    "g a a p"
+   ]
+  },
+  {
+   "text": "IFRS",
+   "aliases": [
+    "i f r s"
+   ]
+  },
+  {
+   "text": "ROI",
+   "aliases": [
+    "r o i"
+   ]
+  },
+  {
+   "text": "ROAS",
+   "aliases": [
+    "row as",
+    "r o a s"
+   ]
+  },
+  {
+   "text": "CPM",
+   "aliases": [
+    "c p m"
+   ]
+  },
+  {
+   "text": "CPC",
+   "aliases": [
+    "c p c"
+   ]
+  },
+  {
+   "text": "CTR",
+   "aliases": [
+    "c t r"
+   ]
+  },
+  {
+   "text": "KPI",
+   "aliases": [
+    "k p i"
+   ]
+  },
+  {
+   "text": "OKR",
+   "aliases": [
+    "o k r"
+   ]
+  },
+  {
+   "text": "QuickBooks",
+   "aliases": [
+    "quickbooks",
+    "quick books"
+   ]
+  },
+  {
+   "text": "Xero",
+   "aliases": [
+    "xero",
+    "zero",
+    "ex ero"
+   ]
+  },
+  {
+   "text": "Stripe",
+   "aliases": [
+    "stripe"
+   ]
+  },
+  {
+   "text": "Brex",
+   "aliases": [
+    "brex"
+   ]
+  },
+  {
+   "text": "Ramp",
+   "aliases": [
+    "ramp"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Mercury",
+   "aliases": [
+    "mercury"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Wise",
+   "aliases": [
+    "wise"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Revolut",
+   "aliases": [
+    "revolut",
+    "revo loot"
+   ]
+  },
+  {
+   "text": "PayPal",
+   "aliases": [
+    "paypal",
+    "pay pal"
+   ]
+  },
+  {
+   "text": "Plaid",
+   "aliases": [
+    "plaid"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "S&P 500",
+   "aliases": [
+    "s and p five hundred",
+    "s p five hundred"
+   ]
+  },
+  {
+   "text": "Nasdaq",
+   "aliases": [
+    "nasdaq",
+    "naz dak"
+   ]
+  },
+  {
+   "text": "ETF",
+   "aliases": [
+    "e t f"
+   ]
+  },
+  {
+   "text": "IPO",
+   "aliases": [
+    "i p o"
+   ]
+  },
+  {
+   "text": "SPAC",
+   "aliases": [
+    "spac",
+    "s p a c"
+   ]
+  },
+  {
+   "text": "VC",
+   "aliases": [
+    "v c",
+    "venture capital"
+   ]
+  },
+  {
+   "text": "LP",
+   "aliases": [
+    "l p"
+   ]
+  },
+  {
+   "text": "GP",
+   "aliases": [
+    "g p"
+   ]
+  },
+  {
+   "text": "SAFE note",
+   "aliases": [
+    "safe note",
+    "safe"
+   ]
+  },
+  {
+   "text": "cap table",
+   "aliases": [
+    "cap table"
+   ]
+  },
+  {
+   "text": "pre-money",
+   "aliases": [
+    "pre money"
+   ]
+  },
+  {
+   "text": "post-money",
+   "aliases": [
+    "post money"
+   ]
+  },
+  {
+   "text": "Series A",
+   "aliases": [
+    "series a"
+   ]
+  },
+  {
+   "text": "Series B",
+   "aliases": [
+    "series b"
+   ]
+  },
+  {
+   "text": "Bitcoin",
+   "aliases": [
+    "bitcoin",
+    "bit coin"
+   ]
+  },
+  {
+   "text": "Ethereum",
+   "aliases": [
+    "ethereum",
+    "e thereum",
+    "e th"
+   ]
+  },
+  {
+   "text": "Solana",
+   "aliases": [
+    "solana",
+    "sol an ah"
+   ]
+  },
+  {
+   "text": "USDC",
+   "aliases": [
+    "u s d c"
+   ]
+  },
+  {
+   "text": "DeFi",
+   "aliases": [
+    "defi",
+    "dee fye"
+   ]
+  },
+  {
+   "text": "NFT",
+   "aliases": [
+    "n f t"
+   ]
+  },
+  {
+   "text": "Coinbase",
+   "aliases": [
+    "coinbase",
+    "coin base"
+   ]
+  },
+  {
+   "text": "Binance",
+   "aliases": [
+    "binance",
+    "bye nance",
+    "bin ance"
+   ]
+  },
+  {
+   "text": "Ledger",
+   "aliases": [
+    "ledger"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "MetaMask",
+   "aliases": [
+    "metamask",
+    "meta mask"
+   ]
+  },
+  {
+   "text": "runway",
+   "aliases": [
+    "runway"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "burn rate",
+   "aliases": [
+    "burn rate"
+   ]
+  },
+  {
+   "text": "gross margin",
+   "aliases": [
+    "gross margin"
+   ]
+  },
+  {
+   "text": "net margin",
+   "aliases": [
+    "net margin"
+   ]
+  },
+  {
+   "text": "working capital",
+   "aliases": [
+    "working capital"
+   ]
+  },
+  {
+   "text": "accounts receivable",
+   "aliases": [
+    "accounts receivable",
+    "a r"
+   ]
+  },
+  {
+   "text": "accounts payable",
+   "aliases": [
+    "accounts payable",
+    "a p"
+   ]
+  },
+  {
+   "text": "balance sheet",
+   "aliases": [
+    "balance sheet"
+   ]
+  },
+  {
+   "text": "income statement",
+   "aliases": [
+    "income statement"
+   ]
+  },
+  {
+   "text": "cash flow statement",
+   "aliases": [
+    "cash flow statement"
+   ]
+  },
+  {
+   "text": "amortization",
+   "aliases": [
+    "amortization"
+   ]
+  },
+  {
+   "text": "depreciation",
+   "aliases": [
+    "depreciation"
+   ]
+  },
+  {
+   "text": "term sheet",
+   "aliases": [
+    "term sheet"
+   ]
+  },
+  {
+   "text": "convertible note",
+   "aliases": [
+    "convertible note"
+   ]
+  },
+  {
+   "text": "vesting schedule",
+   "aliases": [
+    "vesting schedule"
+   ]
+  },
+  {
+   "text": "cliff",
+   "aliases": [
+    "cliff"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "dilution",
+   "aliases": [
+    "dilution"
+   ]
+  },
+  {
+   "text": "bootstrapped",
+   "aliases": [
+    "bootstrapped"
+   ]
+  },
+  {
+   "text": "angel investor",
+   "aliases": [
+    "angel investor"
+   ]
+  },
+  {
+   "text": "seed round",
+   "aliases": [
+    "seed round"
+   ]
+  },
+  {
+   "text": "bridge round",
+   "aliases": [
+    "bridge round"
+   ]
+  },
+  {
+   "text": "down round",
+   "aliases": [
+    "down round"
+   ]
+  },
+  {
+   "text": "unicorn",
+   "aliases": [
+    "unicorn"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "409A valuation",
+   "aliases": [
+    "four oh nine a valuation",
+    "409 a valuation"
+   ]
+  },
+  {
+   "text": "FDIC",
+   "aliases": [
+    "f d i c"
+   ]
+  },
+  {
+   "text": "wire transfer",
+   "aliases": [
+    "wire transfer"
+   ]
+  },
+  {
+   "text": "ACH",
+   "aliases": [
+    "a c h",
+    "ach"
+   ]
+  },
+  {
+   "text": "SWIFT code",
+   "aliases": [
+    "swift code"
+   ]
+  },
+  {
+   "text": "IBAN",
+   "aliases": [
+    "i ban",
+    "eye ban"
+   ]
+  },
+  {
+   "text": "NetSuite",
+   "aliases": [
+    "netsuite",
+    "net suite"
+   ]
+  },
+  {
+   "text": "FreshBooks",
+   "aliases": [
+    "freshbooks",
+    "fresh books"
+   ]
+  },
+  {
+   "text": "Carta",
+   "aliases": [
+    "carta"
+   ]
+  },
+  {
+   "text": "Pulley",
+   "aliases": [
+    "pulley"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "AngelList",
+   "aliases": [
+    "angellist",
+    "angel list"
+   ]
+  },
+  {
+   "text": "Y Combinator",
+   "aliases": [
+    "y combinator",
+    "why combinator",
+    "y c"
+   ]
+  },
+  {
+   "text": "Crunchbase",
+   "aliases": [
+    "crunchbase",
+    "crunch base"
+   ]
+  },
+  {
+   "text": "PitchBook",
+   "aliases": [
+    "pitchbook",
+    "pitch book"
+   ]
+  },
+  {
+   "text": "Robinhood",
+   "aliases": [
+    "robinhood",
+    "robin hood"
+   ]
+  },
+  {
+   "text": "Bloomberg Terminal",
+   "aliases": [
+    "bloomberg terminal"
+   ]
+  },
+  {
+   "text": "market cap",
+   "aliases": [
+    "market cap"
+   ]
+  },
+  {
+   "text": "basis points",
+   "aliases": [
+    "basis points",
+    "bips"
+   ]
+  },
+  {
+   "text": "yield curve",
+   "aliases": [
+    "yield curve"
+   ]
+  },
+  {
+   "text": "Fed funds rate",
+   "aliases": [
+    "fed funds rate"
+   ]
+  },
+  {
+   "text": "hedge fund",
+   "aliases": [
+    "hedge fund"
+   ]
+  },
+  {
+   "text": "private equity",
+   "aliases": [
+    "private equity",
+    "p e"
+   ]
+  },
+  {
+   "text": "leveraged buyout",
+   "aliases": [
+    "leveraged buyout",
+    "l b o"
+   ]
+  },
+  {
+   "text": "dividend",
+   "aliases": [
+    "dividend"
+   ]
+  },
+  {
+   "text": "stock buyback",
+   "aliases": [
+    "stock buyback"
+   ]
+  },
+  {
+   "text": "blue chip",
+   "aliases": [
+    "blue chip"
+   ]
+  },
+  {
+   "text": "bear market",
+   "aliases": [
+    "bear market"
+   ]
+  },
+  {
+   "text": "bull market",
+   "aliases": [
+    "bull market"
+   ]
+  },
+  {
+   "text": "liquidity",
+   "aliases": [
+    "liquidity"
+   ]
+  },
+  {
+   "text": "solvency",
+   "aliases": [
+    "solvency"
+   ]
+  }
+ ]
+}

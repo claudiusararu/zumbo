@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="#0B0B0F"/>
+  <!-- four point evening star -->
+  <path d="M512 250 C526 380 560 414 690 428 C560 442 526 476 512 606 C498 476 464 442 334 428 C464 414 498 380 512 250 Z" fill="#FFFFFF"/>
+  <circle cx="512" cy="428" r="22" fill="#0B0B0F"/>
+  <!-- waveform below the star -->
+  <g fill="#FFFFFF" opacity="0.92">
+    <rect x="352" y="690" width="40" height="60" rx="20"/>
+    <rect x="422" y="660" width="40" height="120" rx="20"/>
+    <rect x="492" y="640" width="40" height="160" rx="20"/>
+    <rect x="562" y="665" width="40" height="110" rx="20"/>
+    <rect x="632" y="695" width="40" height="50" rx="20"/>
+  </g>
+</svg>

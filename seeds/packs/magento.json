@@ -1,0 +1,761 @@
+{
+ "pack": "magento",
+ "terms": [
+  {
+   "text": "Magento",
+   "aliases": [
+    "magento",
+    "majento"
+   ]
+  },
+  {
+   "text": "Magento 2",
+   "aliases": [
+    "magento two",
+    "magento 2"
+   ]
+  },
+  {
+   "text": "Adobe Commerce",
+   "aliases": [
+    "adobe commerce"
+   ]
+  },
+  {
+   "text": "Magento Open Source",
+   "aliases": [
+    "magento open source"
+   ]
+  },
+  {
+   "text": "Mage-OS",
+   "aliases": [
+    "mage o s",
+    "mage os",
+    "mage oh s"
+   ]
+  },
+  {
+   "text": "Hyvä",
+   "aliases": [
+    "hyva",
+    "hi va",
+    "hyvä",
+    "hyva theme"
+   ]
+  },
+  {
+   "text": "Hyvä Themes",
+   "aliases": [
+    "hyva themes"
+   ]
+  },
+  {
+   "text": "Hyvä Checkout",
+   "aliases": [
+    "hyva checkout"
+   ]
+  },
+  {
+   "text": "Hyvä Commerce",
+   "aliases": [
+    "hyva commerce"
+   ]
+  },
+  {
+   "text": "Hyvä Compat",
+   "aliases": [
+    "hyva compat",
+    "hyva compatibility module"
+   ]
+  },
+  {
+   "text": "Luma",
+   "aliases": [
+    "luma theme",
+    "luma"
+   ]
+  },
+  {
+   "text": "Blank theme",
+   "aliases": [
+    "blank theme"
+   ]
+  },
+  {
+   "text": "PWA Studio",
+   "aliases": [
+    "p w a studio",
+    "pwa studio"
+   ]
+  },
+  {
+   "text": "Venia",
+   "aliases": [
+    "venia"
+   ]
+  },
+  {
+   "text": "Breeze",
+   "aliases": [
+    "breeze theme"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Alpine.js",
+   "aliases": [
+    "alpine j s",
+    "alpine js",
+    "alpine"
+   ]
+  },
+  {
+   "text": "Tailwind",
+   "aliases": [
+    "tailwind",
+    "tail wind"
+   ]
+  },
+  {
+   "text": "Knockout",
+   "aliases": [
+    "knockout j s",
+    "knockout"
+   ]
+  },
+  {
+   "text": "RequireJS",
+   "aliases": [
+    "require j s",
+    "require js"
+   ]
+  },
+  {
+   "text": "UI components",
+   "aliases": [
+    "u i components",
+    "ui components"
+   ]
+  },
+  {
+   "text": "jQuery",
+   "aliases": [
+    "j query"
+   ]
+  },
+  {
+   "text": "Composer",
+   "aliases": [
+    "composer"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "composer.json",
+   "aliases": [
+    "composer dot jason",
+    "composer json"
+   ]
+  },
+  {
+   "text": "PHP",
+   "aliases": [
+    "p h p"
+   ]
+  },
+  {
+   "text": "PHPStan",
+   "aliases": [
+    "p h p stan",
+    "php stan"
+   ]
+  },
+  {
+   "text": "PHPUnit",
+   "aliases": [
+    "p h p unit",
+    "php unit"
+   ]
+  },
+  {
+   "text": "PHP-CS-Fixer",
+   "aliases": [
+    "php c s fixer"
+   ]
+  },
+  {
+   "text": "Laminas",
+   "aliases": [
+    "laminas"
+   ]
+  },
+  {
+   "text": "Zend",
+   "aliases": [
+    "zend"
+   ]
+  },
+  {
+   "text": "Symfony",
+   "aliases": [
+    "symfony"
+   ]
+  },
+  {
+   "text": "Elasticsearch",
+   "aliases": [
+    "elastic search"
+   ]
+  },
+  {
+   "text": "OpenSearch",
+   "aliases": [
+    "open search"
+   ]
+  },
+  {
+   "text": "Varnish",
+   "aliases": [
+    "varnish"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Redis",
+   "aliases": [
+    "redis"
+   ]
+  },
+  {
+   "text": "RabbitMQ",
+   "aliases": [
+    "rabbit m q"
+   ]
+  },
+  {
+   "text": "MySQL",
+   "aliases": [
+    "my s q l",
+    "my sequel"
+   ]
+  },
+  {
+   "text": "MariaDB",
+   "aliases": [
+    "maria d b"
+   ]
+  },
+  {
+   "text": "nginx",
+   "aliases": [
+    "engine x"
+   ]
+  },
+  {
+   "text": "PHP-FPM",
+   "aliases": [
+    "php f p m",
+    "p h p f p m"
+   ]
+  },
+  {
+   "text": "Xdebug",
+   "aliases": [
+    "x debug",
+    "xdebug"
+   ]
+  },
+  {
+   "text": "bin/magento",
+   "aliases": [
+    "bin magento",
+    "bin slash magento"
+   ]
+  },
+  {
+   "text": "setup:upgrade",
+   "aliases": [
+    "setup upgrade",
+    "setup colon upgrade"
+   ]
+  },
+  {
+   "text": "setup:di:compile",
+   "aliases": [
+    "setup d i compile",
+    "d i compile"
+   ]
+  },
+  {
+   "text": "setup:static-content:deploy",
+   "aliases": [
+    "static content deploy"
+   ]
+  },
+  {
+   "text": "cache:flush",
+   "aliases": [
+    "cache flush"
+   ]
+  },
+  {
+   "text": "cache:clean",
+   "aliases": [
+    "cache clean"
+   ]
+  },
+  {
+   "text": "indexer:reindex",
+   "aliases": [
+    "indexer reindex",
+    "reindex"
+   ]
+  },
+  {
+   "text": "cron:run",
+   "aliases": [
+    "cron run"
+   ]
+  },
+  {
+   "text": "module:enable",
+   "aliases": [
+    "module enable"
+   ]
+  },
+  {
+   "text": "deploy:mode:set",
+   "aliases": [
+    "deploy mode set"
+   ]
+  },
+  {
+   "text": "developer mode",
+   "aliases": [
+    "developer mode"
+   ]
+  },
+  {
+   "text": "production mode",
+   "aliases": [
+    "production mode"
+   ]
+  },
+  {
+   "text": "di.xml",
+   "aliases": [
+    "d i dot x m l",
+    "di xml",
+    "dependency injection xml"
+   ]
+  },
+  {
+   "text": "layout XML",
+   "aliases": [
+    "layout x m l"
+   ]
+  },
+  {
+   "text": "events.xml",
+   "aliases": [
+    "events x m l"
+   ]
+  },
+  {
+   "text": "routes.xml",
+   "aliases": [
+    "routes x m l"
+   ]
+  },
+  {
+   "text": "db_schema.xml",
+   "aliases": [
+    "d b schema x m l",
+    "db schema"
+   ]
+  },
+  {
+   "text": "registration.php",
+   "aliases": [
+    "registration p h p"
+   ]
+  },
+  {
+   "text": "module.xml",
+   "aliases": [
+    "module x m l"
+   ]
+  },
+  {
+   "text": "plugin",
+   "aliases": [
+    "magento plugin"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "preference",
+   "aliases": [
+    "preference"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "observer",
+   "aliases": [
+    "observer"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "ViewModel",
+   "aliases": [
+    "view model"
+   ]
+  },
+  {
+   "text": "Block",
+   "aliases": [
+    "block class"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Repository",
+   "aliases": [
+    "repository"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Data Patch",
+   "aliases": [
+    "data patch"
+   ]
+  },
+  {
+   "text": "Schema Patch",
+   "aliases": [
+    "schema patch"
+   ]
+  },
+  {
+   "text": "EAV",
+   "aliases": [
+    "e a v",
+    "eav"
+   ]
+  },
+  {
+   "text": "attribute set",
+   "aliases": [
+    "attribute set"
+   ]
+  },
+  {
+   "text": "Configurable product",
+   "aliases": [
+    "configurable product"
+   ]
+  },
+  {
+   "text": "Simple product",
+   "aliases": [
+    "simple product"
+   ]
+  },
+  {
+   "text": "Bundle product",
+   "aliases": [
+    "bundle product"
+   ]
+  },
+  {
+   "text": "Grouped product",
+   "aliases": [
+    "grouped product"
+   ]
+  },
+  {
+   "text": "Virtual product",
+   "aliases": [
+    "virtual product"
+   ]
+  },
+  {
+   "text": "Catalog Price Rules",
+   "aliases": [
+    "catalog price rules"
+   ]
+  },
+  {
+   "text": "Cart Price Rules",
+   "aliases": [
+    "cart price rules"
+   ]
+  },
+  {
+   "text": "Checkout",
+   "aliases": [
+    "checkout"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Quote",
+   "aliases": [
+    "quote object"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Order",
+   "aliases": [
+    "order object"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Customer Group",
+   "aliases": [
+    "customer group"
+   ]
+  },
+  {
+   "text": "Store View",
+   "aliases": [
+    "store view"
+   ]
+  },
+  {
+   "text": "Website scope",
+   "aliases": [
+    "website scope"
+   ]
+  },
+  {
+   "text": "Admin",
+   "aliases": [
+    "magento admin"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Admin Grid",
+   "aliases": [
+    "admin grid"
+   ]
+  },
+  {
+   "text": "Page Builder",
+   "aliases": [
+    "page builder"
+   ]
+  },
+  {
+   "text": "CMS block",
+   "aliases": [
+    "c m s block"
+   ]
+  },
+  {
+   "text": "CMS page",
+   "aliases": [
+    "c m s page"
+   ]
+  },
+  {
+   "text": "Widget",
+   "aliases": [
+    "widget"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Static block",
+   "aliases": [
+    "static block"
+   ]
+  },
+  {
+   "text": "Full Page Cache",
+   "aliases": [
+    "full page cache"
+   ]
+  },
+  {
+   "text": "FPC",
+   "aliases": [
+    "f p c"
+   ]
+  },
+  {
+   "text": "GraphQL",
+   "aliases": [
+    "graph q l"
+   ]
+  },
+  {
+   "text": "REST API",
+   "aliases": [
+    "rest a p i"
+   ]
+  },
+  {
+   "text": "Web API",
+   "aliases": [
+    "web a p i"
+   ]
+  },
+  {
+   "text": "Integration",
+   "aliases": [
+    "integration"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Multi-Source Inventory",
+   "aliases": [
+    "multi source inventory"
+   ]
+  },
+  {
+   "text": "MSI",
+   "aliases": [
+    "m s i"
+   ]
+  },
+  {
+   "text": "B2B",
+   "aliases": [
+    "b two b",
+    "b to b"
+   ]
+  },
+  {
+   "text": "Amasty",
+   "aliases": [
+    "amasty"
+   ]
+  },
+  {
+   "text": "Mageplaza",
+   "aliases": [
+    "mage plaza",
+    "mageplaza"
+   ]
+  },
+  {
+   "text": "Mirasvit",
+   "aliases": [
+    "mirasvit"
+   ]
+  },
+  {
+   "text": "Fooman",
+   "aliases": [
+    "fooman"
+   ]
+  },
+  {
+   "text": "Aheadworks",
+   "aliases": [
+    "ahead works"
+   ]
+  },
+  {
+   "text": "Webkul",
+   "aliases": [
+    "web kul"
+   ]
+  },
+  {
+   "text": "Meetanshi",
+   "aliases": [
+    "meetanshi"
+   ]
+  },
+  {
+   "text": "Mageworx",
+   "aliases": [
+    "mage works"
+   ]
+  },
+  {
+   "text": "Nexcess",
+   "aliases": [
+    "nexcess"
+   ]
+  },
+  {
+   "text": "Hypernode",
+   "aliases": [
+    "hyper node"
+   ]
+  },
+  {
+   "text": "Warden",
+   "aliases": [
+    "warden"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Docker Magento",
+   "aliases": [
+    "docker magento"
+   ]
+  },
+  {
+   "text": "DDEV",
+   "aliases": [
+    "d dev",
+    "ddev"
+   ]
+  },
+  {
+   "text": "Mark Shust",
+   "aliases": [
+    "mark shust"
+   ]
+  },
+  {
+   "text": "Vinai",
+   "aliases": [
+    "vinai"
+   ]
+  },
+  {
+   "text": "Meet Magento",
+   "aliases": [
+    "meet magento"
+   ]
+  },
+  {
+   "text": "Magento Association",
+   "aliases": [
+    "magento association"
+   ]
+  },
+  {
+   "text": "MagentoLive",
+   "aliases": [
+    "magento live"
+   ]
+  },
+  {
+   "text": "Adobe Summit",
+   "aliases": [
+    "adobe summit"
+   ]
+  },
+  {
+   "text": "Commerce Marketplace",
+   "aliases": [
+    "commerce marketplace"
+   ]
+  }
+ ]
+}

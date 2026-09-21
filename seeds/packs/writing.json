@@ -1,0 +1,547 @@
+{
+ "pack": "writing",
+ "terms": [
+  {
+   "text": "Scrivener",
+   "aliases": [
+    "scrivener"
+   ]
+  },
+  {
+   "text": "Ulysses",
+   "aliases": [
+    "ulysses",
+    "you lisseez"
+   ]
+  },
+  {
+   "text": "iA Writer",
+   "aliases": [
+    "i a writer",
+    "ia writer"
+   ]
+  },
+  {
+   "text": "Grammarly",
+   "aliases": [
+    "grammarly",
+    "gramm ar lee"
+   ]
+  },
+  {
+   "text": "Hemingway App",
+   "aliases": [
+    "hemingway app"
+   ]
+  },
+  {
+   "text": "Google Docs",
+   "aliases": [
+    "google docs"
+   ]
+  },
+  {
+   "text": "Substack",
+   "aliases": [
+    "substack",
+    "sub stack"
+   ]
+  },
+  {
+   "text": "Medium",
+   "aliases": [
+    "medium"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Ghost",
+   "aliases": [
+    "ghost"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "WordPress",
+   "aliases": [
+    "wordpress",
+    "word press"
+   ]
+  },
+  {
+   "text": "Kindle Direct Publishing",
+   "aliases": [
+    "kindle direct publishing",
+    "k d p"
+   ]
+  },
+  {
+   "text": "ISBN",
+   "aliases": [
+    "i s b n"
+   ]
+  },
+  {
+   "text": "APA style",
+   "aliases": [
+    "a p a style"
+   ]
+  },
+  {
+   "text": "MLA style",
+   "aliases": [
+    "m l a style"
+   ]
+  },
+  {
+   "text": "Chicago style",
+   "aliases": [
+    "chicago style"
+   ]
+  },
+  {
+   "text": "Oxford comma",
+   "aliases": [
+    "oxford comma"
+   ]
+  },
+  {
+   "text": "em dash",
+   "aliases": [
+    "em dash"
+   ]
+  },
+  {
+   "text": "en dash",
+   "aliases": [
+    "en dash"
+   ]
+  },
+  {
+   "text": "serif",
+   "aliases": [
+    "serif"
+   ]
+  },
+  {
+   "text": "sans serif",
+   "aliases": [
+    "sans serif"
+   ]
+  },
+  {
+   "text": "Markdown",
+   "aliases": [
+    "markdown"
+   ]
+  },
+  {
+   "text": "footnote",
+   "aliases": [
+    "footnote"
+   ]
+  },
+  {
+   "text": "byline",
+   "aliases": [
+    "byline"
+   ]
+  },
+  {
+   "text": "op-ed",
+   "aliases": [
+    "op ed"
+   ]
+  },
+  {
+   "text": "Readwise",
+   "aliases": [
+    "readwise",
+    "read wise"
+   ]
+  },
+  {
+   "text": "Kindle",
+   "aliases": [
+    "kindle"
+   ]
+  },
+  {
+   "text": "Audible",
+   "aliases": [
+    "audible"
+   ]
+  },
+  {
+   "text": "Pocket",
+   "aliases": [
+    "pocket"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Instapaper",
+   "aliases": [
+    "instapaper",
+    "insta paper"
+   ]
+  },
+  {
+   "text": "manuscript",
+   "aliases": [
+    "manuscript"
+   ]
+  },
+  {
+   "text": "query letter",
+   "aliases": [
+    "query letter"
+   ]
+  },
+  {
+   "text": "literary agent",
+   "aliases": [
+    "literary agent"
+   ]
+  },
+  {
+   "text": "galley proof",
+   "aliases": [
+    "galley proof"
+   ]
+  },
+  {
+   "text": "copyedit",
+   "aliases": [
+    "copyedit",
+    "copy edit"
+   ]
+  },
+  {
+   "text": "proofread",
+   "aliases": [
+    "proofread",
+    "proof read"
+   ]
+  },
+  {
+   "text": "word count",
+   "aliases": [
+    "word count"
+   ]
+  },
+  {
+   "text": "character arc",
+   "aliases": [
+    "character arc"
+   ]
+  },
+  {
+   "text": "plot outline",
+   "aliases": [
+    "plot outline"
+   ]
+  },
+  {
+   "text": "first draft",
+   "aliases": [
+    "first draft"
+   ]
+  },
+  {
+   "text": "beta reader",
+   "aliases": [
+    "beta reader"
+   ]
+  },
+  {
+   "text": "self-publishing",
+   "aliases": [
+    "self publishing"
+   ]
+  },
+  {
+   "text": "royalties",
+   "aliases": [
+    "royalties"
+   ]
+  },
+  {
+   "text": "ghostwriting",
+   "aliases": [
+    "ghostwriting",
+    "ghost writing"
+   ]
+  },
+  {
+   "text": "freelance writer",
+   "aliases": [
+    "freelance writer"
+   ]
+  },
+  {
+   "text": "editorial calendar",
+   "aliases": [
+    "editorial calendar"
+   ]
+  },
+  {
+   "text": "slush pile",
+   "aliases": [
+    "slush pile"
+   ]
+  },
+  {
+   "text": "rejection letter",
+   "aliases": [
+    "rejection letter"
+   ]
+  },
+  {
+   "text": "advance (publishing)",
+   "aliases": [
+    "advance",
+    "publishing advance"
+   ]
+  },
+  {
+   "text": "hardcover",
+   "aliases": [
+    "hardcover",
+    "hard cover"
+   ]
+  },
+  {
+   "text": "paperback",
+   "aliases": [
+    "paperback",
+    "paper back"
+   ]
+  },
+  {
+   "text": "ebook",
+   "aliases": [
+    "ebook",
+    "e book"
+   ]
+  },
+  {
+   "text": "audiobook",
+   "aliases": [
+    "audiobook",
+    "audio book"
+   ]
+  },
+  {
+   "text": "table of contents",
+   "aliases": [
+    "table of contents"
+   ]
+  },
+  {
+   "text": "appendix",
+   "aliases": [
+    "appendix"
+   ]
+  },
+  {
+   "text": "bibliography",
+   "aliases": [
+    "bibliography"
+   ]
+  },
+  {
+   "text": "citation style",
+   "aliases": [
+    "citation style"
+   ]
+  },
+  {
+   "text": "plagiarism checker",
+   "aliases": [
+    "plagiarism checker"
+   ]
+  },
+  {
+   "text": "thesaurus",
+   "aliases": [
+    "thesaurus",
+    "the saurus"
+   ]
+  },
+  {
+   "text": "AP style",
+   "aliases": [
+    "a p style"
+   ]
+  },
+  {
+   "text": "Vellum",
+   "aliases": [
+    "vellum"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Reedsy",
+   "aliases": [
+    "reedsy",
+    "reed see"
+   ]
+  },
+  {
+   "text": "BookBaby",
+   "aliases": [
+    "bookbaby",
+    "book baby"
+   ]
+  },
+  {
+   "text": "Draft2Digital",
+   "aliases": [
+    "draft to digital",
+    "draft two digital"
+   ]
+  },
+  {
+   "text": "Amazon KDP",
+   "aliases": [
+    "amazon k d p"
+   ]
+  },
+  {
+   "text": "Goodreads",
+   "aliases": [
+    "goodreads",
+    "good reads"
+   ]
+  },
+  {
+   "text": "StoryGraph",
+   "aliases": [
+    "storygraph",
+    "story graph"
+   ]
+  },
+  {
+   "text": "NaNoWriMo",
+   "aliases": [
+    "nanowrimo",
+    "na no rye mo"
+   ]
+  },
+  {
+   "text": "query tracker",
+   "aliases": [
+    "query tracker"
+   ]
+  },
+  {
+   "text": "manuscript wishlist",
+   "aliases": [
+    "manuscript wishlist",
+    "m s w l"
+   ]
+  },
+  {
+   "text": "sensitivity reader",
+   "aliases": [
+    "sensitivity reader"
+   ]
+  },
+  {
+   "text": "developmental edit",
+   "aliases": [
+    "developmental edit"
+   ]
+  },
+  {
+   "text": "line edit",
+   "aliases": [
+    "line edit"
+   ]
+  },
+  {
+   "text": "content warning",
+   "aliases": [
+    "content warning"
+   ]
+  },
+  {
+   "text": "front matter",
+   "aliases": [
+    "front matter"
+   ]
+  },
+  {
+   "text": "back matter",
+   "aliases": [
+    "back matter"
+   ]
+  },
+  {
+   "text": "colophon",
+   "aliases": [
+    "colophon",
+    "coh loh fon"
+   ]
+  },
+  {
+   "text": "widow (typography)",
+   "aliases": [
+    "widow",
+    "typographic widow"
+   ]
+  },
+  {
+   "text": "orphan (typography)",
+   "aliases": [
+    "orphan",
+    "typographic orphan"
+   ]
+  },
+  {
+   "text": "pull quote",
+   "aliases": [
+    "pull quote"
+   ]
+  },
+  {
+   "text": "kicker",
+   "aliases": [
+    "kicker"
+   ]
+  },
+  {
+   "text": "nut graf",
+   "aliases": [
+    "nut graf",
+    "nut graph"
+   ]
+  },
+  {
+   "text": "lede",
+   "aliases": [
+    "lede"
+   ]
+  },
+  {
+   "text": "inverted pyramid",
+   "aliases": [
+    "inverted pyramid"
+   ]
+  },
+  {
+   "text": "AP Stylebook",
+   "aliases": [
+    "a p stylebook"
+   ]
+  },
+  {
+   "text": "Chicago Manual of Style",
+   "aliases": [
+    "chicago manual of style"
+   ]
+  }
+ ]
+}

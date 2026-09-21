@@ -1,0 +1,401 @@
+{
+ "pack": "aws",
+ "terms": [
+  {
+   "text": "AWS",
+   "aliases": [
+    "a w s",
+    "aws"
+   ]
+  },
+  {
+   "text": "Amazon Web Services",
+   "aliases": [
+    "amazon web services"
+   ]
+  },
+  {
+   "text": "EC2",
+   "aliases": [
+    "e c two",
+    "ec two"
+   ]
+  },
+  {
+   "text": "S3",
+   "aliases": [
+    "s three",
+    "s3"
+   ]
+  },
+  {
+   "text": "Lambda",
+   "aliases": [
+    "lambda"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "DynamoDB",
+   "aliases": [
+    "dynamo d b",
+    "dynamo db"
+   ]
+  },
+  {
+   "text": "RDS",
+   "aliases": [
+    "r d s"
+   ]
+  },
+  {
+   "text": "Aurora",
+   "aliases": [
+    "aurora"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "CloudFront",
+   "aliases": [
+    "cloud front",
+    "cloudfront"
+   ]
+  },
+  {
+   "text": "CloudWatch",
+   "aliases": [
+    "cloud watch",
+    "cloudwatch"
+   ]
+  },
+  {
+   "text": "CloudFormation",
+   "aliases": [
+    "cloud formation",
+    "cloudformation"
+   ]
+  },
+  {
+   "text": "IAM",
+   "aliases": [
+    "i a m",
+    "i am roles"
+   ]
+  },
+  {
+   "text": "VPC",
+   "aliases": [
+    "v p c"
+   ]
+  },
+  {
+   "text": "Route 53",
+   "aliases": [
+    "route fifty three",
+    "route 53"
+   ]
+  },
+  {
+   "text": "SQS",
+   "aliases": [
+    "s q s"
+   ]
+  },
+  {
+   "text": "SNS",
+   "aliases": [
+    "s n s"
+   ]
+  },
+  {
+   "text": "SES",
+   "aliases": [
+    "s e s"
+   ]
+  },
+  {
+   "text": "EKS",
+   "aliases": [
+    "e k s"
+   ]
+  },
+  {
+   "text": "ECS",
+   "aliases": [
+    "e c s"
+   ]
+  },
+  {
+   "text": "ECR",
+   "aliases": [
+    "e c r"
+   ]
+  },
+  {
+   "text": "Fargate",
+   "aliases": [
+    "fargate",
+    "far gate"
+   ]
+  },
+  {
+   "text": "Elastic Beanstalk",
+   "aliases": [
+    "elastic beanstalk"
+   ]
+  },
+  {
+   "text": "Amplify",
+   "aliases": [
+    "amplify"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "AppSync",
+   "aliases": [
+    "app sync",
+    "appsync"
+   ]
+  },
+  {
+   "text": "API Gateway",
+   "aliases": [
+    "a p i gateway",
+    "api gateway"
+   ]
+  },
+  {
+   "text": "Cognito",
+   "aliases": [
+    "cognito"
+   ]
+  },
+  {
+   "text": "Kinesis",
+   "aliases": [
+    "kinesis"
+   ]
+  },
+  {
+   "text": "Redshift",
+   "aliases": [
+    "redshift",
+    "red shift"
+   ]
+  },
+  {
+   "text": "Athena",
+   "aliases": [
+    "athena"
+   ]
+  },
+  {
+   "text": "Glue",
+   "aliases": [
+    "glue"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "SageMaker",
+   "aliases": [
+    "sage maker",
+    "sagemaker"
+   ]
+  },
+  {
+   "text": "Bedrock",
+   "aliases": [
+    "bedrock",
+    "bed rock"
+   ]
+  },
+  {
+   "text": "Step Functions",
+   "aliases": [
+    "step functions"
+   ]
+  },
+  {
+   "text": "EventBridge",
+   "aliases": [
+    "event bridge",
+    "eventbridge"
+   ]
+  },
+  {
+   "text": "Secrets Manager",
+   "aliases": [
+    "secrets manager"
+   ]
+  },
+  {
+   "text": "KMS",
+   "aliases": [
+    "k m s"
+   ]
+  },
+  {
+   "text": "EBS",
+   "aliases": [
+    "e b s"
+   ]
+  },
+  {
+   "text": "EFS",
+   "aliases": [
+    "e f s"
+   ]
+  },
+  {
+   "text": "ElastiCache",
+   "aliases": [
+    "elasti cache",
+    "elastic cache"
+   ]
+  },
+  {
+   "text": "OpenSearch",
+   "aliases": [
+    "open search",
+    "opensearch"
+   ]
+  },
+  {
+   "text": "CodeBuild",
+   "aliases": [
+    "code build",
+    "codebuild"
+   ]
+  },
+  {
+   "text": "CodePipeline",
+   "aliases": [
+    "code pipeline",
+    "codepipeline"
+   ]
+  },
+  {
+   "text": "CodeDeploy",
+   "aliases": [
+    "code deploy",
+    "codedeploy"
+   ]
+  },
+  {
+   "text": "CloudTrail",
+   "aliases": [
+    "cloud trail",
+    "cloudtrail"
+   ]
+  },
+  {
+   "text": "Lightsail",
+   "aliases": [
+    "lightsail",
+    "light sail"
+   ]
+  },
+  {
+   "text": "Transit Gateway",
+   "aliases": [
+    "transit gateway"
+   ]
+  },
+  {
+   "text": "Direct Connect",
+   "aliases": [
+    "direct connect"
+   ]
+  },
+  {
+   "text": "Outposts",
+   "aliases": [
+    "outposts"
+   ]
+  },
+  {
+   "text": "Textract",
+   "aliases": [
+    "textract",
+    "text extract"
+   ]
+  },
+  {
+   "text": "Rekognition",
+   "aliases": [
+    "rekognition",
+    "recognition service"
+   ]
+  },
+  {
+   "text": "Polly",
+   "aliases": [
+    "polly"
+   ]
+  },
+  {
+   "text": "Transcribe",
+   "aliases": [
+    "transcribe"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Comprehend",
+   "aliases": [
+    "comprehend"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "QuickSight",
+   "aliases": [
+    "quick sight",
+    "quicksight"
+   ]
+  },
+  {
+   "text": "WorkSpaces",
+   "aliases": [
+    "work spaces",
+    "workspaces"
+   ]
+  },
+  {
+   "text": "Cloud9",
+   "aliases": [
+    "cloud nine",
+    "cloud 9"
+   ]
+  },
+  {
+   "text": "boto3",
+   "aliases": [
+    "boto three",
+    "boto3"
+   ]
+  },
+  {
+   "text": "AWS CLI",
+   "aliases": [
+    "a w s c l i",
+    "aws cli"
+   ]
+  },
+  {
+   "text": "CDK",
+   "aliases": [
+    "c d k"
+   ]
+  },
+  {
+   "text": "SAM",
+   "aliases": [
+    "s a m"
+   ]
+  }
+ ]
+}

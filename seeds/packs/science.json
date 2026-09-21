@@ -1,0 +1,546 @@
+{
+ "pack": "science",
+ "terms": [
+  {
+   "text": "DOI",
+   "aliases": [
+    "d o i"
+   ]
+  },
+  {
+   "text": "arXiv",
+   "aliases": [
+    "archive",
+    "ar xiv",
+    "ar chive"
+   ]
+  },
+  {
+   "text": "PubMed",
+   "aliases": [
+    "pubmed",
+    "pub med"
+   ]
+  },
+  {
+   "text": "Google Scholar",
+   "aliases": [
+    "google scholar"
+   ]
+  },
+  {
+   "text": "Zotero",
+   "aliases": [
+    "zotero",
+    "zo tero"
+   ]
+  },
+  {
+   "text": "Mendeley",
+   "aliases": [
+    "mendeley",
+    "men dell ee"
+   ]
+  },
+  {
+   "text": "LaTeX",
+   "aliases": [
+    "latex",
+    "lay tech",
+    "la tek"
+   ]
+  },
+  {
+   "text": "Overleaf",
+   "aliases": [
+    "overleaf",
+    "over leaf"
+   ]
+  },
+  {
+   "text": "BibTeX",
+   "aliases": [
+    "bibtex",
+    "bib tech"
+   ]
+  },
+  {
+   "text": "Jupyter",
+   "aliases": [
+    "jupyter",
+    "joo pyter"
+   ]
+  },
+  {
+   "text": "pandas",
+   "aliases": [
+    "pandas"
+   ]
+  },
+  {
+   "text": "NumPy",
+   "aliases": [
+    "numpy",
+    "num pie"
+   ]
+  },
+  {
+   "text": "SciPy",
+   "aliases": [
+    "scipy",
+    "sigh pie"
+   ]
+  },
+  {
+   "text": "scikit-learn",
+   "aliases": [
+    "sci kit learn",
+    "scikit learn"
+   ]
+  },
+  {
+   "text": "matplotlib",
+   "aliases": [
+    "matplotlib",
+    "mat plot lib"
+   ]
+  },
+  {
+   "text": "RStudio",
+   "aliases": [
+    "r studio"
+   ]
+  },
+  {
+   "text": "MATLAB",
+   "aliases": [
+    "matlab",
+    "mat lab"
+   ]
+  },
+  {
+   "text": "p-value",
+   "aliases": [
+    "p value"
+   ]
+  },
+  {
+   "text": "ANOVA",
+   "aliases": [
+    "anova",
+    "a nova"
+   ]
+  },
+  {
+   "text": "regression",
+   "aliases": [
+    "regression"
+   ]
+  },
+  {
+   "text": "Bayesian",
+   "aliases": [
+    "bayesian",
+    "bay zhun"
+   ]
+  },
+  {
+   "text": "CRISPR",
+   "aliases": [
+    "crispr",
+    "crisper"
+   ]
+  },
+  {
+   "text": "PCR",
+   "aliases": [
+    "p c r"
+   ]
+  },
+  {
+   "text": "mRNA",
+   "aliases": [
+    "m r n a"
+   ]
+  },
+  {
+   "text": "genome",
+   "aliases": [
+    "genome"
+   ]
+  },
+  {
+   "text": "IRB",
+   "aliases": [
+    "i r b"
+   ]
+  },
+  {
+   "text": "peer review",
+   "aliases": [
+    "peer review"
+   ]
+  },
+  {
+   "text": "h-index",
+   "aliases": [
+    "h index"
+   ]
+  },
+  {
+   "text": "NIH",
+   "aliases": [
+    "n i h"
+   ]
+  },
+  {
+   "text": "NSF",
+   "aliases": [
+    "n s f"
+   ]
+  },
+  {
+   "text": "ERC",
+   "aliases": [
+    "e r c"
+   ]
+  },
+  {
+   "text": "Horizon Europe",
+   "aliases": [
+    "horizon europe"
+   ]
+  },
+  {
+   "text": "null hypothesis",
+   "aliases": [
+    "null hypothesis"
+   ]
+  },
+  {
+   "text": "confidence interval",
+   "aliases": [
+    "confidence interval"
+   ]
+  },
+  {
+   "text": "standard deviation",
+   "aliases": [
+    "standard deviation"
+   ]
+  },
+  {
+   "text": "sample size",
+   "aliases": [
+    "sample size"
+   ]
+  },
+  {
+   "text": "meta-analysis",
+   "aliases": [
+    "meta analysis"
+   ]
+  },
+  {
+   "text": "systematic review",
+   "aliases": [
+    "systematic review"
+   ]
+  },
+  {
+   "text": "randomized controlled trial",
+   "aliases": [
+    "randomized controlled trial"
+   ]
+  },
+  {
+   "text": "RCT",
+   "aliases": [
+    "r c t"
+   ]
+  },
+  {
+   "text": "double-blind study",
+   "aliases": [
+    "double blind study"
+   ]
+  },
+  {
+   "text": "placebo",
+   "aliases": [
+    "placebo"
+   ]
+  },
+  {
+   "text": "cohort study",
+   "aliases": [
+    "cohort study"
+   ]
+  },
+  {
+   "text": "longitudinal study",
+   "aliases": [
+    "longitudinal study"
+   ]
+  },
+  {
+   "text": "cross-sectional study",
+   "aliases": [
+    "cross sectional study"
+   ]
+  },
+  {
+   "text": "qualitative research",
+   "aliases": [
+    "qualitative research"
+   ]
+  },
+  {
+   "text": "quantitative research",
+   "aliases": [
+    "quantitative research"
+   ]
+  },
+  {
+   "text": "literature review",
+   "aliases": [
+    "literature review"
+   ]
+  },
+  {
+   "text": "citation",
+   "aliases": [
+    "citation"
+   ]
+  },
+  {
+   "text": "impact factor",
+   "aliases": [
+    "impact factor"
+   ]
+  },
+  {
+   "text": "preprint",
+   "aliases": [
+    "preprint",
+    "pre print"
+   ]
+  },
+  {
+   "text": "reproducibility",
+   "aliases": [
+    "reproducibility"
+   ]
+  },
+  {
+   "text": "effect size",
+   "aliases": [
+    "effect size"
+   ]
+  },
+  {
+   "text": "chi-squared test",
+   "aliases": [
+    "chi squared test",
+    "kai squared test"
+   ]
+  },
+  {
+   "text": "t-test",
+   "aliases": [
+    "t test"
+   ]
+  },
+  {
+   "text": "correlation coefficient",
+   "aliases": [
+    "correlation coefficient"
+   ]
+  },
+  {
+   "text": "machine learning",
+   "aliases": [
+    "machine learning"
+   ]
+  },
+  {
+   "text": "neural network",
+   "aliases": [
+    "neural network"
+   ]
+  },
+  {
+   "text": "TensorFlow",
+   "aliases": [
+    "tensorflow",
+    "tensor flow"
+   ]
+  },
+  {
+   "text": "PyTorch",
+   "aliases": [
+    "pytorch",
+    "pie torch"
+   ]
+  },
+  {
+   "text": "Google Colab",
+   "aliases": [
+    "google colab",
+    "google collab"
+   ]
+  },
+  {
+   "text": "genome sequencing",
+   "aliases": [
+    "genome sequencing"
+   ]
+  },
+  {
+   "text": "phylogenetics",
+   "aliases": [
+    "phylogenetics"
+   ]
+  },
+  {
+   "text": "spectroscopy",
+   "aliases": [
+    "spectroscopy"
+   ]
+  },
+  {
+   "text": "mass spectrometry",
+   "aliases": [
+    "mass spectrometry"
+   ]
+  },
+  {
+   "text": "chromatography",
+   "aliases": [
+    "chromatography"
+   ]
+  },
+  {
+   "text": "centrifuge",
+   "aliases": [
+    "centrifuge"
+   ]
+  },
+  {
+   "text": "pipette",
+   "aliases": [
+    "pipette",
+    "pi pet"
+   ]
+  },
+  {
+   "text": "petri dish",
+   "aliases": [
+    "petri dish"
+   ]
+  },
+  {
+   "text": "western blot",
+   "aliases": [
+    "western blot"
+   ]
+  },
+  {
+   "text": "gel electrophoresis",
+   "aliases": [
+    "gel electrophoresis"
+   ]
+  },
+  {
+   "text": "cell culture",
+   "aliases": [
+    "cell culture"
+   ]
+  },
+  {
+   "text": "in vitro",
+   "aliases": [
+    "in vitro"
+   ]
+  },
+  {
+   "text": "in vivo",
+   "aliases": [
+    "in vivo"
+   ]
+  },
+  {
+   "text": "hypothesis",
+   "aliases": [
+    "hypothesis"
+   ]
+  },
+  {
+   "text": "control group",
+   "aliases": [
+    "control group"
+   ]
+  },
+  {
+   "text": "sampling bias",
+   "aliases": [
+    "sampling bias"
+   ]
+  },
+  {
+   "text": "statistical significance",
+   "aliases": [
+    "statistical significance"
+   ]
+  },
+  {
+   "text": "degrees of freedom",
+   "aliases": [
+    "degrees of freedom"
+   ]
+  },
+  {
+   "text": "standard error",
+   "aliases": [
+    "standard error"
+   ]
+  },
+  {
+   "text": "normal distribution",
+   "aliases": [
+    "normal distribution"
+   ]
+  },
+  {
+   "text": "outlier",
+   "aliases": [
+    "outlier"
+   ]
+  },
+  {
+   "text": "dataset",
+   "aliases": [
+    "dataset",
+    "data set"
+   ]
+  },
+  {
+   "text": "data cleaning",
+   "aliases": [
+    "data cleaning"
+   ]
+  },
+  {
+   "text": "feature engineering",
+   "aliases": [
+    "feature engineering"
+   ]
+  },
+  {
+   "text": "cross-validation",
+   "aliases": [
+    "cross validation"
+   ]
+  }
+ ]
+}

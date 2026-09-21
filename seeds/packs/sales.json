@@ -1,0 +1,525 @@
+{
+ "pack": "sales",
+ "terms": [
+  {
+   "text": "Salesforce",
+   "aliases": [
+    "salesforce",
+    "sales force"
+   ]
+  },
+  {
+   "text": "Pipedrive",
+   "aliases": [
+    "pipedrive",
+    "pipe drive"
+   ]
+  },
+  {
+   "text": "Close",
+   "aliases": [
+    "close"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Apollo",
+   "aliases": [
+    "apollo"
+   ]
+  },
+  {
+   "text": "ZoomInfo",
+   "aliases": [
+    "zoominfo",
+    "zoom info"
+   ]
+  },
+  {
+   "text": "Outreach",
+   "aliases": [
+    "outreach"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Salesloft",
+   "aliases": [
+    "salesloft",
+    "sales loft"
+   ]
+  },
+  {
+   "text": "Gong",
+   "aliases": [
+    "gong"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Chorus",
+   "aliases": [
+    "chorus"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Calendly",
+   "aliases": [
+    "calendly",
+    "calend lee"
+   ]
+  },
+  {
+   "text": "DocuSign",
+   "aliases": [
+    "docusign",
+    "docu sign"
+   ]
+  },
+  {
+   "text": "PandaDoc",
+   "aliases": [
+    "pandadoc",
+    "panda doc"
+   ]
+  },
+  {
+   "text": "Loom",
+   "aliases": [
+    "loom"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "LinkedIn Sales Navigator",
+   "aliases": [
+    "linkedin sales navigator"
+   ]
+  },
+  {
+   "text": "SQL (sales qualified lead)",
+   "aliases": [
+    "s q l",
+    "sales qualified lead"
+   ]
+  },
+  {
+   "text": "MQL",
+   "aliases": [
+    "m q l"
+   ]
+  },
+  {
+   "text": "BANT",
+   "aliases": [
+    "bant",
+    "b a n t"
+   ]
+  },
+  {
+   "text": "MEDDIC",
+   "aliases": [
+    "meddic",
+    "med dick",
+    "m e d d i c"
+   ]
+  },
+  {
+   "text": "pipeline",
+   "aliases": [
+    "pipeline"
+   ]
+  },
+  {
+   "text": "quota",
+   "aliases": [
+    "quota"
+   ]
+  },
+  {
+   "text": "ACV",
+   "aliases": [
+    "a c v"
+   ]
+  },
+  {
+   "text": "TCV",
+   "aliases": [
+    "t c v"
+   ]
+  },
+  {
+   "text": "discovery call",
+   "aliases": [
+    "discovery call"
+   ]
+  },
+  {
+   "text": "demo",
+   "aliases": [
+    "demo"
+   ]
+  },
+  {
+   "text": "POC",
+   "aliases": [
+    "p o c"
+   ]
+  },
+  {
+   "text": "RFP",
+   "aliases": [
+    "r f p"
+   ]
+  },
+  {
+   "text": "RFQ",
+   "aliases": [
+    "r f q"
+   ]
+  },
+  {
+   "text": "procurement",
+   "aliases": [
+    "procurement"
+   ]
+  },
+  {
+   "text": "renewal",
+   "aliases": [
+    "renewal"
+   ]
+  },
+  {
+   "text": "upsell",
+   "aliases": [
+    "upsell",
+    "up sell"
+   ]
+  },
+  {
+   "text": "cross-sell",
+   "aliases": [
+    "cross sell"
+   ]
+  },
+  {
+   "text": "cold call",
+   "aliases": [
+    "cold call"
+   ]
+  },
+  {
+   "text": "cold email",
+   "aliases": [
+    "cold email"
+   ]
+  },
+  {
+   "text": "warm lead",
+   "aliases": [
+    "warm lead"
+   ]
+  },
+  {
+   "text": "hot lead",
+   "aliases": [
+    "hot lead"
+   ]
+  },
+  {
+   "text": "lead scoring",
+   "aliases": [
+    "lead scoring"
+   ]
+  },
+  {
+   "text": "sales cycle",
+   "aliases": [
+    "sales cycle"
+   ]
+  },
+  {
+   "text": "sales enablement",
+   "aliases": [
+    "sales enablement"
+   ]
+  },
+  {
+   "text": "objection handling",
+   "aliases": [
+    "objection handling"
+   ]
+  },
+  {
+   "text": "elevator pitch",
+   "aliases": [
+    "elevator pitch"
+   ]
+  },
+  {
+   "text": "champion (sales)",
+   "aliases": [
+    "champion",
+    "deal champion"
+   ]
+  },
+  {
+   "text": "decision maker",
+   "aliases": [
+    "decision maker"
+   ]
+  },
+  {
+   "text": "economic buyer",
+   "aliases": [
+    "economic buyer"
+   ]
+  },
+  {
+   "text": "gatekeeper",
+   "aliases": [
+    "gatekeeper"
+   ]
+  },
+  {
+   "text": "closing ratio",
+   "aliases": [
+    "closing ratio"
+   ]
+  },
+  {
+   "text": "win rate",
+   "aliases": [
+    "win rate"
+   ]
+  },
+  {
+   "text": "deal desk",
+   "aliases": [
+    "deal desk"
+   ]
+  },
+  {
+   "text": "contract negotiation",
+   "aliases": [
+    "contract negotiation"
+   ]
+  },
+  {
+   "text": "sales playbook",
+   "aliases": [
+    "sales playbook"
+   ]
+  },
+  {
+   "text": "territory",
+   "aliases": [
+    "territory"
+   ]
+  },
+  {
+   "text": "account executive",
+   "aliases": [
+    "account executive"
+   ]
+  },
+  {
+   "text": "SDR",
+   "aliases": [
+    "s d r"
+   ]
+  },
+  {
+   "text": "BDR",
+   "aliases": [
+    "b d r"
+   ]
+  },
+  {
+   "text": "sales ops",
+   "aliases": [
+    "sales ops"
+   ]
+  },
+  {
+   "text": "forecast",
+   "aliases": [
+    "forecast"
+   ]
+  },
+  {
+   "text": "quota attainment",
+   "aliases": [
+    "quota attainment"
+   ]
+  },
+  {
+   "text": "commission",
+   "aliases": [
+    "commission"
+   ]
+  },
+  {
+   "text": "OTE",
+   "aliases": [
+    "o t e"
+   ]
+  },
+  {
+   "text": "book of business",
+   "aliases": [
+    "book of business"
+   ]
+  },
+  {
+   "text": "land and expand",
+   "aliases": [
+    "land and expand"
+   ]
+  },
+  {
+   "text": "net new logo",
+   "aliases": [
+    "net new logo"
+   ]
+  },
+  {
+   "text": "expansion revenue",
+   "aliases": [
+    "expansion revenue"
+   ]
+  },
+  {
+   "text": "churned account",
+   "aliases": [
+    "churned account"
+   ]
+  },
+  {
+   "text": "sales qualified opportunity",
+   "aliases": [
+    "sales qualified opportunity"
+   ]
+  },
+  {
+   "text": "handoff",
+   "aliases": [
+    "handoff",
+    "hand off"
+   ]
+  },
+  {
+   "text": "outbound",
+   "aliases": [
+    "outbound"
+   ]
+  },
+  {
+   "text": "inbound",
+   "aliases": [
+    "inbound"
+   ]
+  },
+  {
+   "text": "sequencing",
+   "aliases": [
+    "sequencing"
+   ]
+  },
+  {
+   "text": "cadence",
+   "aliases": [
+    "cadence"
+   ]
+  },
+  {
+   "text": "sales intelligence",
+   "aliases": [
+    "sales intelligence"
+   ]
+  },
+  {
+   "text": "firmographics",
+   "aliases": [
+    "firmographics"
+   ]
+  },
+  {
+   "text": "technographics",
+   "aliases": [
+    "technographics"
+   ]
+  },
+  {
+   "text": "intent data",
+   "aliases": [
+    "intent data"
+   ]
+  },
+  {
+   "text": "SPIN selling",
+   "aliases": [
+    "spin selling",
+    "s p i n selling"
+   ]
+  },
+  {
+   "text": "Challenger sale",
+   "aliases": [
+    "challenger sale"
+   ]
+  },
+  {
+   "text": "value selling",
+   "aliases": [
+    "value selling"
+   ]
+  },
+  {
+   "text": "solution selling",
+   "aliases": [
+    "solution selling"
+   ]
+  },
+  {
+   "text": "Sandler method",
+   "aliases": [
+    "sandler method"
+   ]
+  },
+  {
+   "text": "sales qualified account",
+   "aliases": [
+    "sales qualified account"
+   ]
+  },
+  {
+   "text": "ABM (account-based marketing)",
+   "aliases": [
+    "a b m",
+    "account based marketing"
+   ]
+  },
+  {
+   "text": "buying committee",
+   "aliases": [
+    "buying committee"
+   ]
+  },
+  {
+   "text": "multi-threading (sales)",
+   "aliases": [
+    "multi threading",
+    "multithreading a deal"
+   ]
+  },
+  {
+   "text": "deal velocity",
+   "aliases": [
+    "deal velocity"
+   ]
+  }
+ ]
+}

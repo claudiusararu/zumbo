@@ -1,0 +1,513 @@
+{
+ "pack": "product",
+ "terms": [
+  {
+   "text": "PRD",
+   "aliases": [
+    "p r d"
+   ]
+  },
+  {
+   "text": "MVP",
+   "aliases": [
+    "m v p"
+   ]
+  },
+  {
+   "text": "roadmap",
+   "aliases": [
+    "roadmap",
+    "road map"
+   ]
+  },
+  {
+   "text": "Productboard",
+   "aliases": [
+    "productboard",
+    "product board"
+   ]
+  },
+  {
+   "text": "Aha!",
+   "aliases": [
+    "aha",
+    "ah ha"
+   ]
+  },
+  {
+   "text": "Linear",
+   "aliases": [
+    "linear"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Jira",
+   "aliases": [
+    "jira"
+   ]
+  },
+  {
+   "text": "sprint",
+   "aliases": [
+    "sprint"
+   ]
+  },
+  {
+   "text": "backlog",
+   "aliases": [
+    "backlog"
+   ]
+  },
+  {
+   "text": "epic",
+   "aliases": [
+    "epic"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "story points",
+   "aliases": [
+    "story points"
+   ]
+  },
+  {
+   "text": "retro",
+   "aliases": [
+    "retro"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "standup",
+   "aliases": [
+    "standup",
+    "stand up"
+   ]
+  },
+  {
+   "text": "Kanban",
+   "aliases": [
+    "kanban",
+    "kan ban"
+   ]
+  },
+  {
+   "text": "Scrum",
+   "aliases": [
+    "scrum"
+   ]
+  },
+  {
+   "text": "velocity",
+   "aliases": [
+    "velocity"
+   ]
+  },
+  {
+   "text": "CSAT",
+   "aliases": [
+    "c sat",
+    "c s a t"
+   ]
+  },
+  {
+   "text": "JTBD",
+   "aliases": [
+    "j t b d",
+    "jobs to be done"
+   ]
+  },
+  {
+   "text": "user interview",
+   "aliases": [
+    "user interview"
+   ]
+  },
+  {
+   "text": "Dovetail",
+   "aliases": [
+    "dovetail"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Maze",
+   "aliases": [
+    "maze"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "UserTesting",
+   "aliases": [
+    "usertesting",
+    "user testing"
+   ]
+  },
+  {
+   "text": "Hotjar",
+   "aliases": [
+    "hotjar",
+    "hot jar"
+   ]
+  },
+  {
+   "text": "FullStory",
+   "aliases": [
+    "fullstory",
+    "full story"
+   ]
+  },
+  {
+   "text": "Amplitude",
+   "aliases": [
+    "amplitude"
+   ]
+  },
+  {
+   "text": "Mixpanel",
+   "aliases": [
+    "mixpanel",
+    "mix panel"
+   ]
+  },
+  {
+   "text": "PostHog",
+   "aliases": [
+    "posthog",
+    "post hog"
+   ]
+  },
+  {
+   "text": "Pendo",
+   "aliases": [
+    "pendo"
+   ]
+  },
+  {
+   "text": "OKR",
+   "aliases": [
+    "o k r"
+   ]
+  },
+  {
+   "text": "RICE",
+   "aliases": [
+    "rice"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "MoSCoW",
+   "aliases": [
+    "moscow",
+    "mos cow"
+   ]
+  },
+  {
+   "text": "north star metric",
+   "aliases": [
+    "north star metric"
+   ]
+  },
+  {
+   "text": "feature flag",
+   "aliases": [
+    "feature flag"
+   ]
+  },
+  {
+   "text": "LaunchDarkly",
+   "aliases": [
+    "launchdarkly",
+    "launch darkly"
+   ]
+  },
+  {
+   "text": "beta program",
+   "aliases": [
+    "beta program"
+   ]
+  },
+  {
+   "text": "changelog",
+   "aliases": [
+    "changelog",
+    "change log"
+   ]
+  },
+  {
+   "text": "release notes",
+   "aliases": [
+    "release notes"
+   ]
+  },
+  {
+   "text": "product-market fit",
+   "aliases": [
+    "product market fit"
+   ]
+  },
+  {
+   "text": "user persona",
+   "aliases": [
+    "user persona"
+   ]
+  },
+  {
+   "text": "customer journey map",
+   "aliases": [
+    "customer journey map"
+   ]
+  },
+  {
+   "text": "activation rate",
+   "aliases": [
+    "activation rate"
+   ]
+  },
+  {
+   "text": "time to value",
+   "aliases": [
+    "time to value"
+   ]
+  },
+  {
+   "text": "onboarding flow",
+   "aliases": [
+    "onboarding flow"
+   ]
+  },
+  {
+   "text": "feature adoption",
+   "aliases": [
+    "feature adoption"
+   ]
+  },
+  {
+   "text": "usability testing",
+   "aliases": [
+    "usability testing"
+   ]
+  },
+  {
+   "text": "prioritization matrix",
+   "aliases": [
+    "prioritization matrix"
+   ]
+  },
+  {
+   "text": "impact effort matrix",
+   "aliases": [
+    "impact effort matrix"
+   ]
+  },
+  {
+   "text": "Kano model",
+   "aliases": [
+    "kano model",
+    "kah no model"
+   ]
+  },
+  {
+   "text": "design sprint",
+   "aliases": [
+    "design sprint"
+   ]
+  },
+  {
+   "text": "two-pizza team",
+   "aliases": [
+    "two pizza team"
+   ]
+  },
+  {
+   "text": "scrum master",
+   "aliases": [
+    "scrum master"
+   ]
+  },
+  {
+   "text": "product owner",
+   "aliases": [
+    "product owner"
+   ]
+  },
+  {
+   "text": "stakeholder",
+   "aliases": [
+    "stakeholder"
+   ]
+  },
+  {
+   "text": "cross-functional team",
+   "aliases": [
+    "cross functional team"
+   ]
+  },
+  {
+   "text": "definition of done",
+   "aliases": [
+    "definition of done"
+   ]
+  },
+  {
+   "text": "acceptance criteria",
+   "aliases": [
+    "acceptance criteria"
+   ]
+  },
+  {
+   "text": "user story",
+   "aliases": [
+    "user story"
+   ]
+  },
+  {
+   "text": "sprint planning",
+   "aliases": [
+    "sprint planning"
+   ]
+  },
+  {
+   "text": "sprint review",
+   "aliases": [
+    "sprint review"
+   ]
+  },
+  {
+   "text": "burndown chart",
+   "aliases": [
+    "burndown chart",
+    "burn down chart"
+   ]
+  },
+  {
+   "text": "story mapping",
+   "aliases": [
+    "story mapping"
+   ]
+  },
+  {
+   "text": "quarterly planning",
+   "aliases": [
+    "quarterly planning"
+   ]
+  },
+  {
+   "text": "product vision",
+   "aliases": [
+    "product vision"
+   ]
+  },
+  {
+   "text": "value proposition",
+   "aliases": [
+    "value proposition"
+   ]
+  },
+  {
+   "text": "minimum lovable product",
+   "aliases": [
+    "minimum lovable product"
+   ]
+  },
+  {
+   "text": "dogfooding",
+   "aliases": [
+    "dogfooding",
+    "dog fooding"
+   ]
+  },
+  {
+   "text": "alpha release",
+   "aliases": [
+    "alpha release"
+   ]
+  },
+  {
+   "text": "general availability",
+   "aliases": [
+    "general availability",
+    "g a release"
+   ]
+  },
+  {
+   "text": "feature parity",
+   "aliases": [
+    "feature parity"
+   ]
+  },
+  {
+   "text": "technical debt",
+   "aliases": [
+    "technical debt"
+   ]
+  },
+  {
+   "text": "spike (agile)",
+   "aliases": [
+    "spike",
+    "agile spike"
+   ]
+  },
+  {
+   "text": "backlog grooming",
+   "aliases": [
+    "backlog grooming"
+   ]
+  },
+  {
+   "text": "refinement session",
+   "aliases": [
+    "refinement session"
+   ]
+  },
+  {
+   "text": "daily scrum",
+   "aliases": [
+    "daily scrum"
+   ]
+  },
+  {
+   "text": "retrospective",
+   "aliases": [
+    "retrospective"
+   ]
+  },
+  {
+   "text": "product spec",
+   "aliases": [
+    "product spec"
+   ]
+  },
+  {
+   "text": "one-pager",
+   "aliases": [
+    "one pager"
+   ]
+  },
+  {
+   "text": "RFC (request for comments)",
+   "aliases": [
+    "r f c",
+    "request for comments"
+   ]
+  },
+  {
+   "text": "postmortem",
+   "aliases": [
+    "postmortem",
+    "post mortem"
+   ]
+  },
+  {
+   "text": "blameless postmortem",
+   "aliases": [
+    "blameless postmortem"
+   ]
+  }
+ ]
+}

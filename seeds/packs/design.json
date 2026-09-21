@@ -1,0 +1,622 @@
+{
+ "pack": "design",
+ "terms": [
+  {
+   "text": "Figma",
+   "aliases": [
+    "figma"
+   ]
+  },
+  {
+   "text": "FigJam",
+   "aliases": [
+    "fig jam",
+    "figjam"
+   ]
+  },
+  {
+   "text": "Sketch",
+   "aliases": [
+    "sketch"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Framer",
+   "aliases": [
+    "framer"
+   ]
+  },
+  {
+   "text": "Webflow",
+   "aliases": [
+    "webflow",
+    "web flow"
+   ]
+  },
+  {
+   "text": "Photoshop",
+   "aliases": [
+    "photoshop",
+    "photo shop"
+   ]
+  },
+  {
+   "text": "Illustrator",
+   "aliases": [
+    "illustrator"
+   ]
+  },
+  {
+   "text": "Adobe XD",
+   "aliases": [
+    "adobe x d",
+    "adobe xd"
+   ]
+  },
+  {
+   "text": "InDesign",
+   "aliases": [
+    "indesign",
+    "in design"
+   ]
+  },
+  {
+   "text": "Affinity Designer",
+   "aliases": [
+    "affinity designer"
+   ]
+  },
+  {
+   "text": "Affinity Photo",
+   "aliases": [
+    "affinity photo"
+   ]
+  },
+  {
+   "text": "Affinity Publisher",
+   "aliases": [
+    "affinity publisher"
+   ]
+  },
+  {
+   "text": "Procreate",
+   "aliases": [
+    "procreate",
+    "pro create"
+   ]
+  },
+  {
+   "text": "Spline",
+   "aliases": [
+    "spline"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Rive",
+   "aliases": [
+    "rive"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Lottie",
+   "aliases": [
+    "lottie",
+    "lotty"
+   ]
+  },
+  {
+   "text": "Blender",
+   "aliases": [
+    "blender"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Cinema 4D",
+   "aliases": [
+    "cinema four d",
+    "cinema 4 d",
+    "cinema four dee"
+   ]
+  },
+  {
+   "text": "Zeplin",
+   "aliases": [
+    "zeplin",
+    "zeppelin"
+   ]
+  },
+  {
+   "text": "Storybook",
+   "aliases": [
+    "storybook",
+    "story book"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "design tokens",
+   "aliases": [
+    "design tokens"
+   ]
+  },
+  {
+   "text": "auto layout",
+   "aliases": [
+    "auto layout"
+   ]
+  },
+  {
+   "text": "variants",
+   "aliases": [
+    "variants"
+   ]
+  },
+  {
+   "text": "components",
+   "aliases": [
+    "components"
+   ]
+  },
+  {
+   "text": "WCAG",
+   "aliases": [
+    "w c a g",
+    "wick ag",
+    "wickag"
+   ]
+  },
+  {
+   "text": "kerning",
+   "aliases": [
+    "kerning"
+   ]
+  },
+  {
+   "text": "x-height",
+   "aliases": [
+    "x height"
+   ]
+  },
+  {
+   "text": "OpenType",
+   "aliases": [
+    "open type"
+   ]
+  },
+  {
+   "text": "variable fonts",
+   "aliases": [
+    "variable fonts"
+   ]
+  },
+  {
+   "text": "Pantone",
+   "aliases": [
+    "pantone",
+    "pan tone"
+   ]
+  },
+  {
+   "text": "RGB",
+   "aliases": [
+    "r g b"
+   ]
+  },
+  {
+   "text": "CMYK",
+   "aliases": [
+    "c m y k"
+   ]
+  },
+  {
+   "text": "hex code",
+   "aliases": [
+    "hex code",
+    "hex"
+   ]
+  },
+  {
+   "text": "sRGB",
+   "aliases": [
+    "s r g b"
+   ]
+  },
+  {
+   "text": "Display P3",
+   "aliases": [
+    "display p three",
+    "display p 3"
+   ]
+  },
+  {
+   "text": "DPI",
+   "aliases": [
+    "d p i"
+   ]
+  },
+  {
+   "text": "PPI",
+   "aliases": [
+    "p p i"
+   ]
+  },
+  {
+   "text": "SF Symbols",
+   "aliases": [
+    "s f symbols",
+    "sf symbols"
+   ]
+  },
+  {
+   "text": "Material Design",
+   "aliases": [
+    "material design"
+   ]
+  },
+  {
+   "text": "Human Interface Guidelines",
+   "aliases": [
+    "human interface guidelines",
+    "h i g"
+   ]
+  },
+  {
+   "text": "Dribbble",
+   "aliases": [
+    "dribbble",
+    "dribble"
+   ]
+  },
+  {
+   "text": "Behance",
+   "aliases": [
+    "behance",
+    "be hance"
+   ]
+  },
+  {
+   "text": "Awwwards",
+   "aliases": [
+    "awwwards",
+    "awards"
+   ]
+  },
+  {
+   "text": "Unsplash",
+   "aliases": [
+    "unsplash",
+    "un splash"
+   ]
+  },
+  {
+   "text": "Mobbin",
+   "aliases": [
+    "mobbin",
+    "mobin"
+   ]
+  },
+  {
+   "text": "InVision",
+   "aliases": [
+    "invision",
+    "in vision"
+   ]
+  },
+  {
+   "text": "Marvel App",
+   "aliases": [
+    "marvel app"
+   ]
+  },
+  {
+   "text": "Principle",
+   "aliases": [
+    "principle"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "ProtoPie",
+   "aliases": [
+    "protopie",
+    "proto pie"
+   ]
+  },
+  {
+   "text": "Origami Studio",
+   "aliases": [
+    "origami studio"
+   ]
+  },
+  {
+   "text": "Noun Project",
+   "aliases": [
+    "noun project"
+   ]
+  },
+  {
+   "text": "Font Awesome",
+   "aliases": [
+    "font awesome"
+   ]
+  },
+  {
+   "text": "Google Fonts",
+   "aliases": [
+    "google fonts"
+   ]
+  },
+  {
+   "text": "Adobe Fonts",
+   "aliases": [
+    "adobe fonts"
+   ]
+  },
+  {
+   "text": "Coolors",
+   "aliases": [
+    "coolors",
+    "colors"
+   ]
+  },
+  {
+   "text": "Color Hunt",
+   "aliases": [
+    "color hunt"
+   ]
+  },
+  {
+   "text": "contrast ratio",
+   "aliases": [
+    "contrast ratio"
+   ]
+  },
+  {
+   "text": "leading",
+   "aliases": [
+    "leading"
+   ]
+  },
+  {
+   "text": "tracking",
+   "aliases": [
+    "tracking"
+   ]
+  },
+  {
+   "text": "baseline grid",
+   "aliases": [
+    "baseline grid"
+   ]
+  },
+  {
+   "text": "8-point grid",
+   "aliases": [
+    "eight point grid",
+    "8 point grid"
+   ]
+  },
+  {
+   "text": "bezier curve",
+   "aliases": [
+    "bezier curve",
+    "bezier",
+    "bez ee ay curve"
+   ]
+  },
+  {
+   "text": "vector path",
+   "aliases": [
+    "vector path"
+   ]
+  },
+  {
+   "text": "boolean operation",
+   "aliases": [
+    "boolean operation"
+   ]
+  },
+  {
+   "text": "bounding box",
+   "aliases": [
+    "bounding box"
+   ]
+  },
+  {
+   "text": "artboard",
+   "aliases": [
+    "artboard",
+    "art board"
+   ]
+  },
+  {
+   "text": "blend mode",
+   "aliases": [
+    "blend mode"
+   ]
+  },
+  {
+   "text": "wireframe",
+   "aliases": [
+    "wireframe",
+    "wire frame"
+   ]
+  },
+  {
+   "text": "mockup",
+   "aliases": [
+    "mockup",
+    "mock up"
+   ]
+  },
+  {
+   "text": "high fidelity",
+   "aliases": [
+    "high fidelity",
+    "hi fi"
+   ]
+  },
+  {
+   "text": "low fidelity",
+   "aliases": [
+    "low fidelity",
+    "lo fi"
+   ]
+  },
+  {
+   "text": "design system",
+   "aliases": [
+    "design system"
+   ]
+  },
+  {
+   "text": "style guide",
+   "aliases": [
+    "style guide"
+   ]
+  },
+  {
+   "text": "atomic design",
+   "aliases": [
+    "atomic design"
+   ]
+  },
+  {
+   "text": "skeuomorphism",
+   "aliases": [
+    "skeuomorphism",
+    "skew a morphism"
+   ]
+  },
+  {
+   "text": "neumorphism",
+   "aliases": [
+    "neumorphism",
+    "new morphism"
+   ]
+  },
+  {
+   "text": "glassmorphism",
+   "aliases": [
+    "glassmorphism",
+    "glass morphism"
+   ]
+  },
+  {
+   "text": "Material You",
+   "aliases": [
+    "material you"
+   ]
+  },
+  {
+   "text": "dark mode",
+   "aliases": [
+    "dark mode"
+   ]
+  },
+  {
+   "text": "alt text",
+   "aliases": [
+    "alt text"
+   ]
+  },
+  {
+   "text": "ARIA label",
+   "aliases": [
+    "aria label",
+    "a r i a label"
+   ]
+  },
+  {
+   "text": "Dev Mode",
+   "aliases": [
+    "dev mode"
+   ]
+  },
+  {
+   "text": "nested component",
+   "aliases": [
+    "nested component"
+   ]
+  },
+  {
+   "text": "constraint",
+   "aliases": [
+    "constraint"
+   ]
+  },
+  {
+   "text": "responsive design",
+   "aliases": [
+    "responsive design"
+   ]
+  },
+  {
+   "text": "breakpoint",
+   "aliases": [
+    "breakpoint"
+   ]
+  },
+  {
+   "text": "viewport",
+   "aliases": [
+    "viewport"
+   ]
+  },
+  {
+   "text": "UI kit",
+   "aliases": [
+    "u i kit",
+    "ui kit"
+   ]
+  },
+  {
+   "text": "design ops",
+   "aliases": [
+    "design ops",
+    "designops"
+   ]
+  },
+  {
+   "text": "border radius",
+   "aliases": [
+    "border radius"
+   ]
+  },
+  {
+   "text": "drop shadow",
+   "aliases": [
+    "drop shadow"
+   ]
+  },
+  {
+   "text": "favicon",
+   "aliases": [
+    "favicon",
+    "fav icon"
+   ]
+  },
+  {
+   "text": "Iconify",
+   "aliases": [
+    "iconify"
+   ]
+  },
+  {
+   "text": "type scale",
+   "aliases": [
+    "type scale"
+   ]
+  },
+  {
+   "text": "grid system",
+   "aliases": [
+    "grid system"
+   ]
+  }
+ ]
+}

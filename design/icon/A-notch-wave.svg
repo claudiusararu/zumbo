@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs><clipPath id="sq"><rect x="100" y="100" width="824" height="824" rx="186"/></clipPath></defs>
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="#1C1C1E"/>
+  <g clip-path="url(#sq)">
+    <!-- notch hanging from the top edge, flared corners -->
+    <path d="M292 100 L732 100 L732 118 C732 142 720 162 696 162 L676 162 C640 162 626 178 626 214 L626 268 C626 318 592 350 542 350 L482 350 C432 350 398 318 398 268 L398 214 C398 178 384 162 348 162 L328 162 C304 162 292 142 292 118 Z" fill="#000"/>
+  </g>
+  <!-- waveform, white, inside the lower body -->
+  <g fill="#FFFFFF">
+    <rect x="292" y="560" width="52" height="120" rx="26"/>
+    <rect x="384" y="470" width="52" height="300" rx="26"/>
+    <rect x="476" y="400" width="52" height="440" rx="26"/>
+    <rect x="568" y="500" width="52" height="240" rx="26"/>
+    <rect x="660" y="590" width="52" height="60" rx="26"/>
+  </g>
+</svg>

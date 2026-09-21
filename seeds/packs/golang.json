@@ -1,0 +1,574 @@
+{
+ "pack": "golang",
+ "terms": [
+  {
+   "text": "Go",
+   "aliases": [
+    "go language",
+    "golang language"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Golang",
+   "aliases": [
+    "go lang",
+    "golang",
+    "go lang language"
+   ]
+  },
+  {
+   "text": "goroutine",
+   "aliases": [
+    "go routine",
+    "goroutines"
+   ]
+  },
+  {
+   "text": "goroutines",
+   "aliases": [
+    "go routines"
+   ]
+  },
+  {
+   "text": "channel",
+   "aliases": [
+    "go channel"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "gofmt",
+   "aliases": [
+    "go f m t",
+    "go format",
+    "gofmt"
+   ]
+  },
+  {
+   "text": "go mod",
+   "aliases": [
+    "go mod",
+    "go modules"
+   ]
+  },
+  {
+   "text": "go.mod",
+   "aliases": [
+    "go dot mod"
+   ]
+  },
+  {
+   "text": "go.sum",
+   "aliases": [
+    "go dot sum"
+   ]
+  },
+  {
+   "text": "go build",
+   "aliases": [
+    "go build"
+   ]
+  },
+  {
+   "text": "go run",
+   "aliases": [
+    "go run"
+   ]
+  },
+  {
+   "text": "go test",
+   "aliases": [
+    "go test"
+   ]
+  },
+  {
+   "text": "go vet",
+   "aliases": [
+    "go vet"
+   ]
+  },
+  {
+   "text": "go get",
+   "aliases": [
+    "go get"
+   ]
+  },
+  {
+   "text": "go install",
+   "aliases": [
+    "go install"
+   ]
+  },
+  {
+   "text": "go generate",
+   "aliases": [
+    "go generate"
+   ]
+  },
+  {
+   "text": "golangci-lint",
+   "aliases": [
+    "golang c i lint",
+    "golangci lint",
+    "go lang ci lint"
+   ]
+  },
+  {
+   "text": "staticcheck",
+   "aliases": [
+    "static check"
+   ]
+  },
+  {
+   "text": "gopls",
+   "aliases": [
+    "go p l s",
+    "gopls"
+   ]
+  },
+  {
+   "text": "GOPATH",
+   "aliases": [
+    "go path"
+   ]
+  },
+  {
+   "text": "GOROOT",
+   "aliases": [
+    "go root"
+   ]
+  },
+  {
+   "text": "GOOS",
+   "aliases": [
+    "go o s"
+   ]
+  },
+  {
+   "text": "GOARCH",
+   "aliases": [
+    "go arch"
+   ]
+  },
+  {
+   "text": "CGO",
+   "aliases": [
+    "c go",
+    "cgo"
+   ]
+  },
+  {
+   "text": "Gin",
+   "aliases": [
+    "gin framework",
+    "gin"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Echo",
+   "aliases": [
+    "echo framework"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Fiber",
+   "aliases": [
+    "fiber framework"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Chi",
+   "aliases": [
+    "chi router",
+    "chi"
+   ]
+  },
+  {
+   "text": "Gorilla Mux",
+   "aliases": [
+    "gorilla mux"
+   ]
+  },
+  {
+   "text": "net/http",
+   "aliases": [
+    "net http",
+    "net slash http"
+   ]
+  },
+  {
+   "text": "GORM",
+   "aliases": [
+    "gorm",
+    "g o r m"
+   ]
+  },
+  {
+   "text": "sqlc",
+   "aliases": [
+    "s q l c",
+    "sqlc"
+   ]
+  },
+  {
+   "text": "sqlx",
+   "aliases": [
+    "s q l x"
+   ]
+  },
+  {
+   "text": "pgx",
+   "aliases": [
+    "p g x"
+   ]
+  },
+  {
+   "text": "Ent",
+   "aliases": [
+    "ent framework"
+   ]
+  },
+  {
+   "text": "Cobra",
+   "aliases": [
+    "cobra cli",
+    "cobra"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Viper",
+   "aliases": [
+    "viper config",
+    "viper"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Zap",
+   "aliases": [
+    "zap logger"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "logrus",
+   "aliases": [
+    "log rus",
+    "logrus"
+   ]
+  },
+  {
+   "text": "zerolog",
+   "aliases": [
+    "zero log"
+   ]
+  },
+  {
+   "text": "slog",
+   "aliases": [
+    "s log",
+    "slog"
+   ]
+  },
+  {
+   "text": "testify",
+   "aliases": [
+    "testify"
+   ]
+  },
+  {
+   "text": "gomock",
+   "aliases": [
+    "go mock"
+   ]
+  },
+  {
+   "text": "mockery",
+   "aliases": [
+    "mockery"
+   ]
+  },
+  {
+   "text": "Protobuf",
+   "aliases": [
+    "proto buf",
+    "protobuf",
+    "protocol buffers"
+   ]
+  },
+  {
+   "text": "protoc",
+   "aliases": [
+    "proto c"
+   ]
+  },
+  {
+   "text": "gRPC",
+   "aliases": [
+    "g r p c"
+   ]
+  },
+  {
+   "text": "Buf",
+   "aliases": [
+    "buf cli"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Wire",
+   "aliases": [
+    "wire di"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "fx",
+   "aliases": [
+    "f x uber"
+   ]
+  },
+  {
+   "text": "context.Context",
+   "aliases": [
+    "context dot context"
+   ]
+  },
+  {
+   "text": "sync.WaitGroup",
+   "aliases": [
+    "sync wait group",
+    "wait group"
+   ]
+  },
+  {
+   "text": "sync.Mutex",
+   "aliases": [
+    "sync mutex",
+    "mutex"
+   ]
+  },
+  {
+   "text": "select",
+   "aliases": [
+    "select statement"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "defer",
+   "aliases": [
+    "defer"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "interface{}",
+   "aliases": [
+    "empty interface"
+   ]
+  },
+  {
+   "text": "any",
+   "aliases": [
+    "any type"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "struct",
+   "aliases": [
+    "struct"
+   ]
+  },
+  {
+   "text": "slice",
+   "aliases": [
+    "slice"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "map",
+   "aliases": [
+    "go map"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "panic",
+   "aliases": [
+    "panic"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "recover",
+   "aliases": [
+    "recover"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "errgroup",
+   "aliases": [
+    "err group",
+    "error group"
+   ]
+  },
+  {
+   "text": "errors.Is",
+   "aliases": [
+    "errors dot is"
+   ]
+  },
+  {
+   "text": "errors.As",
+   "aliases": [
+    "errors dot as"
+   ]
+  },
+  {
+   "text": "fmt.Println",
+   "aliases": [
+    "f m t print l n",
+    "fmt println",
+    "print line"
+   ]
+  },
+  {
+   "text": "fmt.Sprintf",
+   "aliases": [
+    "fmt sprintf",
+    "s printf"
+   ]
+  },
+  {
+   "text": "go:embed",
+   "aliases": [
+    "go embed"
+   ]
+  },
+  {
+   "text": "go:generate",
+   "aliases": [
+    "go generate directive"
+   ]
+  },
+  {
+   "text": "Delve",
+   "aliases": [
+    "delve debugger",
+    "delve"
+   ]
+  },
+  {
+   "text": "pprof",
+   "aliases": [
+    "p prof",
+    "pprof"
+   ]
+  },
+  {
+   "text": "benchmark",
+   "aliases": [
+    "benchmark"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Air",
+   "aliases": [
+    "air live reload"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Templ",
+   "aliases": [
+    "templ",
+    "temple templates"
+   ]
+  },
+  {
+   "text": "HTMX",
+   "aliases": [
+    "h t m x"
+   ]
+  },
+  {
+   "text": "Bubble Tea",
+   "aliases": [
+    "bubble tea"
+   ]
+  },
+  {
+   "text": "Charm",
+   "aliases": [
+    "charm cli"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Kubernetes",
+   "aliases": [
+    "kubernetes",
+    "k eight s"
+   ]
+  },
+  {
+   "text": "Docker",
+   "aliases": [
+    "docker"
+   ]
+  },
+  {
+   "text": "Terraform",
+   "aliases": [
+    "terraform"
+   ]
+  },
+  {
+   "text": "NATS",
+   "aliases": [
+    "nats"
+   ]
+  },
+  {
+   "text": "Kafka",
+   "aliases": [
+    "kafka"
+   ]
+  },
+  {
+   "text": "Redis",
+   "aliases": [
+    "redis"
+   ]
+  },
+  {
+   "text": "Postgres",
+   "aliases": [
+    "postgres"
+   ]
+  },
+  {
+   "text": "Go Playground",
+   "aliases": [
+    "go playground"
+   ]
+  },
+  {
+   "text": "pkg.go.dev",
+   "aliases": [
+    "package go dev",
+    "p k g go dev"
+   ]
+  }
+ ]
+}

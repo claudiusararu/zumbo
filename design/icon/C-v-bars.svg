@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="#111114"/>
+  <!-- a V drawn as waveform bars of decreasing height meeting at the bottom -->
+  <g fill="#FFFFFF">
+    <rect x="262" y="300" width="56" height="200" rx="28"/>
+    <rect x="352" y="300" width="56" height="320" rx="28"/>
+    <rect x="442" y="300" width="56" height="440" rx="28"/>
+    <rect x="532" y="300" width="56" height="440" rx="28"/>
+    <rect x="622" y="300" width="56" height="320" rx="28"/>
+    <rect x="712" y="300" width="56" height="200" rx="28"/>
+  </g>
+  <!-- the V cut: dark wedge over the bars' bottom so they form a V -->
+  <path d="M232 300 L512 780 L792 300 L792 260 L232 260 Z" fill="#111114" opacity="0"/>
+  <g fill="#111114">
+    <polygon points="220,470 512,830 804,470 804,900 220,900"/>
+  </g>
+</svg>

@@ -1,0 +1,546 @@
+{
+ "pack": "workplace",
+ "terms": [
+  {
+   "text": "Workday",
+   "aliases": [
+    "workday",
+    "work day"
+   ]
+  },
+  {
+   "text": "BambooHR",
+   "aliases": [
+    "bamboohr",
+    "bamboo h r"
+   ]
+  },
+  {
+   "text": "Gusto",
+   "aliases": [
+    "gusto"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Rippling",
+   "aliases": [
+    "rippling"
+   ]
+  },
+  {
+   "text": "Deel",
+   "aliases": [
+    "deel",
+    "deal"
+   ]
+  },
+  {
+   "text": "Remote.com",
+   "aliases": [
+    "remote dot com",
+    "remote com"
+   ]
+  },
+  {
+   "text": "Lattice",
+   "aliases": [
+    "lattice"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Culture Amp",
+   "aliases": [
+    "culture amp"
+   ]
+  },
+  {
+   "text": "15Five",
+   "aliases": [
+    "fifteen five",
+    "one five five"
+   ]
+  },
+  {
+   "text": "Greenhouse",
+   "aliases": [
+    "greenhouse"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Lever",
+   "aliases": [
+    "lever"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Ashby",
+   "aliases": [
+    "ashby"
+   ]
+  },
+  {
+   "text": "Calendly",
+   "aliases": [
+    "calendly",
+    "calend lee"
+   ]
+  },
+  {
+   "text": "Cal.com",
+   "aliases": [
+    "cal dot com",
+    "cal com"
+   ]
+  },
+  {
+   "text": "Otter.ai",
+   "aliases": [
+    "otter dot a i",
+    "otter ai"
+   ]
+  },
+  {
+   "text": "Fireflies",
+   "aliases": [
+    "fireflies",
+    "fire flies"
+   ]
+  },
+  {
+   "text": "Fathom",
+   "aliases": [
+    "fathom"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Krisp",
+   "aliases": [
+    "krisp",
+    "crisp"
+   ]
+  },
+  {
+   "text": "Around",
+   "aliases": [
+    "around"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Gather",
+   "aliases": [
+    "gather"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Tandem",
+   "aliases": [
+    "tandem"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Donut",
+   "aliases": [
+    "donut"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Lucidchart",
+   "aliases": [
+    "lucidchart",
+    "lucid chart"
+   ]
+  },
+  {
+   "text": "Whimsical",
+   "aliases": [
+    "whimsical"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "tl;dr",
+   "aliases": [
+    "t l d r",
+    "too long didn't read"
+   ]
+  },
+  {
+   "text": "EOD",
+   "aliases": [
+    "e o d",
+    "end of day"
+   ]
+  },
+  {
+   "text": "EOW",
+   "aliases": [
+    "e o w"
+   ]
+  },
+  {
+   "text": "OOO",
+   "aliases": [
+    "o o o",
+    "out of office"
+   ]
+  },
+  {
+   "text": "WFH",
+   "aliases": [
+    "w f h",
+    "work from home"
+   ]
+  },
+  {
+   "text": "PTO",
+   "aliases": [
+    "p t o"
+   ]
+  },
+  {
+   "text": "1:1",
+   "aliases": [
+    "one on one"
+   ]
+  },
+  {
+   "text": "Q1",
+   "aliases": [
+    "q one"
+   ]
+  },
+  {
+   "text": "Q2",
+   "aliases": [
+    "q two"
+   ]
+  },
+  {
+   "text": "Q3",
+   "aliases": [
+    "q three"
+   ]
+  },
+  {
+   "text": "Q4",
+   "aliases": [
+    "q four"
+   ]
+  },
+  {
+   "text": "FY",
+   "aliases": [
+    "f y",
+    "fiscal year"
+   ]
+  },
+  {
+   "text": "H1",
+   "aliases": [
+    "h one"
+   ]
+  },
+  {
+   "text": "H2",
+   "aliases": [
+    "h two"
+   ]
+  },
+  {
+   "text": "ETA",
+   "aliases": [
+    "e t a"
+   ]
+  },
+  {
+   "text": "ASAP",
+   "aliases": [
+    "asap",
+    "a s a p"
+   ]
+  },
+  {
+   "text": "FYI",
+   "aliases": [
+    "f y i"
+   ]
+  },
+  {
+   "text": "TBD",
+   "aliases": [
+    "t b d"
+   ]
+  },
+  {
+   "text": "WIP",
+   "aliases": [
+    "w i p"
+   ]
+  },
+  {
+   "text": "Slack huddle",
+   "aliases": [
+    "slack huddle"
+   ]
+  },
+  {
+   "text": "async communication",
+   "aliases": [
+    "async communication",
+    "asynchronous communication"
+   ]
+  },
+  {
+   "text": "RTO (return to office)",
+   "aliases": [
+    "r t o",
+    "return to office"
+   ]
+  },
+  {
+   "text": "hybrid work",
+   "aliases": [
+    "hybrid work"
+   ]
+  },
+  {
+   "text": "hot desking",
+   "aliases": [
+    "hot desking"
+   ]
+  },
+  {
+   "text": "all-hands",
+   "aliases": [
+    "all hands"
+   ]
+  },
+  {
+   "text": "town hall",
+   "aliases": [
+    "town hall"
+   ]
+  },
+  {
+   "text": "skip-level",
+   "aliases": [
+    "skip level"
+   ]
+  },
+  {
+   "text": "performance review",
+   "aliases": [
+    "performance review"
+   ]
+  },
+  {
+   "text": "360 review",
+   "aliases": [
+    "three sixty review",
+    "360 review"
+   ]
+  },
+  {
+   "text": "PIP",
+   "aliases": [
+    "p i p"
+   ]
+  },
+  {
+   "text": "org chart",
+   "aliases": [
+    "org chart"
+   ]
+  },
+  {
+   "text": "headcount",
+   "aliases": [
+    "headcount",
+    "head count"
+   ]
+  },
+  {
+   "text": "onboarding buddy",
+   "aliases": [
+    "onboarding buddy"
+   ]
+  },
+  {
+   "text": "offboarding",
+   "aliases": [
+    "offboarding",
+    "off boarding"
+   ]
+  },
+  {
+   "text": "exit interview",
+   "aliases": [
+    "exit interview"
+   ]
+  },
+  {
+   "text": "HRIS",
+   "aliases": [
+    "h r i s"
+   ]
+  },
+  {
+   "text": "ATS",
+   "aliases": [
+    "a t s"
+   ]
+  },
+  {
+   "text": "background check",
+   "aliases": [
+    "background check"
+   ]
+  },
+  {
+   "text": "reference check",
+   "aliases": [
+    "reference check"
+   ]
+  },
+  {
+   "text": "offer letter",
+   "aliases": [
+    "offer letter"
+   ]
+  },
+  {
+   "text": "compensation band",
+   "aliases": [
+    "compensation band"
+   ]
+  },
+  {
+   "text": "equity grant",
+   "aliases": [
+    "equity grant"
+   ]
+  },
+  {
+   "text": "RSU",
+   "aliases": [
+    "r s u"
+   ]
+  },
+  {
+   "text": "benefits enrollment",
+   "aliases": [
+    "benefits enrollment"
+   ]
+  },
+  {
+   "text": "open enrollment",
+   "aliases": [
+    "open enrollment"
+   ]
+  },
+  {
+   "text": "401k",
+   "aliases": [
+    "four oh one k"
+   ]
+  },
+  {
+   "text": "sick leave",
+   "aliases": [
+    "sick leave"
+   ]
+  },
+  {
+   "text": "parental leave",
+   "aliases": [
+    "parental leave"
+   ]
+  },
+  {
+   "text": "sabbatical",
+   "aliases": [
+    "sabbatical"
+   ]
+  },
+  {
+   "text": "DST",
+   "aliases": [
+    "d s t",
+    "daylight saving time"
+   ]
+  },
+  {
+   "text": "Microsoft Teams",
+   "aliases": [
+    "microsoft teams",
+    "m s teams"
+   ]
+  },
+  {
+   "text": "SharePoint",
+   "aliases": [
+    "sharepoint",
+    "share point"
+   ]
+  },
+  {
+   "text": "Miro",
+   "aliases": [
+    "miro",
+    "mee roh"
+   ]
+  },
+  {
+   "text": "no-meeting day",
+   "aliases": [
+    "no meeting day"
+   ]
+  },
+  {
+   "text": "focus time",
+   "aliases": [
+    "focus time"
+   ]
+  },
+  {
+   "text": "core hours",
+   "aliases": [
+    "core hours"
+   ]
+  },
+  {
+   "text": "time-off request",
+   "aliases": [
+    "time off request"
+   ]
+  },
+  {
+   "text": "org design",
+   "aliases": [
+    "org design"
+   ]
+  },
+  {
+   "text": "watercooler chat",
+   "aliases": [
+    "watercooler chat",
+    "water cooler chat"
+   ]
+  },
+  {
+   "text": "async update",
+   "aliases": [
+    "async update"
+   ]
+  }
+ ]
+}

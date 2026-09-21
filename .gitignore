@@ -1,0 +1,22 @@
+.DS_Store
+*.xcodeproj
+!project.yml
+xcuserdata/
+DerivedData/
+.build/
+build/
+*.xcuserstate
+references/
+Models/
+*.dmg
+.env
+addon-build/
+
+# XcodeGen generated
+Support/Info.plist
+Support/Zumbo.entitlements
+build/sparkle-tools/
+
+# the real project spec (team, bundle id, update feed, Sparkle key) stays local;
+# copy project.example.yml to project.yml and fill in your own values
+project.yml

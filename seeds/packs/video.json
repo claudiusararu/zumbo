@@ -1,0 +1,556 @@
+{
+ "pack": "video",
+ "terms": [
+  {
+   "text": "Premiere Pro",
+   "aliases": [
+    "premiere pro",
+    "premier pro"
+   ]
+  },
+  {
+   "text": "Final Cut Pro",
+   "aliases": [
+    "final cut pro",
+    "final cut"
+   ]
+  },
+  {
+   "text": "DaVinci Resolve",
+   "aliases": [
+    "davinci resolve",
+    "da vinci resolve"
+   ]
+  },
+  {
+   "text": "After Effects",
+   "aliases": [
+    "after effects"
+   ]
+  },
+  {
+   "text": "CapCut",
+   "aliases": [
+    "capcut",
+    "cap cut"
+   ]
+  },
+  {
+   "text": "Descript",
+   "aliases": [
+    "descript",
+    "de script"
+   ]
+  },
+  {
+   "text": "OBS",
+   "aliases": [
+    "o b s"
+   ]
+  },
+  {
+   "text": "Streamlabs",
+   "aliases": [
+    "streamlabs",
+    "stream labs"
+   ]
+  },
+  {
+   "text": "Ecamm",
+   "aliases": [
+    "ecamm",
+    "e cam"
+   ]
+  },
+  {
+   "text": "Riverside",
+   "aliases": [
+    "riverside",
+    "river side"
+   ]
+  },
+  {
+   "text": "Zencastr",
+   "aliases": [
+    "zencastr",
+    "zen caster"
+   ]
+  },
+  {
+   "text": "Loom",
+   "aliases": [
+    "loom"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Screen Studio",
+   "aliases": [
+    "screen studio"
+   ]
+  },
+  {
+   "text": "Twitch",
+   "aliases": [
+    "twitch"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "YouTube Studio",
+   "aliases": [
+    "youtube studio"
+   ]
+  },
+  {
+   "text": "Kick",
+   "aliases": [
+    "kick"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "thumbnail",
+   "aliases": [
+    "thumbnail",
+    "thumb nail"
+   ]
+  },
+  {
+   "text": "B-roll",
+   "aliases": [
+    "b roll"
+   ]
+  },
+  {
+   "text": "LUT",
+   "aliases": [
+    "lut",
+    "l u t"
+   ]
+  },
+  {
+   "text": "codec",
+   "aliases": [
+    "codec"
+   ]
+  },
+  {
+   "text": "H.264",
+   "aliases": [
+    "h two six four",
+    "h dot two six four"
+   ]
+  },
+  {
+   "text": "H.265",
+   "aliases": [
+    "h two six five"
+   ]
+  },
+  {
+   "text": "HEVC",
+   "aliases": [
+    "h e v c"
+   ]
+  },
+  {
+   "text": "ProRes",
+   "aliases": [
+    "prores",
+    "pro res"
+   ]
+  },
+  {
+   "text": "4K",
+   "aliases": [
+    "four k"
+   ]
+  },
+  {
+   "text": "24fps",
+   "aliases": [
+    "twenty four f p s",
+    "twenty four frames per second"
+   ]
+  },
+  {
+   "text": "bitrate",
+   "aliases": [
+    "bitrate",
+    "bit rate"
+   ]
+  },
+  {
+   "text": "chroma key",
+   "aliases": [
+    "chroma key"
+   ]
+  },
+  {
+   "text": "keyframe",
+   "aliases": [
+    "keyframe",
+    "key frame"
+   ]
+  },
+  {
+   "text": "timeline",
+   "aliases": [
+    "timeline"
+   ]
+  },
+  {
+   "text": "Adobe Audition",
+   "aliases": [
+    "adobe audition"
+   ]
+  },
+  {
+   "text": "Logic Pro",
+   "aliases": [
+    "logic pro"
+   ]
+  },
+  {
+   "text": "Ableton",
+   "aliases": [
+    "ableton",
+    "able ton"
+   ]
+  },
+  {
+   "text": "FL Studio",
+   "aliases": [
+    "f l studio",
+    "fl studio"
+   ]
+  },
+  {
+   "text": "Pro Tools",
+   "aliases": [
+    "pro tools"
+   ]
+  },
+  {
+   "text": "Rode",
+   "aliases": [
+    "rode",
+    "roe day"
+   ]
+  },
+  {
+   "text": "Shure SM7B",
+   "aliases": [
+    "shure s m seven b",
+    "shure sm7b"
+   ]
+  },
+  {
+   "text": "Elgato",
+   "aliases": [
+    "elgato",
+    "el gah toe"
+   ]
+  },
+  {
+   "text": "Stream Deck",
+   "aliases": [
+    "stream deck"
+   ]
+  },
+  {
+   "text": "frame rate",
+   "aliases": [
+    "frame rate"
+   ]
+  },
+  {
+   "text": "aspect ratio",
+   "aliases": [
+    "aspect ratio"
+   ]
+  },
+  {
+   "text": "resolution",
+   "aliases": [
+    "resolution"
+   ]
+  },
+  {
+   "text": "render",
+   "aliases": [
+    "render"
+   ]
+  },
+  {
+   "text": "export settings",
+   "aliases": [
+    "export settings"
+   ]
+  },
+  {
+   "text": "color grading",
+   "aliases": [
+    "color grading"
+   ]
+  },
+  {
+   "text": "color correction",
+   "aliases": [
+    "color correction"
+   ]
+  },
+  {
+   "text": "green screen",
+   "aliases": [
+    "green screen"
+   ]
+  },
+  {
+   "text": "jump cut",
+   "aliases": [
+    "jump cut"
+   ]
+  },
+  {
+   "text": "match cut",
+   "aliases": [
+    "match cut"
+   ]
+  },
+  {
+   "text": "L-cut",
+   "aliases": [
+    "l cut"
+   ]
+  },
+  {
+   "text": "J-cut",
+   "aliases": [
+    "j cut"
+   ]
+  },
+  {
+   "text": "transition",
+   "aliases": [
+    "transition"
+   ]
+  },
+  {
+   "text": "fade in",
+   "aliases": [
+    "fade in"
+   ]
+  },
+  {
+   "text": "fade out",
+   "aliases": [
+    "fade out"
+   ]
+  },
+  {
+   "text": "voiceover",
+   "aliases": [
+    "voiceover",
+    "voice over"
+   ]
+  },
+  {
+   "text": "lower third",
+   "aliases": [
+    "lower third"
+   ]
+  },
+  {
+   "text": "title card",
+   "aliases": [
+    "title card"
+   ]
+  },
+  {
+   "text": "waveform",
+   "aliases": [
+    "waveform",
+    "wave form"
+   ]
+  },
+  {
+   "text": "audio ducking",
+   "aliases": [
+    "audio ducking"
+   ]
+  },
+  {
+   "text": "noise gate",
+   "aliases": [
+    "noise gate"
+   ]
+  },
+  {
+   "text": "compressor (audio)",
+   "aliases": [
+    "compressor",
+    "audio compressor"
+   ]
+  },
+  {
+   "text": "EQ",
+   "aliases": [
+    "e q",
+    "equalizer"
+   ]
+  },
+  {
+   "text": "gain",
+   "aliases": [
+    "gain"
+   ]
+  },
+  {
+   "text": "pop filter",
+   "aliases": [
+    "pop filter"
+   ]
+  },
+  {
+   "text": "boom mic",
+   "aliases": [
+    "boom mic"
+   ]
+  },
+  {
+   "text": "lavalier mic",
+   "aliases": [
+    "lavalier mic",
+    "lav mic"
+   ]
+  },
+  {
+   "text": "ring light",
+   "aliases": [
+    "ring light"
+   ]
+  },
+  {
+   "text": "softbox",
+   "aliases": [
+    "softbox",
+    "soft box"
+   ]
+  },
+  {
+   "text": "gimbal",
+   "aliases": [
+    "gimbal"
+   ]
+  },
+  {
+   "text": "drone footage",
+   "aliases": [
+    "drone footage"
+   ]
+  },
+  {
+   "text": "time-lapse",
+   "aliases": [
+    "time lapse"
+   ]
+  },
+  {
+   "text": "slow motion",
+   "aliases": [
+    "slow motion"
+   ]
+  },
+  {
+   "text": "multicam",
+   "aliases": [
+    "multicam",
+    "multi cam"
+   ]
+  },
+  {
+   "text": "proxy files",
+   "aliases": [
+    "proxy files"
+   ]
+  },
+  {
+   "text": "NLE",
+   "aliases": [
+    "n l e"
+   ]
+  },
+  {
+   "text": "MP4",
+   "aliases": [
+    "m p four"
+   ]
+  },
+  {
+   "text": "MOV",
+   "aliases": [
+    "mov",
+    "m o v"
+   ]
+  },
+  {
+   "text": "WAV",
+   "aliases": [
+    "wav",
+    "w a v"
+   ]
+  },
+  {
+   "text": "sample rate",
+   "aliases": [
+    "sample rate"
+   ]
+  },
+  {
+   "text": "bit depth",
+   "aliases": [
+    "bit depth"
+   ]
+  },
+  {
+   "text": "RTMP",
+   "aliases": [
+    "r t m p"
+   ]
+  },
+  {
+   "text": "overlay",
+   "aliases": [
+    "overlay",
+    "over lay"
+   ]
+  },
+  {
+   "text": "donation alert",
+   "aliases": [
+    "donation alert"
+   ]
+  },
+  {
+   "text": "subathon",
+   "aliases": [
+    "subathon",
+    "sub a thon"
+   ]
+  },
+  {
+   "text": "VOD",
+   "aliases": [
+    "v o d"
+   ]
+  },
+  {
+   "text": "stinger transition",
+   "aliases": [
+    "stinger transition"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1160 @@
+{
+ "pack": "devtools",
+ "terms": [
+  {
+   "text": "GitHub",
+   "aliases": [
+    "github",
+    "git hub"
+   ]
+  },
+  {
+   "text": "GitHub Actions",
+   "aliases": [
+    "github actions",
+    "git hub actions"
+   ]
+  },
+  {
+   "text": "GitLab",
+   "aliases": [
+    "gitlab",
+    "git lab"
+   ]
+  },
+  {
+   "text": "Bitbucket",
+   "aliases": [
+    "bitbucket",
+    "bit bucket"
+   ]
+  },
+  {
+   "text": "Jira",
+   "aliases": [
+    "jira"
+   ]
+  },
+  {
+   "text": "Confluence",
+   "aliases": [
+    "confluence"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Linear",
+   "aliases": [
+    "linear"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Jenkins",
+   "aliases": [
+    "jenkins"
+   ]
+  },
+  {
+   "text": "CircleCI",
+   "aliases": [
+    "circle c i",
+    "circle ci"
+   ]
+  },
+  {
+   "text": "Travis CI",
+   "aliases": [
+    "travis c i",
+    "travis ci"
+   ]
+  },
+  {
+   "text": "Postman",
+   "aliases": [
+    "postman"
+   ]
+  },
+  {
+   "text": "Insomnia",
+   "aliases": [
+    "insomnia"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "VS Code",
+   "aliases": [
+    "v s code",
+    "vs code",
+    "visual studio code"
+   ]
+  },
+  {
+   "text": "Xcode",
+   "aliases": [
+    "xcode",
+    "x code"
+   ]
+  },
+  {
+   "text": "Android Studio",
+   "aliases": [
+    "android studio"
+   ]
+  },
+  {
+   "text": "IntelliJ",
+   "aliases": [
+    "intellij",
+    "intelli j"
+   ]
+  },
+  {
+   "text": "WebStorm",
+   "aliases": [
+    "web storm",
+    "webstorm"
+   ]
+  },
+  {
+   "text": "PyCharm",
+   "aliases": [
+    "pycharm",
+    "pie charm"
+   ]
+  },
+  {
+   "text": "Neovim",
+   "aliases": [
+    "neovim",
+    "neo vim"
+   ]
+  },
+  {
+   "text": "Vim",
+   "aliases": [
+    "vim"
+   ]
+  },
+  {
+   "text": "Emacs",
+   "aliases": [
+    "emacs",
+    "e max"
+   ]
+  },
+  {
+   "text": "Sublime Text",
+   "aliases": [
+    "sublime text"
+   ]
+  },
+  {
+   "text": "Zed",
+   "aliases": [
+    "zed"
+   ]
+  },
+  {
+   "text": "Cursor",
+   "aliases": [
+    "cursor"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Windsurf",
+   "aliases": [
+    "windsurf",
+    "wind surf"
+   ]
+  },
+  {
+   "text": "iTerm",
+   "aliases": [
+    "i term",
+    "iterm"
+   ]
+  },
+  {
+   "text": "Warp",
+   "aliases": [
+    "warp"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Ghostty",
+   "aliases": [
+    "ghostty",
+    "ghost tea"
+   ]
+  },
+  {
+   "text": "tmux",
+   "aliases": [
+    "t mux",
+    "tmux"
+   ]
+  },
+  {
+   "text": "zsh",
+   "aliases": [
+    "z s h",
+    "zish",
+    "z shell"
+   ]
+  },
+  {
+   "text": "Bash",
+   "aliases": [
+    "bash"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "fish",
+   "aliases": [
+    "fish shell"
+   ]
+  },
+  {
+   "text": "Homebrew",
+   "aliases": [
+    "homebrew",
+    "home brew"
+   ]
+  },
+  {
+   "text": "Raycast",
+   "aliases": [
+    "raycast",
+    "ray cast"
+   ]
+  },
+  {
+   "text": "Alfred",
+   "aliases": [
+    "alfred"
+   ]
+  },
+  {
+   "text": "Docker Desktop",
+   "aliases": [
+    "docker desktop"
+   ]
+  },
+  {
+   "text": "OrbStack",
+   "aliases": [
+    "orb stack",
+    "orbstack"
+   ]
+  },
+  {
+   "text": "Ngrok",
+   "aliases": [
+    "n grok",
+    "ngrok"
+   ]
+  },
+  {
+   "text": "Charles Proxy",
+   "aliases": [
+    "charles proxy"
+   ]
+  },
+  {
+   "text": "Proxyman",
+   "aliases": [
+    "proxy man",
+    "proxyman"
+   ]
+  },
+  {
+   "text": "Wireshark",
+   "aliases": [
+    "wireshark",
+    "wire shark"
+   ]
+  },
+  {
+   "text": "Fastlane",
+   "aliases": [
+    "fastlane",
+    "fast lane"
+   ]
+  },
+  {
+   "text": "TestFlight",
+   "aliases": [
+    "test flight",
+    "testflight"
+   ]
+  },
+  {
+   "text": "App Store Connect",
+   "aliases": [
+    "app store connect"
+   ]
+  },
+  {
+   "text": "Xcode Cloud",
+   "aliases": [
+    "xcode cloud"
+   ]
+  },
+  {
+   "text": "Instruments",
+   "aliases": [
+    "instruments"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Simulator",
+   "aliases": [
+    "simulator"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "SwiftLint",
+   "aliases": [
+    "swift lint",
+    "swiftlint"
+   ]
+  },
+  {
+   "text": "SwiftFormat",
+   "aliases": [
+    "swift format",
+    "swiftformat"
+   ]
+  },
+  {
+   "text": "XcodeGen",
+   "aliases": [
+    "xcode gen",
+    "xcodegen"
+   ]
+  },
+  {
+   "text": "Tuist",
+   "aliases": [
+    "tuist",
+    "too ist"
+   ]
+  },
+  {
+   "text": "CocoaPods",
+   "aliases": [
+    "cocoa pods",
+    "cocoapods"
+   ]
+  },
+  {
+   "text": "Carthage",
+   "aliases": [
+    "carthage"
+   ]
+  },
+  {
+   "text": "Swift Package Manager",
+   "aliases": [
+    "swift package manager"
+   ]
+  },
+  {
+   "text": "SPM",
+   "aliases": [
+    "s p m"
+   ]
+  },
+  {
+   "text": "npm",
+   "aliases": [
+    "n p m",
+    "npm"
+   ]
+  },
+  {
+   "text": "pnpm",
+   "aliases": [
+    "p n p m",
+    "pnpm"
+   ]
+  },
+  {
+   "text": "Yarn",
+   "aliases": [
+    "yarn"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Bun",
+   "aliases": [
+    "bun"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Deno",
+   "aliases": [
+    "deno"
+   ]
+  },
+  {
+   "text": "Node.js",
+   "aliases": [
+    "node j s",
+    "node js",
+    "node dot js",
+    "node"
+   ]
+  },
+  {
+   "text": "nvm",
+   "aliases": [
+    "n v m"
+   ]
+  },
+  {
+   "text": "Vite",
+   "aliases": [
+    "vite",
+    "veet"
+   ]
+  },
+  {
+   "text": "Webpack",
+   "aliases": [
+    "webpack",
+    "web pack"
+   ]
+  },
+  {
+   "text": "esbuild",
+   "aliases": [
+    "e s build",
+    "esbuild"
+   ]
+  },
+  {
+   "text": "Turbopack",
+   "aliases": [
+    "turbo pack",
+    "turbopack"
+   ]
+  },
+  {
+   "text": "Turborepo",
+   "aliases": [
+    "turbo repo",
+    "turborepo"
+   ]
+  },
+  {
+   "text": "Nx",
+   "aliases": [
+    "n x"
+   ]
+  },
+  {
+   "text": "ESLint",
+   "aliases": [
+    "e s lint",
+    "es lint",
+    "eslint"
+   ]
+  },
+  {
+   "text": "Prettier",
+   "aliases": [
+    "prettier"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Biome",
+   "aliases": [
+    "biome"
+   ]
+  },
+  {
+   "text": "Jest",
+   "aliases": [
+    "jest"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Vitest",
+   "aliases": [
+    "vitest",
+    "vee test"
+   ]
+  },
+  {
+   "text": "Mocha",
+   "aliases": [
+    "mocha"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Playwright",
+   "aliases": [
+    "playwright"
+   ]
+  },
+  {
+   "text": "Cypress",
+   "aliases": [
+    "cypress"
+   ]
+  },
+  {
+   "text": "Storybook",
+   "aliases": [
+    "storybook",
+    "story book"
+   ]
+  },
+  {
+   "text": "Chromatic",
+   "aliases": [
+    "chromatic"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Figma",
+   "aliases": [
+    "figma"
+   ]
+  },
+  {
+   "text": "Sketch",
+   "aliases": [
+    "sketch"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Zeplin",
+   "aliases": [
+    "zeplin"
+   ]
+  },
+  {
+   "text": "Lottie",
+   "aliases": [
+    "lottie"
+   ]
+  },
+  {
+   "text": "Rive",
+   "aliases": [
+    "rive"
+   ]
+  },
+  {
+   "text": "Sparkle",
+   "aliases": [
+    "sparkle"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Sentry",
+   "aliases": [
+    "sentry"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Crashlytics",
+   "aliases": [
+    "crashlytics",
+    "crash lytics"
+   ]
+  },
+  {
+   "text": "Mixpanel",
+   "aliases": [
+    "mixpanel",
+    "mix panel"
+   ]
+  },
+  {
+   "text": "Amplitude",
+   "aliases": [
+    "amplitude"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "PostHog",
+   "aliases": [
+    "post hog",
+    "posthog"
+   ]
+  },
+  {
+   "text": "Plausible",
+   "aliases": [
+    "plausible"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Umami",
+   "aliases": [
+    "umami"
+   ]
+  },
+  {
+   "text": "Google Analytics",
+   "aliases": [
+    "google analytics"
+   ]
+  },
+  {
+   "text": "Hotjar",
+   "aliases": [
+    "hot jar",
+    "hotjar"
+   ]
+  },
+  {
+   "text": "Segment",
+   "aliases": [
+    "segment"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "LaunchDarkly",
+   "aliases": [
+    "launch darkly",
+    "launchdarkly"
+   ]
+  },
+  {
+   "text": "Stripe",
+   "aliases": [
+    "stripe"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Paddle",
+   "aliases": [
+    "paddle"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "LemonSqueezy",
+   "aliases": [
+    "lemon squeezy"
+   ]
+  },
+  {
+   "text": "Dodo Payments",
+   "aliases": [
+    "dodo payments",
+    "dodo payment"
+   ]
+  },
+  {
+   "text": "RevenueCat",
+   "aliases": [
+    "revenue cat"
+   ]
+  },
+  {
+   "text": "Polar",
+   "aliases": [
+    "polar"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Gumroad",
+   "aliases": [
+    "gumroad",
+    "gum road"
+   ]
+  },
+  {
+   "text": "Shopify",
+   "aliases": [
+    "shopify"
+   ]
+  },
+  {
+   "text": "WooCommerce",
+   "aliases": [
+    "woo commerce",
+    "woocommerce"
+   ]
+  },
+  {
+   "text": "Twilio",
+   "aliases": [
+    "twilio"
+   ]
+  },
+  {
+   "text": "SendGrid",
+   "aliases": [
+    "send grid",
+    "sendgrid"
+   ]
+  },
+  {
+   "text": "Resend",
+   "aliases": [
+    "resend"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Postmark",
+   "aliases": [
+    "postmark",
+    "post mark"
+   ]
+  },
+  {
+   "text": "Mailgun",
+   "aliases": [
+    "mail gun",
+    "mailgun"
+   ]
+  },
+  {
+   "text": "Auth0",
+   "aliases": [
+    "auth zero",
+    "auth0"
+   ]
+  },
+  {
+   "text": "Clerk",
+   "aliases": [
+    "clerk"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Okta",
+   "aliases": [
+    "okta"
+   ]
+  },
+  {
+   "text": "Keycloak",
+   "aliases": [
+    "key cloak",
+    "keycloak"
+   ]
+  },
+  {
+   "text": "Algolia",
+   "aliases": [
+    "algolia"
+   ]
+  },
+  {
+   "text": "Meilisearch",
+   "aliases": [
+    "meili search",
+    "meilisearch"
+   ]
+  },
+  {
+   "text": "Typesense",
+   "aliases": [
+    "type sense",
+    "typesense"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Redis",
+   "aliases": [
+    "redis",
+    "red is"
+   ]
+  },
+  {
+   "text": "Memcached",
+   "aliases": [
+    "mem cached",
+    "memcached"
+   ]
+  },
+  {
+   "text": "Kafka",
+   "aliases": [
+    "kafka"
+   ]
+  },
+  {
+   "text": "RabbitMQ",
+   "aliases": [
+    "rabbit m q",
+    "rabbit mq"
+   ]
+  },
+  {
+   "text": "NATS",
+   "aliases": [
+    "nats"
+   ]
+  },
+  {
+   "text": "gRPC",
+   "aliases": [
+    "g r p c"
+   ]
+  },
+  {
+   "text": "GraphQL",
+   "aliases": [
+    "graph q l",
+    "graphql"
+   ]
+  },
+  {
+   "text": "REST",
+   "aliases": [
+    "rest a p i"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "OpenAPI",
+   "aliases": [
+    "open a p i",
+    "open api"
+   ]
+  },
+  {
+   "text": "Swagger",
+   "aliases": [
+    "swagger"
+   ]
+  },
+  {
+   "text": "tRPC",
+   "aliases": [
+    "t r p c"
+   ]
+  },
+  {
+   "text": "WebSocket",
+   "aliases": [
+    "web socket",
+    "websocket"
+   ]
+  },
+  {
+   "text": "WebRTC",
+   "aliases": [
+    "web r t c"
+   ]
+  },
+  {
+   "text": "OAuth",
+   "aliases": [
+    "o auth",
+    "oauth"
+   ]
+  },
+  {
+   "text": "OAuth2",
+   "aliases": [
+    "o auth two",
+    "oauth two"
+   ]
+  },
+  {
+   "text": "JWT",
+   "aliases": [
+    "j w t",
+    "jot"
+   ]
+  },
+  {
+   "text": "SAML",
+   "aliases": [
+    "saml",
+    "sam l"
+   ]
+  },
+  {
+   "text": "SSO",
+   "aliases": [
+    "s s o"
+   ]
+  },
+  {
+   "text": "MFA",
+   "aliases": [
+    "m f a"
+   ]
+  },
+  {
+   "text": "2FA",
+   "aliases": [
+    "two f a",
+    "two factor"
+   ]
+  },
+  {
+   "text": "SSH",
+   "aliases": [
+    "s s h"
+   ]
+  },
+  {
+   "text": "TLS",
+   "aliases": [
+    "t l s"
+   ]
+  },
+  {
+   "text": "HTTPS",
+   "aliases": [
+    "h t t p s"
+   ]
+  },
+  {
+   "text": "HTTP",
+   "aliases": [
+    "h t t p"
+   ]
+  },
+  {
+   "text": "DNS",
+   "aliases": [
+    "d n s"
+   ]
+  },
+  {
+   "text": "CDN",
+   "aliases": [
+    "c d n"
+   ]
+  },
+  {
+   "text": "CI/CD",
+   "aliases": [
+    "c i c d",
+    "ci cd"
+   ]
+  },
+  {
+   "text": "PR",
+   "aliases": [
+    "p r",
+    "pull request"
+   ]
+  },
+  {
+   "text": "MR",
+   "aliases": [
+    "merge request"
+   ]
+  },
+  {
+   "text": "CLI",
+   "aliases": [
+    "c l i"
+   ]
+  },
+  {
+   "text": "SDK",
+   "aliases": [
+    "s d k"
+   ]
+  },
+  {
+   "text": "API",
+   "aliases": [
+    "a p i"
+   ]
+  },
+  {
+   "text": "IDE",
+   "aliases": [
+    "i d e"
+   ]
+  },
+  {
+   "text": "LSP",
+   "aliases": [
+    "l s p"
+   ]
+  },
+  {
+   "text": "regex",
+   "aliases": [
+    "regex",
+    "reg ex"
+   ]
+  },
+  {
+   "text": "cron",
+   "aliases": [
+    "cron",
+    "cron job"
+   ]
+  },
+  {
+   "text": "curl",
+   "aliases": [
+    "curl"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "wget",
+   "aliases": [
+    "w get",
+    "wget"
+   ]
+  },
+  {
+   "text": "grep",
+   "aliases": [
+    "grep"
+   ]
+  },
+  {
+   "text": "sed",
+   "aliases": [
+    "sed"
+   ]
+  },
+  {
+   "text": "awk",
+   "aliases": [
+    "awk"
+   ]
+  },
+  {
+   "text": "jq",
+   "aliases": [
+    "j q"
+   ]
+  },
+  {
+   "text": "ripgrep",
+   "aliases": [
+    "rip grep",
+    "ripgrep"
+   ]
+  },
+  {
+   "text": "fzf",
+   "aliases": [
+    "f z f"
+   ]
+  },
+  {
+   "text": "git rebase",
+   "aliases": [
+    "git rebase"
+   ]
+  },
+  {
+   "text": "git stash",
+   "aliases": [
+    "git stash"
+   ]
+  },
+  {
+   "text": "git cherry-pick",
+   "aliases": [
+    "git cherry pick"
+   ]
+  },
+  {
+   "text": "git bisect",
+   "aliases": [
+    "git bisect"
+   ]
+  },
+  {
+   "text": "monorepo",
+   "aliases": [
+    "mono repo",
+    "monorepo"
+   ]
+  },
+  {
+   "text": "localhost",
+   "aliases": [
+    "local host",
+    "localhost"
+   ]
+  },
+  {
+   "text": "Dockerfile",
+   "aliases": [
+    "docker file",
+    "dockerfile"
+   ]
+  },
+  {
+   "text": "Makefile",
+   "aliases": [
+    "make file",
+    "makefile"
+   ]
+  },
+  {
+   "text": "package.json",
+   "aliases": [
+    "package dot jason",
+    "package json"
+   ]
+  },
+  {
+   "text": "tsconfig",
+   "aliases": [
+    "t s config",
+    "ts config"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": ".env",
+   "aliases": [
+    "dot env",
+    "env file"
+   ]
+  },
+  {
+   "text": "README",
+   "aliases": [
+    "read me",
+    "readme"
+   ]
+  },
+  {
+   "text": "CHANGELOG",
+   "aliases": [
+    "change log",
+    "changelog"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2080 @@
+{
+ "pack": "marketing",
+ "terms": [
+  {
+   "text": "SERP",
+   "aliases": [
+    "serp"
+   ]
+  },
+  {
+   "text": "backlink",
+   "aliases": [
+    "backlink",
+    "back link"
+   ]
+  },
+  {
+   "text": "canonical tag",
+   "aliases": [
+    "canonical tag"
+   ]
+  },
+  {
+   "text": "hreflang",
+   "aliases": [
+    "hreflang",
+    "h ref lang"
+   ]
+  },
+  {
+   "text": "schema markup",
+   "aliases": [
+    "schema markup"
+   ]
+  },
+  {
+   "text": "Core Web Vitals",
+   "aliases": [
+    "core web vitals"
+   ]
+  },
+  {
+   "text": "LCP",
+   "aliases": [
+    "l c p"
+   ]
+  },
+  {
+   "text": "CLS",
+   "aliases": [
+    "c l s"
+   ]
+  },
+  {
+   "text": "INP",
+   "aliases": [
+    "i n p"
+   ]
+  },
+  {
+   "text": "Google Search Console",
+   "aliases": [
+    "google search console"
+   ]
+  },
+  {
+   "text": "Ahrefs",
+   "aliases": [
+    "ahrefs",
+    "ay refs",
+    "a h refs"
+   ]
+  },
+  {
+   "text": "Semrush",
+   "aliases": [
+    "semrush",
+    "sem rush"
+   ]
+  },
+  {
+   "text": "Moz",
+   "aliases": [
+    "moz"
+   ]
+  },
+  {
+   "text": "HubSpot",
+   "aliases": [
+    "hubspot",
+    "hub spot"
+   ]
+  },
+  {
+   "text": "Mailchimp",
+   "aliases": [
+    "mailchimp",
+    "mail chimp"
+   ]
+  },
+  {
+   "text": "Klaviyo",
+   "aliases": [
+    "klaviyo",
+    "cla vee oh"
+   ]
+  },
+  {
+   "text": "ActiveCampaign",
+   "aliases": [
+    "activecampaign",
+    "active campaign"
+   ]
+  },
+  {
+   "text": "Hootsuite",
+   "aliases": [
+    "hootsuite",
+    "hoot suite"
+   ]
+  },
+  {
+   "text": "Buffer",
+   "aliases": [
+    "buffer"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Canva",
+   "aliases": [
+    "canva",
+    "can va"
+   ]
+  },
+  {
+   "text": "Meta Ads",
+   "aliases": [
+    "meta ads"
+   ]
+  },
+  {
+   "text": "Google Ads",
+   "aliases": [
+    "google ads"
+   ]
+  },
+  {
+   "text": "TikTok Ads",
+   "aliases": [
+    "tiktok ads",
+    "tik tok ads"
+   ]
+  },
+  {
+   "text": "Apple Search Ads",
+   "aliases": [
+    "apple search ads"
+   ]
+  },
+  {
+   "text": "App Store Connect",
+   "aliases": [
+    "app store connect"
+   ]
+  },
+  {
+   "text": "A/B test",
+   "aliases": [
+    "a b test",
+    "a slash b test"
+   ]
+  },
+  {
+   "text": "funnel",
+   "aliases": [
+    "funnel"
+   ]
+  },
+  {
+   "text": "CRO",
+   "aliases": [
+    "c r o"
+   ]
+  },
+  {
+   "text": "UGC",
+   "aliases": [
+    "u g c"
+   ]
+  },
+  {
+   "text": "PLG",
+   "aliases": [
+    "p l g"
+   ]
+  },
+  {
+   "text": "ICP",
+   "aliases": [
+    "i c p"
+   ]
+  },
+  {
+   "text": "GTM",
+   "aliases": [
+    "g t m"
+   ]
+  },
+  {
+   "text": "TAM",
+   "aliases": [
+    "t a m"
+   ]
+  },
+  {
+   "text": "SAM",
+   "aliases": [
+    "s a m"
+   ]
+  },
+  {
+   "text": "SOM",
+   "aliases": [
+    "s o m"
+   ]
+  },
+  {
+   "text": "NPS",
+   "aliases": [
+    "n p s"
+   ]
+  },
+  {
+   "text": "CRM",
+   "aliases": [
+    "c r m"
+   ]
+  },
+  {
+   "text": "UTM",
+   "aliases": [
+    "u t m"
+   ]
+  },
+  {
+   "text": "landing page",
+   "aliases": [
+    "landing page"
+   ]
+  },
+  {
+   "text": "bounce rate",
+   "aliases": [
+    "bounce rate"
+   ]
+  },
+  {
+   "text": "impressions",
+   "aliases": [
+    "impressions"
+   ]
+  },
+  {
+   "text": "lookalike audience",
+   "aliases": [
+    "lookalike audience"
+   ]
+  },
+  {
+   "text": "retargeting",
+   "aliases": [
+    "retargeting",
+    "re targeting"
+   ]
+  },
+  {
+   "text": "pixel",
+   "aliases": [
+    "pixel"
+   ]
+  },
+  {
+   "text": "attribution window",
+   "aliases": [
+    "attribution window"
+   ]
+  },
+  {
+   "text": "cohort analysis",
+   "aliases": [
+    "cohort analysis"
+   ]
+  },
+  {
+   "text": "drip campaign",
+   "aliases": [
+    "drip campaign"
+   ]
+  },
+  {
+   "text": "lead magnet",
+   "aliases": [
+    "lead magnet"
+   ]
+  },
+  {
+   "text": "gated content",
+   "aliases": [
+    "gated content"
+   ]
+  },
+  {
+   "text": "organic reach",
+   "aliases": [
+    "organic reach"
+   ]
+  },
+  {
+   "text": "paid reach",
+   "aliases": [
+    "paid reach"
+   ]
+  },
+  {
+   "text": "influencer marketing",
+   "aliases": [
+    "influencer marketing"
+   ]
+  },
+  {
+   "text": "affiliate marketing",
+   "aliases": [
+    "affiliate marketing"
+   ]
+  },
+  {
+   "text": "referral program",
+   "aliases": [
+    "referral program"
+   ]
+  },
+  {
+   "text": "email deliverability",
+   "aliases": [
+    "email deliverability"
+   ]
+  },
+  {
+   "text": "open rate",
+   "aliases": [
+    "open rate"
+   ]
+  },
+  {
+   "text": "click-through rate",
+   "aliases": [
+    "click through rate"
+   ]
+  },
+  {
+   "text": "unsubscribe rate",
+   "aliases": [
+    "unsubscribe rate"
+   ]
+  },
+  {
+   "text": "spam score",
+   "aliases": [
+    "spam score"
+   ]
+  },
+  {
+   "text": "domain authority",
+   "aliases": [
+    "domain authority"
+   ]
+  },
+  {
+   "text": "page authority",
+   "aliases": [
+    "page authority"
+   ]
+  },
+  {
+   "text": "anchor text",
+   "aliases": [
+    "anchor text"
+   ]
+  },
+  {
+   "text": "meta description",
+   "aliases": [
+    "meta description"
+   ]
+  },
+  {
+   "text": "alt tag",
+   "aliases": [
+    "alt tag"
+   ]
+  },
+  {
+   "text": "XML sitemap",
+   "aliases": [
+    "x m l sitemap",
+    "xml sitemap"
+   ]
+  },
+  {
+   "text": "robots.txt",
+   "aliases": [
+    "robots dot txt",
+    "robots txt"
+   ]
+  },
+  {
+   "text": "no-index",
+   "aliases": [
+    "no index",
+    "noindex"
+   ]
+  },
+  {
+   "text": "long-tail keyword",
+   "aliases": [
+    "long tail keyword"
+   ]
+  },
+  {
+   "text": "keyword density",
+   "aliases": [
+    "keyword density"
+   ]
+  },
+  {
+   "text": "content pillar",
+   "aliases": [
+    "content pillar"
+   ]
+  },
+  {
+   "text": "topic cluster",
+   "aliases": [
+    "topic cluster"
+   ]
+  },
+  {
+   "text": "evergreen content",
+   "aliases": [
+    "evergreen content"
+   ]
+  },
+  {
+   "text": "buyer persona",
+   "aliases": [
+    "buyer persona"
+   ]
+  },
+  {
+   "text": "customer journey",
+   "aliases": [
+    "customer journey"
+   ]
+  },
+  {
+   "text": "marketing qualified lead",
+   "aliases": [
+    "marketing qualified lead"
+   ]
+  },
+  {
+   "text": "sales qualified lead",
+   "aliases": [
+    "sales qualified lead"
+   ]
+  },
+  {
+   "text": "growth hacking",
+   "aliases": [
+    "growth hacking"
+   ]
+  },
+  {
+   "text": "viral coefficient",
+   "aliases": [
+    "viral coefficient"
+   ]
+  },
+  {
+   "text": "brand awareness",
+   "aliases": [
+    "brand awareness"
+   ]
+  },
+  {
+   "text": "share of voice",
+   "aliases": [
+    "share of voice"
+   ]
+  },
+  {
+   "text": "Google Analytics",
+   "aliases": [
+    "google analytics"
+   ]
+  },
+  {
+   "text": "GA4",
+   "aliases": [
+    "g a four",
+    "g a 4"
+   ]
+  },
+  {
+   "text": "Google Tag Manager",
+   "aliases": [
+    "google tag manager"
+   ]
+  },
+  {
+   "text": "Segment",
+   "aliases": [
+    "segment"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Zapier",
+   "aliases": [
+    "zapier",
+    "zap ee er"
+   ]
+  },
+  {
+   "text": "Make (automation)",
+   "aliases": [
+    "make automation",
+    "make dot com"
+   ]
+  },
+  {
+   "text": "Unbounce",
+   "aliases": [
+    "unbounce",
+    "un bounce"
+   ]
+  },
+  {
+   "text": "Instapage",
+   "aliases": [
+    "instapage",
+    "insta page"
+   ]
+  },
+  {
+   "text": "Optimizely",
+   "aliases": [
+    "optimizely",
+    "optimize lee"
+   ]
+  },
+  {
+   "text": "VWO",
+   "aliases": [
+    "v w o"
+   ]
+  },
+  {
+   "text": "Hotjar",
+   "aliases": [
+    "hotjar",
+    "hot jar"
+   ]
+  },
+  {
+   "text": "Crazy Egg",
+   "aliases": [
+    "crazy egg"
+   ]
+  },
+  {
+   "text": "CPM",
+   "aliases": [
+    "c p m"
+   ]
+  },
+  {
+   "text": "CPC",
+   "aliases": [
+    "c p c"
+   ]
+  },
+  {
+   "text": "CPA",
+   "aliases": [
+    "c p a"
+   ]
+  },
+  {
+   "text": "CTR",
+   "aliases": [
+    "c t r"
+   ]
+  },
+  {
+   "text": "ROAS",
+   "aliases": [
+    "ro as",
+    "r o a s",
+    "roas"
+   ]
+  },
+  {
+   "text": "ROI",
+   "aliases": [
+    "r o i"
+   ]
+  },
+  {
+   "text": "CAC",
+   "aliases": [
+    "c a c",
+    "cac"
+   ]
+  },
+  {
+   "text": "LTV",
+   "aliases": [
+    "l t v"
+   ]
+  },
+  {
+   "text": "SEO",
+   "aliases": [
+    "s e o"
+   ]
+  },
+  {
+   "text": "SEM",
+   "aliases": [
+    "s e m"
+   ]
+  },
+  {
+   "text": "PPC",
+   "aliases": [
+    "p p c"
+   ]
+  },
+  {
+   "text": "KPI",
+   "aliases": [
+    "k p i"
+   ]
+  },
+  {
+   "text": "OKR",
+   "aliases": [
+    "o k r"
+   ]
+  },
+  {
+   "text": "E-E-A-T",
+   "aliases": [
+    "e e a t",
+    "double e a t",
+    "eeat"
+   ]
+  },
+  {
+   "text": "YMYL",
+   "aliases": [
+    "y m y l"
+   ]
+  },
+  {
+   "text": "GEO",
+   "aliases": [
+    "g e o",
+    "generative engine optimization"
+   ]
+  },
+  {
+   "text": "AEO",
+   "aliases": [
+    "a e o",
+    "answer engine optimization"
+   ]
+  },
+  {
+   "text": "AI Overviews",
+   "aliases": [
+    "a i overviews",
+    "ai overviews"
+   ]
+  },
+  {
+   "text": "LinkedIn Ads",
+   "aliases": [
+    "linkedin ads"
+   ]
+  },
+  {
+   "text": "Reddit Ads",
+   "aliases": [
+    "reddit ads"
+   ]
+  },
+  {
+   "text": "Pinterest",
+   "aliases": [
+    "pinterest"
+   ]
+  },
+  {
+   "text": "programmatic",
+   "aliases": [
+    "programmatic"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "DSP",
+   "aliases": [
+    "d s p"
+   ]
+  },
+  {
+   "text": "SSP",
+   "aliases": [
+    "s s p"
+   ]
+  },
+  {
+   "text": "DMP",
+   "aliases": [
+    "d m p"
+   ]
+  },
+  {
+   "text": "CDP",
+   "aliases": [
+    "c d p"
+   ]
+  },
+  {
+   "text": "first-party data",
+   "aliases": [
+    "first party data"
+   ]
+  },
+  {
+   "text": "third-party cookies",
+   "aliases": [
+    "third party cookies"
+   ]
+  },
+  {
+   "text": "cookie consent",
+   "aliases": [
+    "cookie consent"
+   ]
+  },
+  {
+   "text": "Consent Mode",
+   "aliases": [
+    "consent mode"
+   ]
+  },
+  {
+   "text": "server-side tagging",
+   "aliases": [
+    "server side tagging"
+   ]
+  },
+  {
+   "text": "GDPR",
+   "aliases": [
+    "g d p r"
+   ]
+  },
+  {
+   "text": "CCPA",
+   "aliases": [
+    "c c p a"
+   ]
+  },
+  {
+   "text": "Looker Studio",
+   "aliases": [
+    "looker studio"
+   ]
+  },
+  {
+   "text": "Mixpanel",
+   "aliases": [
+    "mix panel"
+   ]
+  },
+  {
+   "text": "Amplitude",
+   "aliases": [
+    "amplitude"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "PostHog",
+   "aliases": [
+    "post hog"
+   ]
+  },
+  {
+   "text": "Surfer SEO",
+   "aliases": [
+    "surfer s e o",
+    "surfer seo"
+   ]
+  },
+  {
+   "text": "Clearscope",
+   "aliases": [
+    "clear scope"
+   ]
+  },
+  {
+   "text": "MarketMuse",
+   "aliases": [
+    "market muse"
+   ]
+  },
+  {
+   "text": "Frase",
+   "aliases": [
+    "frase",
+    "phrase tool"
+   ]
+  },
+  {
+   "text": "Jasper",
+   "aliases": [
+    "jasper"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Copy.ai",
+   "aliases": [
+    "copy dot a i",
+    "copy ai"
+   ]
+  },
+  {
+   "text": "Grammarly",
+   "aliases": [
+    "grammarly"
+   ]
+  },
+  {
+   "text": "Beehiiv",
+   "aliases": [
+    "beehive",
+    "bee hive"
+   ]
+  },
+  {
+   "text": "Substack",
+   "aliases": [
+    "sub stack"
+   ]
+  },
+  {
+   "text": "Kit",
+   "aliases": [
+    "convert kit",
+    "kit newsletter"
+   ]
+  },
+  {
+   "text": "Customer.io",
+   "aliases": [
+    "customer dot i o",
+    "customer io"
+   ]
+  },
+  {
+   "text": "Braze",
+   "aliases": [
+    "braze"
+   ]
+  },
+  {
+   "text": "Iterable",
+   "aliases": [
+    "iterable"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Intercom",
+   "aliases": [
+    "intercom"
+   ]
+  },
+  {
+   "text": "Drift",
+   "aliases": [
+    "drift"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Typeform",
+   "aliases": [
+    "type form"
+   ]
+  },
+  {
+   "text": "Tally",
+   "aliases": [
+    "tally"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Calendly",
+   "aliases": [
+    "calendly"
+   ]
+  },
+  {
+   "text": "Sprout Social",
+   "aliases": [
+    "sprout social"
+   ]
+  },
+  {
+   "text": "Brandwatch",
+   "aliases": [
+    "brand watch"
+   ]
+  },
+  {
+   "text": "BuzzSumo",
+   "aliases": [
+    "buzz sumo"
+   ]
+  },
+  {
+   "text": "AnswerThePublic",
+   "aliases": [
+    "answer the public"
+   ]
+  },
+  {
+   "text": "Keywords Everywhere",
+   "aliases": [
+    "keywords everywhere"
+   ]
+  },
+  {
+   "text": "Screaming Frog",
+   "aliases": [
+    "screaming frog"
+   ]
+  },
+  {
+   "text": "Yoast",
+   "aliases": [
+    "yoast"
+   ]
+  },
+  {
+   "text": "Rank Math",
+   "aliases": [
+    "rank math"
+   ]
+  },
+  {
+   "text": "G2",
+   "aliases": [
+    "g two",
+    "g2"
+   ]
+  },
+  {
+   "text": "Capterra",
+   "aliases": [
+    "capterra"
+   ]
+  },
+  {
+   "text": "Trustpilot",
+   "aliases": [
+    "trust pilot"
+   ]
+  },
+  {
+   "text": "Product Hunt",
+   "aliases": [
+    "product hunt"
+   ]
+  },
+  {
+   "text": "press release",
+   "aliases": [
+    "press release"
+   ]
+  },
+  {
+   "text": "earned media",
+   "aliases": [
+    "earned media"
+   ]
+  },
+  {
+   "text": "owned media",
+   "aliases": [
+    "owned media"
+   ]
+  },
+  {
+   "text": "paid media",
+   "aliases": [
+    "paid media"
+   ]
+  },
+  {
+   "text": "brand guidelines",
+   "aliases": [
+    "brand guidelines"
+   ]
+  },
+  {
+   "text": "tone of voice",
+   "aliases": [
+    "tone of voice"
+   ]
+  },
+  {
+   "text": "tagline",
+   "aliases": [
+    "tag line"
+   ]
+  },
+  {
+   "text": "value proposition",
+   "aliases": [
+    "value proposition"
+   ]
+  },
+  {
+   "text": "USP",
+   "aliases": [
+    "u s p"
+   ]
+  },
+  {
+   "text": "positioning",
+   "aliases": [
+    "positioning"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "messaging framework",
+   "aliases": [
+    "messaging framework"
+   ]
+  },
+  {
+   "text": "go-to-market",
+   "aliases": [
+    "go to market"
+   ]
+  },
+  {
+   "text": "waitlist",
+   "aliases": [
+    "wait list"
+   ]
+  },
+  {
+   "text": "freemium",
+   "aliases": [
+    "freemium"
+   ]
+  },
+  {
+   "text": "AARRR",
+   "aliases": [
+    "a a r r r",
+    "pirate metrics"
+   ]
+  },
+  {
+   "text": "North Star metric",
+   "aliases": [
+    "north star metric"
+   ]
+  },
+  {
+   "text": "activation rate",
+   "aliases": [
+    "activation rate"
+   ]
+  },
+  {
+   "text": "conversion rate",
+   "aliases": [
+    "conversion rate"
+   ]
+  },
+  {
+   "text": "CTA",
+   "aliases": [
+    "c t a",
+    "call to action"
+   ]
+  },
+  {
+   "text": "above the fold",
+   "aliases": [
+    "above the fold"
+   ]
+  },
+  {
+   "text": "hero section",
+   "aliases": [
+    "hero section"
+   ]
+  },
+  {
+   "text": "heatmap",
+   "aliases": [
+    "heat map"
+   ]
+  },
+  {
+   "text": "session recording",
+   "aliases": [
+    "session recording"
+   ]
+  },
+  {
+   "text": "exit intent",
+   "aliases": [
+    "exit intent"
+   ]
+  },
+  {
+   "text": "pop-up",
+   "aliases": [
+    "pop up"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "nurture sequence",
+   "aliases": [
+    "nurture sequence"
+   ]
+  },
+  {
+   "text": "welcome series",
+   "aliases": [
+    "welcome series"
+   ]
+  },
+  {
+   "text": "re-engagement",
+   "aliases": [
+    "re engagement",
+    "reengagement"
+   ]
+  },
+  {
+   "text": "win-back",
+   "aliases": [
+    "win back"
+   ]
+  },
+  {
+   "text": "cart abandonment",
+   "aliases": [
+    "cart abandonment"
+   ]
+  },
+  {
+   "text": "SMS marketing",
+   "aliases": [
+    "s m s marketing"
+   ]
+  },
+  {
+   "text": "push notifications",
+   "aliases": [
+    "push notifications"
+   ]
+  },
+  {
+   "text": "omnichannel",
+   "aliases": [
+    "omni channel"
+   ]
+  },
+  {
+   "text": "brand ambassador",
+   "aliases": [
+    "brand ambassador"
+   ]
+  },
+  {
+   "text": "creator economy",
+   "aliases": [
+    "creator economy"
+   ]
+  },
+  {
+   "text": "sponsorship",
+   "aliases": [
+    "sponsorship"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "webinar",
+   "aliases": [
+    "webinar"
+   ]
+  },
+  {
+   "text": "case study",
+   "aliases": [
+    "case study"
+   ]
+  },
+  {
+   "text": "whitepaper",
+   "aliases": [
+    "white paper"
+   ]
+  },
+  {
+   "text": "ebook",
+   "aliases": [
+    "e book"
+   ]
+  },
+  {
+   "text": "testimonial",
+   "aliases": [
+    "testimonial"
+   ]
+  },
+  {
+   "text": "social proof",
+   "aliases": [
+    "social proof"
+   ]
+  },
+  {
+   "text": "thought leadership",
+   "aliases": [
+    "thought leadership"
+   ]
+  },
+  {
+   "text": "dark social",
+   "aliases": [
+    "dark social"
+   ]
+  },
+  {
+   "text": "share of search",
+   "aliases": [
+    "share of search"
+   ]
+  },
+  {
+   "text": "brand lift",
+   "aliases": [
+    "brand lift"
+   ]
+  },
+  {
+   "text": "incrementality",
+   "aliases": [
+    "incrementality"
+   ]
+  },
+  {
+   "text": "MMM",
+   "aliases": [
+    "m m m",
+    "marketing mix modeling"
+   ]
+  },
+  {
+   "text": "multi-touch attribution",
+   "aliases": [
+    "multi touch attribution"
+   ]
+  },
+  {
+   "text": "last-click",
+   "aliases": [
+    "last click"
+   ]
+  },
+  {
+   "text": "view-through",
+   "aliases": [
+    "view through"
+   ]
+  },
+  {
+   "text": "Ads Manager",
+   "aliases": [
+    "ads manager"
+   ]
+  },
+  {
+   "text": "Meta Business Suite",
+   "aliases": [
+    "meta business suite"
+   ]
+  },
+  {
+   "text": "Meta Pixel",
+   "aliases": [
+    "meta pixel",
+    "facebook pixel"
+   ]
+  },
+  {
+   "text": "Conversions API",
+   "aliases": [
+    "conversions a p i",
+    "conversions api"
+   ]
+  },
+  {
+   "text": "CAPI",
+   "aliases": [
+    "c a p i",
+    "capi"
+   ]
+  },
+  {
+   "text": "Advantage+",
+   "aliases": [
+    "advantage plus"
+   ]
+  },
+  {
+   "text": "ad set",
+   "aliases": [
+    "ad set"
+   ]
+  },
+  {
+   "text": "campaign objective",
+   "aliases": [
+    "campaign objective"
+   ]
+  },
+  {
+   "text": "Performance Max",
+   "aliases": [
+    "performance max"
+   ]
+  },
+  {
+   "text": "PMax",
+   "aliases": [
+    "p max",
+    "pmax"
+   ]
+  },
+  {
+   "text": "Demand Gen",
+   "aliases": [
+    "demand gen"
+   ]
+  },
+  {
+   "text": "Smart Bidding",
+   "aliases": [
+    "smart bidding"
+   ]
+  },
+  {
+   "text": "tROAS",
+   "aliases": [
+    "target ro as",
+    "t ro as",
+    "target roas"
+   ]
+  },
+  {
+   "text": "tCPA",
+   "aliases": [
+    "target c p a",
+    "t c p a"
+   ]
+  },
+  {
+   "text": "frequency cap",
+   "aliases": [
+    "frequency cap"
+   ]
+  },
+  {
+   "text": "CPV",
+   "aliases": [
+    "c p v"
+   ]
+  },
+  {
+   "text": "VTR",
+   "aliases": [
+    "v t r",
+    "view through rate"
+   ]
+  },
+  {
+   "text": "TrueView",
+   "aliases": [
+    "true view"
+   ]
+  },
+  {
+   "text": "Google Merchant Center",
+   "aliases": [
+    "google merchant center"
+   ]
+  },
+  {
+   "text": "Shopping ads",
+   "aliases": [
+    "shopping ads"
+   ]
+  },
+  {
+   "text": "TikTok Shop",
+   "aliases": [
+    "tik tok shop",
+    "tiktok shop"
+   ]
+  },
+  {
+   "text": "Spark Ads",
+   "aliases": [
+    "spark ads"
+   ]
+  },
+  {
+   "text": "Snapchat Ads",
+   "aliases": [
+    "snapchat ads",
+    "snap ads"
+   ]
+  },
+  {
+   "text": "Amazon Ads",
+   "aliases": [
+    "amazon ads"
+   ]
+  },
+  {
+   "text": "DV360",
+   "aliases": [
+    "d v three sixty",
+    "dv 360",
+    "display and video three sixty"
+   ]
+  },
+  {
+   "text": "The Trade Desk",
+   "aliases": [
+    "the trade desk"
+   ]
+  },
+  {
+   "text": "Criteo",
+   "aliases": [
+    "criteo"
+   ]
+  },
+  {
+   "text": "Taboola",
+   "aliases": [
+    "taboola"
+   ]
+  },
+  {
+   "text": "Outbrain",
+   "aliases": [
+    "outbrain",
+    "out brain"
+   ]
+  },
+  {
+   "text": "AppLovin",
+   "aliases": [
+    "app lovin",
+    "applovin"
+   ]
+  },
+  {
+   "text": "Unity Ads",
+   "aliases": [
+    "unity ads"
+   ]
+  },
+  {
+   "text": "AppsFlyer",
+   "aliases": [
+    "apps flyer",
+    "appsflyer"
+   ]
+  },
+  {
+   "text": "Adjust",
+   "aliases": [
+    "adjust attribution"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Branch",
+   "aliases": [
+    "branch deep links"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Singular",
+   "aliases": [
+    "singular attribution"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "MMP",
+   "aliases": [
+    "m m p"
+   ]
+  },
+  {
+   "text": "SKAdNetwork",
+   "aliases": [
+    "s k ad network",
+    "sk ad network",
+    "skadnetwork"
+   ]
+  },
+  {
+   "text": "SKAN",
+   "aliases": [
+    "skan",
+    "s k a n"
+   ]
+  },
+  {
+   "text": "ATT",
+   "aliases": [
+    "a t t",
+    "app tracking transparency"
+   ]
+  },
+  {
+   "text": "IDFA",
+   "aliases": [
+    "i d f a"
+   ]
+  },
+  {
+   "text": "GAID",
+   "aliases": [
+    "g a i d"
+   ]
+  },
+  {
+   "text": "deep link",
+   "aliases": [
+    "deep link"
+   ]
+  },
+  {
+   "text": "deferred deep link",
+   "aliases": [
+    "deferred deep link"
+   ]
+  },
+  {
+   "text": "media plan",
+   "aliases": [
+    "media plan"
+   ]
+  },
+  {
+   "text": "flighting",
+   "aliases": [
+    "flighting"
+   ]
+  },
+  {
+   "text": "creative brief",
+   "aliases": [
+    "creative brief"
+   ]
+  },
+  {
+   "text": "swipe file",
+   "aliases": [
+    "swipe file"
+   ]
+  },
+  {
+   "text": "hook",
+   "aliases": [
+    "hook"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "angle",
+   "aliases": [
+    "angle"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "offer",
+   "aliases": [
+    "offer"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "carousel ad",
+   "aliases": [
+    "carousel ad"
+   ]
+  },
+  {
+   "text": "Reels",
+   "aliases": [
+    "reels"
+   ]
+  },
+  {
+   "text": "Shorts",
+   "aliases": [
+    "youtube shorts",
+    "shorts"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "story ad",
+   "aliases": [
+    "story ad"
+   ]
+  },
+  {
+   "text": "display ad",
+   "aliases": [
+    "display ad"
+   ]
+  },
+  {
+   "text": "native ad",
+   "aliases": [
+    "native ad"
+   ]
+  },
+  {
+   "text": "UGC creators",
+   "aliases": [
+    "u g c creators",
+    "ugc creators"
+   ]
+  },
+  {
+   "text": "Foreplay",
+   "aliases": [
+    "foreplay ads library"
+   ]
+  },
+  {
+   "text": "AdCreative.ai",
+   "aliases": [
+    "ad creative dot a i",
+    "ad creative ai"
+   ]
+  },
+  {
+   "text": "CapCut",
+   "aliases": [
+    "cap cut"
+   ]
+  },
+  {
+   "text": "Descript",
+   "aliases": [
+    "descript"
+   ]
+  },
+  {
+   "text": "Later",
+   "aliases": [
+    "later app"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Planoly",
+   "aliases": [
+    "planoly"
+   ]
+  },
+  {
+   "text": "Linktree",
+   "aliases": [
+    "link tree"
+   ]
+  },
+  {
+   "text": "Bitly",
+   "aliases": [
+    "bit ly",
+    "bitly"
+   ]
+  },
+  {
+   "text": "AOV",
+   "aliases": [
+    "a o v",
+    "average order value"
+   ]
+  },
+  {
+   "text": "MER",
+   "aliases": [
+    "m e r",
+    "marketing efficiency ratio"
+   ]
+  },
+  {
+   "text": "blended CAC",
+   "aliases": [
+    "blended c a c",
+    "blended cac"
+   ]
+  },
+  {
+   "text": "payback period",
+   "aliases": [
+    "payback period"
+   ]
+  },
+  {
+   "text": "contribution margin",
+   "aliases": [
+    "contribution margin"
+   ]
+  },
+  {
+   "text": "LTV to CAC",
+   "aliases": [
+    "l t v to c a c",
+    "ltv cac ratio"
+   ]
+  },
+  {
+   "text": "always-on",
+   "aliases": [
+    "always on campaign"
+   ]
+  },
+  {
+   "text": "burst campaign",
+   "aliases": [
+    "burst campaign"
+   ]
+  },
+  {
+   "text": "OOH",
+   "aliases": [
+    "o o h",
+    "out of home"
+   ]
+  },
+  {
+   "text": "DOOH",
+   "aliases": [
+    "d o o h",
+    "digital out of home"
+   ]
+  },
+  {
+   "text": "CTV",
+   "aliases": [
+    "c t v",
+    "connected t v"
+   ]
+  },
+  {
+   "text": "OTT",
+   "aliases": [
+    "o t t"
+   ]
+  },
+  {
+   "text": "podcast ads",
+   "aliases": [
+    "podcast ads"
+   ]
+  },
+  {
+   "text": "billboard",
+   "aliases": [
+    "billboard"
+   ]
+  },
+  {
+   "text": "event marketing",
+   "aliases": [
+    "event marketing"
+   ]
+  },
+  {
+   "text": "field marketing",
+   "aliases": [
+    "field marketing"
+   ]
+  },
+  {
+   "text": "ABM",
+   "aliases": [
+    "a b m",
+    "account based marketing"
+   ]
+  },
+  {
+   "text": "6sense",
+   "aliases": [
+    "six sense",
+    "6 sense"
+   ]
+  },
+  {
+   "text": "Demandbase",
+   "aliases": [
+    "demand base"
+   ]
+  },
+  {
+   "text": "Bombora",
+   "aliases": [
+    "bombora"
+   ]
+  },
+  {
+   "text": "intent data",
+   "aliases": [
+    "intent data"
+   ]
+  },
+  {
+   "text": "lead scoring",
+   "aliases": [
+    "lead scoring"
+   ]
+  },
+  {
+   "text": "Marketo",
+   "aliases": [
+    "marketo"
+   ]
+  },
+  {
+   "text": "Pardot",
+   "aliases": [
+    "pardot",
+    "par dot"
+   ]
+  },
+  {
+   "text": "Eloqua",
+   "aliases": [
+    "eloqua"
+   ]
+  },
+  {
+   "text": "Salesforce Marketing Cloud",
+   "aliases": [
+    "salesforce marketing cloud"
+   ]
+  },
+  {
+   "text": "Brevo",
+   "aliases": [
+    "brevo"
+   ]
+  },
+  {
+   "text": "Omnisend",
+   "aliases": [
+    "omni send"
+   ]
+  },
+  {
+   "text": "Attentive",
+   "aliases": [
+    "attentive s m s"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Postscript",
+   "aliases": [
+    "postscript s m s"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Gorgias",
+   "aliases": [
+    "gorgias"
+   ]
+  },
+  {
+   "text": "Yotpo",
+   "aliases": [
+    "yot po",
+    "yotpo"
+   ]
+  },
+  {
+   "text": "Okendo",
+   "aliases": [
+    "okendo"
+   ]
+  },
+  {
+   "text": "Loox",
+   "aliases": [
+    "loox",
+    "looks reviews"
+   ]
+  },
+  {
+   "text": "Judge.me",
+   "aliases": [
+    "judge dot me",
+    "judge me"
+   ]
+  },
+  {
+   "text": "Triple Whale",
+   "aliases": [
+    "triple whale"
+   ]
+  },
+  {
+   "text": "Northbeam",
+   "aliases": [
+    "north beam"
+   ]
+  },
+  {
+   "text": "Hyros",
+   "aliases": [
+    "hyros"
+   ]
+  },
+  {
+   "text": "Rockerbox",
+   "aliases": [
+    "rocker box"
+   ]
+  },
+  {
+   "text": "brand vs performance",
+   "aliases": [
+    "brand versus performance"
+   ]
+  },
+  {
+   "text": "upper funnel",
+   "aliases": [
+    "upper funnel"
+   ]
+  },
+  {
+   "text": "lower funnel",
+   "aliases": [
+    "lower funnel"
+   ]
+  },
+  {
+   "text": "mid funnel",
+   "aliases": [
+    "mid funnel"
+   ]
+  },
+  {
+   "text": "creative fatigue",
+   "aliases": [
+    "creative fatigue"
+   ]
+  },
+  {
+   "text": "ad fatigue",
+   "aliases": [
+    "ad fatigue"
+   ]
+  },
+  {
+   "text": "learning phase",
+   "aliases": [
+    "learning phase"
+   ]
+  },
+  {
+   "text": "CPM inflation",
+   "aliases": [
+    "c p m inflation"
+   ]
+  },
+  {
+   "text": "auction",
+   "aliases": [
+    "ad auction"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "bid strategy",
+   "aliases": [
+    "bid strategy"
+   ]
+  },
+  {
+   "text": "budget pacing",
+   "aliases": [
+    "budget pacing"
+   ]
+  },
+  {
+   "text": "dayparting",
+   "aliases": [
+    "day parting"
+   ]
+  },
+  {
+   "text": "geo-targeting",
+   "aliases": [
+    "geo targeting"
+   ]
+  },
+  {
+   "text": "exclusion list",
+   "aliases": [
+    "exclusion list"
+   ]
+  },
+  {
+   "text": "brand safety",
+   "aliases": [
+    "brand safety"
+   ]
+  }
+ ]
+}

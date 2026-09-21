@@ -1,0 +1,540 @@
+{
+ "pack": "education",
+ "terms": [
+  {
+   "text": "Canvas",
+   "aliases": [
+    "canvas"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Blackboard",
+   "aliases": [
+    "blackboard"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Moodle",
+   "aliases": [
+    "moodle",
+    "moo dul"
+   ]
+  },
+  {
+   "text": "Google Classroom",
+   "aliases": [
+    "google classroom"
+   ]
+  },
+  {
+   "text": "Khan Academy",
+   "aliases": [
+    "khan academy"
+   ]
+  },
+  {
+   "text": "Coursera",
+   "aliases": [
+    "coursera",
+    "course air ah"
+   ]
+  },
+  {
+   "text": "Udemy",
+   "aliases": [
+    "udemy",
+    "you demmy"
+   ]
+  },
+  {
+   "text": "edX",
+   "aliases": [
+    "ed x",
+    "edex"
+   ]
+  },
+  {
+   "text": "Duolingo",
+   "aliases": [
+    "duolingo",
+    "dwo lingo"
+   ]
+  },
+  {
+   "text": "Quizlet",
+   "aliases": [
+    "quizlet",
+    "quiz let"
+   ]
+  },
+  {
+   "text": "Anki",
+   "aliases": [
+    "anki",
+    "ahn key"
+   ]
+  },
+  {
+   "text": "Kahoot",
+   "aliases": [
+    "kahoot",
+    "ka hoot"
+   ]
+  },
+  {
+   "text": "Turnitin",
+   "aliases": [
+    "turnitin",
+    "turn it in"
+   ]
+  },
+  {
+   "text": "LMS",
+   "aliases": [
+    "l m s"
+   ]
+  },
+  {
+   "text": "MOOC",
+   "aliases": [
+    "mooc",
+    "muck"
+   ]
+  },
+  {
+   "text": "syllabus",
+   "aliases": [
+    "syllabus"
+   ]
+  },
+  {
+   "text": "rubric",
+   "aliases": [
+    "rubric"
+   ]
+  },
+  {
+   "text": "GPA",
+   "aliases": [
+    "g p a"
+   ]
+  },
+  {
+   "text": "SAT",
+   "aliases": [
+    "s a t"
+   ]
+  },
+  {
+   "text": "ACT",
+   "aliases": [
+    "a c t"
+   ]
+  },
+  {
+   "text": "GRE",
+   "aliases": [
+    "g r e"
+   ]
+  },
+  {
+   "text": "GMAT",
+   "aliases": [
+    "g mat"
+   ]
+  },
+  {
+   "text": "TOEFL",
+   "aliases": [
+    "toefl",
+    "toe full"
+   ]
+  },
+  {
+   "text": "IELTS",
+   "aliases": [
+    "ielts",
+    "eye elts"
+   ]
+  },
+  {
+   "text": "PhD",
+   "aliases": [
+    "p h d",
+    "phd"
+   ]
+  },
+  {
+   "text": "MSc",
+   "aliases": [
+    "m s c",
+    "master of science"
+   ]
+  },
+  {
+   "text": "BSc",
+   "aliases": [
+    "b s c",
+    "bachelor of science"
+   ]
+  },
+  {
+   "text": "MBA",
+   "aliases": [
+    "m b a"
+   ]
+  },
+  {
+   "text": "IB",
+   "aliases": [
+    "i b",
+    "international baccalaureate"
+   ]
+  },
+  {
+   "text": "AP",
+   "aliases": [
+    "a p",
+    "advanced placement"
+   ]
+  },
+  {
+   "text": "K-12",
+   "aliases": [
+    "k twelve",
+    "k through twelve"
+   ]
+  },
+  {
+   "text": "STEM",
+   "aliases": [
+    "stem"
+   ]
+  },
+  {
+   "text": "IEP",
+   "aliases": [
+    "i e p"
+   ]
+  },
+  {
+   "text": "ESL",
+   "aliases": [
+    "e s l"
+   ]
+  },
+  {
+   "text": "thesis",
+   "aliases": [
+    "thesis"
+   ]
+  },
+  {
+   "text": "dissertation",
+   "aliases": [
+    "dissertation"
+   ]
+  },
+  {
+   "text": "capstone project",
+   "aliases": [
+    "capstone project"
+   ]
+  },
+  {
+   "text": "transcript",
+   "aliases": [
+    "transcript"
+   ]
+  },
+  {
+   "text": "matriculation",
+   "aliases": [
+    "matriculation"
+   ]
+  },
+  {
+   "text": "tenure",
+   "aliases": [
+    "tenure"
+   ]
+  },
+  {
+   "text": "adjunct professor",
+   "aliases": [
+    "adjunct professor"
+   ]
+  },
+  {
+   "text": "teaching assistant",
+   "aliases": [
+    "teaching assistant"
+   ]
+  },
+  {
+   "text": "office hours",
+   "aliases": [
+    "office hours"
+   ]
+  },
+  {
+   "text": "semester",
+   "aliases": [
+    "semester"
+   ]
+  },
+  {
+   "text": "trimester",
+   "aliases": [
+    "trimester"
+   ]
+  },
+  {
+   "text": "credit hour",
+   "aliases": [
+    "credit hour"
+   ]
+  },
+  {
+   "text": "prerequisite",
+   "aliases": [
+    "prerequisite"
+   ]
+  },
+  {
+   "text": "elective",
+   "aliases": [
+    "elective"
+   ]
+  },
+  {
+   "text": "cum laude",
+   "aliases": [
+    "cum laude",
+    "koom lawdy"
+   ]
+  },
+  {
+   "text": "valedictorian",
+   "aliases": [
+    "valedictorian"
+   ]
+  },
+  {
+   "text": "alumni",
+   "aliases": [
+    "alumni"
+   ]
+  },
+  {
+   "text": "financial aid",
+   "aliases": [
+    "financial aid"
+   ]
+  },
+  {
+   "text": "FAFSA",
+   "aliases": [
+    "fafsa"
+   ]
+  },
+  {
+   "text": "scholarship",
+   "aliases": [
+    "scholarship"
+   ]
+  },
+  {
+   "text": "student loan",
+   "aliases": [
+    "student loan"
+   ]
+  },
+  {
+   "text": "work-study",
+   "aliases": [
+    "work study"
+   ]
+  },
+  {
+   "text": "accreditation",
+   "aliases": [
+    "accreditation"
+   ]
+  },
+  {
+   "text": "curriculum",
+   "aliases": [
+    "curriculum"
+   ]
+  },
+  {
+   "text": "pedagogy",
+   "aliases": [
+    "pedagogy"
+   ]
+  },
+  {
+   "text": "formative assessment",
+   "aliases": [
+    "formative assessment"
+   ]
+  },
+  {
+   "text": "summative assessment",
+   "aliases": [
+    "summative assessment"
+   ]
+  },
+  {
+   "text": "standardized test",
+   "aliases": [
+    "standardized test"
+   ]
+  },
+  {
+   "text": "proctor",
+   "aliases": [
+    "proctor"
+   ]
+  },
+  {
+   "text": "plagiarism",
+   "aliases": [
+    "plagiarism"
+   ]
+  },
+  {
+   "text": "flipped classroom",
+   "aliases": [
+    "flipped classroom"
+   ]
+  },
+  {
+   "text": "blended learning",
+   "aliases": [
+    "blended learning"
+   ]
+  },
+  {
+   "text": "asynchronous learning",
+   "aliases": [
+    "asynchronous learning"
+   ]
+  },
+  {
+   "text": "synchronous learning",
+   "aliases": [
+    "synchronous learning"
+   ]
+  },
+  {
+   "text": "learning objective",
+   "aliases": [
+    "learning objective"
+   ]
+  },
+  {
+   "text": "Bloom's taxonomy",
+   "aliases": [
+    "blooms taxonomy",
+    "bloom's taxonomy"
+   ]
+  },
+  {
+   "text": "differentiated instruction",
+   "aliases": [
+    "differentiated instruction"
+   ]
+  },
+  {
+   "text": "504 plan",
+   "aliases": [
+    "five oh four plan"
+   ]
+  },
+  {
+   "text": "homeroom",
+   "aliases": [
+    "homeroom",
+    "home room"
+   ]
+  },
+  {
+   "text": "study hall",
+   "aliases": [
+    "study hall"
+   ]
+  },
+  {
+   "text": "report card",
+   "aliases": [
+    "report card"
+   ]
+  },
+  {
+   "text": "Chromebook",
+   "aliases": [
+    "chromebook",
+    "chrome book"
+   ]
+  },
+  {
+   "text": "distance learning",
+   "aliases": [
+    "distance learning"
+   ]
+  },
+  {
+   "text": "cohort-based course",
+   "aliases": [
+    "cohort based course"
+   ]
+  },
+  {
+   "text": "micro-credential",
+   "aliases": [
+    "micro credential"
+   ]
+  },
+  {
+   "text": "nanodegree",
+   "aliases": [
+    "nanodegree",
+    "nano degree"
+   ]
+  },
+  {
+   "text": "study group",
+   "aliases": [
+    "study group"
+   ]
+  },
+  {
+   "text": "practicum",
+   "aliases": [
+    "practicum"
+   ]
+  },
+  {
+   "text": "internship",
+   "aliases": [
+    "internship"
+   ]
+  },
+  {
+   "text": "externship",
+   "aliases": [
+    "externship"
+   ]
+  },
+  {
+   "text": "teaching fellow",
+   "aliases": [
+    "teaching fellow"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,999 @@
+{
+ "pack": "apps",
+ "terms": [
+  {
+   "text": "Notion",
+   "aliases": [
+    "notion"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Obsidian",
+   "aliases": [
+    "obsidian"
+   ]
+  },
+  {
+   "text": "Roam",
+   "aliases": [
+    "roam"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Logseq",
+   "aliases": [
+    "log seek",
+    "logseq"
+   ]
+  },
+  {
+   "text": "Evernote",
+   "aliases": [
+    "evernote",
+    "ever note"
+   ]
+  },
+  {
+   "text": "Apple Notes",
+   "aliases": [
+    "apple notes"
+   ]
+  },
+  {
+   "text": "Bear",
+   "aliases": [
+    "bear"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Craft",
+   "aliases": [
+    "craft"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Ulysses",
+   "aliases": [
+    "ulysses"
+   ]
+  },
+  {
+   "text": "iA Writer",
+   "aliases": [
+    "i a writer"
+   ]
+  },
+  {
+   "text": "Todoist",
+   "aliases": [
+    "todoist",
+    "to do ist"
+   ]
+  },
+  {
+   "text": "Things",
+   "aliases": [
+    "things"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "OmniFocus",
+   "aliases": [
+    "omni focus",
+    "omnifocus"
+   ]
+  },
+  {
+   "text": "Reminders",
+   "aliases": [
+    "reminders"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Fantastical",
+   "aliases": [
+    "fantastical"
+   ]
+  },
+  {
+   "text": "Google Calendar",
+   "aliases": [
+    "google calendar"
+   ]
+  },
+  {
+   "text": "Google Docs",
+   "aliases": [
+    "google docs"
+   ]
+  },
+  {
+   "text": "Google Sheets",
+   "aliases": [
+    "google sheets"
+   ]
+  },
+  {
+   "text": "Google Slides",
+   "aliases": [
+    "google slides"
+   ]
+  },
+  {
+   "text": "Google Drive",
+   "aliases": [
+    "google drive"
+   ]
+  },
+  {
+   "text": "Gmail",
+   "aliases": [
+    "gmail",
+    "g mail"
+   ]
+  },
+  {
+   "text": "Google Meet",
+   "aliases": [
+    "google meet"
+   ]
+  },
+  {
+   "text": "Google Workspace",
+   "aliases": [
+    "google workspace"
+   ]
+  },
+  {
+   "text": "Microsoft Teams",
+   "aliases": [
+    "microsoft teams"
+   ]
+  },
+  {
+   "text": "Teams",
+   "aliases": [
+    "teams"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Outlook",
+   "aliases": [
+    "outlook"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Excel",
+   "aliases": [
+    "excel"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "PowerPoint",
+   "aliases": [
+    "power point",
+    "powerpoint"
+   ]
+  },
+  {
+   "text": "Word",
+   "aliases": [
+    "microsoft word"
+   ]
+  },
+  {
+   "text": "OneDrive",
+   "aliases": [
+    "one drive",
+    "onedrive"
+   ]
+  },
+  {
+   "text": "OneNote",
+   "aliases": [
+    "one note",
+    "onenote"
+   ]
+  },
+  {
+   "text": "SharePoint",
+   "aliases": [
+    "share point",
+    "sharepoint"
+   ]
+  },
+  {
+   "text": "Office 365",
+   "aliases": [
+    "office three sixty five",
+    "office 365"
+   ]
+  },
+  {
+   "text": "Microsoft 365",
+   "aliases": [
+    "microsoft three sixty five"
+   ]
+  },
+  {
+   "text": "Keynote",
+   "aliases": [
+    "keynote"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Pages",
+   "aliases": [
+    "apple pages"
+   ]
+  },
+  {
+   "text": "Numbers",
+   "aliases": [
+    "apple numbers"
+   ]
+  },
+  {
+   "text": "Slack",
+   "aliases": [
+    "slack"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Discord",
+   "aliases": [
+    "discord"
+   ]
+  },
+  {
+   "text": "Zoom",
+   "aliases": [
+    "zoom"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Loom",
+   "aliases": [
+    "loom"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Miro",
+   "aliases": [
+    "miro"
+   ]
+  },
+  {
+   "text": "FigJam",
+   "aliases": [
+    "fig jam",
+    "figjam"
+   ]
+  },
+  {
+   "text": "Canva",
+   "aliases": [
+    "canva"
+   ]
+  },
+  {
+   "text": "Adobe",
+   "aliases": [
+    "adobe"
+   ]
+  },
+  {
+   "text": "Photoshop",
+   "aliases": [
+    "photoshop",
+    "photo shop"
+   ]
+  },
+  {
+   "text": "Illustrator",
+   "aliases": [
+    "illustrator"
+   ]
+  },
+  {
+   "text": "Lightroom",
+   "aliases": [
+    "lightroom",
+    "light room"
+   ]
+  },
+  {
+   "text": "Premiere",
+   "aliases": [
+    "premiere"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "After Effects",
+   "aliases": [
+    "after effects"
+   ]
+  },
+  {
+   "text": "Final Cut",
+   "aliases": [
+    "final cut"
+   ]
+  },
+  {
+   "text": "Final Cut Pro",
+   "aliases": [
+    "final cut pro"
+   ]
+  },
+  {
+   "text": "Logic Pro",
+   "aliases": [
+    "logic pro"
+   ]
+  },
+  {
+   "text": "GarageBand",
+   "aliases": [
+    "garage band",
+    "garageband"
+   ]
+  },
+  {
+   "text": "DaVinci Resolve",
+   "aliases": [
+    "davinci resolve",
+    "da vinci resolve"
+   ]
+  },
+  {
+   "text": "Blender",
+   "aliases": [
+    "blender"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Affinity",
+   "aliases": [
+    "affinity"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Pixelmator",
+   "aliases": [
+    "pixelmator"
+   ]
+  },
+  {
+   "text": "CleanShot",
+   "aliases": [
+    "clean shot",
+    "cleanshot"
+   ]
+  },
+  {
+   "text": "Screen Studio",
+   "aliases": [
+    "screen studio"
+   ]
+  },
+  {
+   "text": "Dropbox",
+   "aliases": [
+    "dropbox",
+    "drop box"
+   ]
+  },
+  {
+   "text": "iCloud",
+   "aliases": [
+    "i cloud",
+    "icloud"
+   ]
+  },
+  {
+   "text": "iCloud Drive",
+   "aliases": [
+    "i cloud drive"
+   ]
+  },
+  {
+   "text": "Box",
+   "aliases": [
+    "box dot com"
+   ]
+  },
+  {
+   "text": "Trello",
+   "aliases": [
+    "trello"
+   ]
+  },
+  {
+   "text": "Asana",
+   "aliases": [
+    "asana"
+   ]
+  },
+  {
+   "text": "Airtable",
+   "aliases": [
+    "air table",
+    "airtable"
+   ]
+  },
+  {
+   "text": "Monday.com",
+   "aliases": [
+    "monday dot com"
+   ]
+  },
+  {
+   "text": "ClickUp",
+   "aliases": [
+    "click up",
+    "clickup"
+   ]
+  },
+  {
+   "text": "Basecamp",
+   "aliases": [
+    "basecamp",
+    "base camp"
+   ]
+  },
+  {
+   "text": "Zapier",
+   "aliases": [
+    "zapier",
+    "zap ier"
+   ]
+  },
+  {
+   "text": "Make.com",
+   "aliases": [
+    "make dot com"
+   ]
+  },
+  {
+   "text": "n8n",
+   "aliases": [
+    "n eight n",
+    "n8n"
+   ]
+  },
+  {
+   "text": "IFTTT",
+   "aliases": [
+    "if this then that",
+    "i f t t t"
+   ]
+  },
+  {
+   "text": "HubSpot",
+   "aliases": [
+    "hub spot",
+    "hubspot"
+   ]
+  },
+  {
+   "text": "Salesforce",
+   "aliases": [
+    "salesforce",
+    "sales force"
+   ]
+  },
+  {
+   "text": "Zendesk",
+   "aliases": [
+    "zendesk",
+    "zen desk"
+   ]
+  },
+  {
+   "text": "Intercom",
+   "aliases": [
+    "intercom"
+   ]
+  },
+  {
+   "text": "Crisp",
+   "aliases": [
+    "crisp"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Mailchimp",
+   "aliases": [
+    "mailchimp",
+    "mail chimp"
+   ]
+  },
+  {
+   "text": "ConvertKit",
+   "aliases": [
+    "convert kit",
+    "convertkit"
+   ]
+  },
+  {
+   "text": "Kit",
+   "aliases": [
+    "kit newsletter"
+   ]
+  },
+  {
+   "text": "Substack",
+   "aliases": [
+    "substack",
+    "sub stack"
+   ]
+  },
+  {
+   "text": "Beehiiv",
+   "aliases": [
+    "beehive",
+    "bee hive newsletter"
+   ]
+  },
+  {
+   "text": "Ghost",
+   "aliases": [
+    "ghost"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Medium",
+   "aliases": [
+    "medium"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "WordPress",
+   "aliases": [
+    "wordpress",
+    "word press"
+   ]
+  },
+  {
+   "text": "Webflow",
+   "aliases": [
+    "webflow",
+    "web flow"
+   ]
+  },
+  {
+   "text": "Framer",
+   "aliases": [
+    "framer"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Squarespace",
+   "aliases": [
+    "squarespace",
+    "square space"
+   ]
+  },
+  {
+   "text": "Wix",
+   "aliases": [
+    "wix"
+   ]
+  },
+  {
+   "text": "Shopify",
+   "aliases": [
+    "shopify"
+   ]
+  },
+  {
+   "text": "Gumroad",
+   "aliases": [
+    "gumroad",
+    "gum road"
+   ]
+  },
+  {
+   "text": "Product Hunt",
+   "aliases": [
+    "product hunt"
+   ]
+  },
+  {
+   "text": "Hacker News",
+   "aliases": [
+    "hacker news"
+   ]
+  },
+  {
+   "text": "Reddit",
+   "aliases": [
+    "reddit"
+   ]
+  },
+  {
+   "text": "LinkedIn",
+   "aliases": [
+    "linkedin",
+    "linked in"
+   ]
+  },
+  {
+   "text": "Twitter",
+   "aliases": [
+    "twitter"
+   ]
+  },
+  {
+   "text": "X",
+   "aliases": [
+    "x dot com"
+   ]
+  },
+  {
+   "text": "Bluesky",
+   "aliases": [
+    "blue sky",
+    "bluesky"
+   ]
+  },
+  {
+   "text": "Mastodon",
+   "aliases": [
+    "mastodon"
+   ]
+  },
+  {
+   "text": "Threads",
+   "aliases": [
+    "threads"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Instagram",
+   "aliases": [
+    "instagram"
+   ]
+  },
+  {
+   "text": "TikTok",
+   "aliases": [
+    "tik tok",
+    "tiktok"
+   ]
+  },
+  {
+   "text": "YouTube",
+   "aliases": [
+    "you tube",
+    "youtube"
+   ]
+  },
+  {
+   "text": "Twitch",
+   "aliases": [
+    "twitch"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Spotify",
+   "aliases": [
+    "spotify"
+   ]
+  },
+  {
+   "text": "Apple Music",
+   "aliases": [
+    "apple music"
+   ]
+  },
+  {
+   "text": "Podcasts",
+   "aliases": [
+    "podcasts"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Netflix",
+   "aliases": [
+    "netflix"
+   ]
+  },
+  {
+   "text": "WhatsApp",
+   "aliases": [
+    "whats app",
+    "whatsapp"
+   ]
+  },
+  {
+   "text": "Telegram",
+   "aliases": [
+    "telegram"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Signal",
+   "aliases": [
+    "signal"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "iMessage",
+   "aliases": [
+    "i message",
+    "imessage"
+   ]
+  },
+  {
+   "text": "FaceTime",
+   "aliases": [
+    "face time",
+    "facetime"
+   ]
+  },
+  {
+   "text": "Messenger",
+   "aliases": [
+    "messenger"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Safari",
+   "aliases": [
+    "safari"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Chrome",
+   "aliases": [
+    "chrome"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Firefox",
+   "aliases": [
+    "firefox",
+    "fire fox"
+   ]
+  },
+  {
+   "text": "Arc",
+   "aliases": [
+    "arc browser"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Brave",
+   "aliases": [
+    "brave browser"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Edge",
+   "aliases": [
+    "microsoft edge"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "1Password",
+   "aliases": [
+    "one password",
+    "1 password"
+   ]
+  },
+  {
+   "text": "Bitwarden",
+   "aliases": [
+    "bit warden",
+    "bitwarden"
+   ]
+  },
+  {
+   "text": "LastPass",
+   "aliases": [
+    "last pass",
+    "lastpass"
+   ]
+  },
+  {
+   "text": "Proton",
+   "aliases": [
+    "proton"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "ProtonMail",
+   "aliases": [
+    "proton mail",
+    "protonmail"
+   ]
+  },
+  {
+   "text": "Tailscale",
+   "aliases": [
+    "tail scale",
+    "tailscale"
+   ]
+  },
+  {
+   "text": "NordVPN",
+   "aliases": [
+    "nord v p n",
+    "nord vpn"
+   ]
+  },
+  {
+   "text": "Setapp",
+   "aliases": [
+    "set app",
+    "setapp"
+   ]
+  },
+  {
+   "text": "Mac App Store",
+   "aliases": [
+    "mac app store"
+   ]
+  },
+  {
+   "text": "App Store",
+   "aliases": [
+    "app store"
+   ]
+  },
+  {
+   "text": "Google Play",
+   "aliases": [
+    "google play"
+   ]
+  },
+  {
+   "text": "Play Store",
+   "aliases": [
+    "play store"
+   ]
+  },
+  {
+   "text": "TestFlight",
+   "aliases": [
+    "test flight",
+    "testflight"
+   ]
+  },
+  {
+   "text": "Finder",
+   "aliases": [
+    "finder"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Spotlight",
+   "aliases": [
+    "spotlight"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Terminal",
+   "aliases": [
+    "terminal"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Activity Monitor",
+   "aliases": [
+    "activity monitor"
+   ]
+  },
+  {
+   "text": "System Settings",
+   "aliases": [
+    "system settings"
+   ]
+  },
+  {
+   "text": "Time Machine",
+   "aliases": [
+    "time machine"
+   ]
+  },
+  {
+   "text": "AirDrop",
+   "aliases": [
+    "air drop",
+    "airdrop"
+   ]
+  },
+  {
+   "text": "AirPlay",
+   "aliases": [
+    "air play",
+    "airplay"
+   ]
+  },
+  {
+   "text": "HomeKit",
+   "aliases": [
+    "home kit",
+    "homekit"
+   ]
+  },
+  {
+   "text": "Shortcuts",
+   "aliases": [
+    "shortcuts"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Automator",
+   "aliases": [
+    "automator"
+   ]
+  },
+  {
+   "text": "QuickTime",
+   "aliases": [
+    "quick time",
+    "quicktime"
+   ]
+  },
+  {
+   "text": "Preview",
+   "aliases": [
+    "preview"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "TextEdit",
+   "aliases": [
+    "text edit",
+    "textedit"
+   ]
+  },
+  {
+   "text": "Xcode",
+   "aliases": [
+    "xcode",
+    "x code"
+   ]
+  }
+ ]
+}

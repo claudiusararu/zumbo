@@ -1,0 +1,284 @@
+{
+ "pack": "ai",
+ "terms": [
+  {
+   "text": "OpenAI",
+   "aliases": [
+    "open a i",
+    "open ai"
+   ]
+  },
+  {
+   "text": "Anthropic",
+   "aliases": [
+    "anthropic"
+   ]
+  },
+  {
+   "text": "Claude",
+   "aliases": [
+    "claude",
+    "claud"
+   ]
+  },
+  {
+   "text": "Claude Code",
+   "aliases": [
+    "claude code",
+    "cloud code"
+   ]
+  },
+  {
+   "text": "ChatGPT",
+   "aliases": [
+    "chat g p t",
+    "chat gpt"
+   ]
+  },
+  {
+   "text": "GPT",
+   "aliases": [
+    "g p t"
+   ]
+  },
+  {
+   "text": "Codex",
+   "aliases": [
+    "codex"
+   ]
+  },
+  {
+   "text": "Copilot",
+   "aliases": [
+    "copilot",
+    "co pilot"
+   ]
+  },
+  {
+   "text": "Gemini",
+   "aliases": [
+    "gemini"
+   ]
+  },
+  {
+   "text": "Llama",
+   "aliases": [
+    "llama"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Mistral",
+   "aliases": [
+    "mistral"
+   ]
+  },
+  {
+   "text": "DeepSeek",
+   "aliases": [
+    "deep seek",
+    "deepseek"
+   ]
+  },
+  {
+   "text": "Qwen",
+   "aliases": [
+    "qwen",
+    "quen"
+   ]
+  },
+  {
+   "text": "Ollama",
+   "aliases": [
+    "ollama",
+    "o llama"
+   ]
+  },
+  {
+   "text": "Hugging Face",
+   "aliases": [
+    "hugging face"
+   ]
+  },
+  {
+   "text": "LangChain",
+   "aliases": [
+    "lang chain",
+    "langchain"
+   ]
+  },
+  {
+   "text": "LlamaIndex",
+   "aliases": [
+    "llama index"
+   ]
+  },
+  {
+   "text": "Whisper",
+   "aliases": [
+    "whisper"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Parakeet",
+   "aliases": [
+    "parakeet"
+   ]
+  },
+  {
+   "text": "Nemotron",
+   "aliases": [
+    "nemotron"
+   ]
+  },
+  {
+   "text": "FluidAudio",
+   "aliases": [
+    "fluid audio"
+   ]
+  },
+  {
+   "text": "PyTorch",
+   "aliases": [
+    "pytorch",
+    "pie torch"
+   ]
+  },
+  {
+   "text": "TensorFlow",
+   "aliases": [
+    "tensorflow",
+    "tensor flow"
+   ]
+  },
+  {
+   "text": "JAX",
+   "aliases": [
+    "jax"
+   ]
+  },
+  {
+   "text": "MLX",
+   "aliases": [
+    "m l x"
+   ]
+  },
+  {
+   "text": "ONNX",
+   "aliases": [
+    "onnx",
+    "o n n x"
+   ]
+  },
+  {
+   "text": "CUDA",
+   "aliases": [
+    "cuda"
+   ]
+  },
+  {
+   "text": "LLM",
+   "aliases": [
+    "l l m"
+   ]
+  },
+  {
+   "text": "RAG",
+   "aliases": [
+    "rag"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "MCP",
+   "aliases": [
+    "m c p"
+   ]
+  },
+  {
+   "text": "embeddings",
+   "aliases": [
+    "embeddings"
+   ]
+  },
+  {
+   "text": "fine-tuning",
+   "aliases": [
+    "fine tuning"
+   ]
+  },
+  {
+   "text": "prompt engineering",
+   "aliases": [
+    "prompt engineering"
+   ]
+  },
+  {
+   "text": "tokens",
+   "aliases": [
+    "tokens"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "context window",
+   "aliases": [
+    "context window"
+   ]
+  },
+  {
+   "text": "agent",
+   "aliases": [
+    "agent"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Midjourney",
+   "aliases": [
+    "mid journey",
+    "midjourney"
+   ]
+  },
+  {
+   "text": "Stable Diffusion",
+   "aliases": [
+    "stable diffusion"
+   ]
+  },
+  {
+   "text": "ElevenLabs",
+   "aliases": [
+    "eleven labs"
+   ]
+  },
+  {
+   "text": "Perplexity",
+   "aliases": [
+    "perplexity"
+   ]
+  },
+  {
+   "text": "Replicate",
+   "aliases": [
+    "replicate"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Groq",
+   "aliases": [
+    "groq",
+    "grok chip"
+   ]
+  },
+  {
+   "text": "Zumbo",
+   "aliases": [
+    "zumbo",
+    "zumba"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,415 @@
+{
+ "pack": "cloud",
+ "terms": [
+  {
+   "text": "Azure",
+   "aliases": [
+    "azure"
+   ]
+  },
+  {
+   "text": "Azure DevOps",
+   "aliases": [
+    "azure dev ops",
+    "azure devops"
+   ]
+  },
+  {
+   "text": "Azure Functions",
+   "aliases": [
+    "azure functions"
+   ]
+  },
+  {
+   "text": "Cosmos DB",
+   "aliases": [
+    "cosmos d b",
+    "cosmos db"
+   ]
+  },
+  {
+   "text": "Blob Storage",
+   "aliases": [
+    "blob storage"
+   ]
+  },
+  {
+   "text": "Entra ID",
+   "aliases": [
+    "entra i d",
+    "entra id"
+   ]
+  },
+  {
+   "text": "Google Cloud",
+   "aliases": [
+    "google cloud"
+   ]
+  },
+  {
+   "text": "GCP",
+   "aliases": [
+    "g c p"
+   ]
+  },
+  {
+   "text": "Cloud Run",
+   "aliases": [
+    "cloud run"
+   ]
+  },
+  {
+   "text": "Cloud Functions",
+   "aliases": [
+    "cloud functions"
+   ]
+  },
+  {
+   "text": "BigQuery",
+   "aliases": [
+    "big query",
+    "bigquery"
+   ]
+  },
+  {
+   "text": "Firestore",
+   "aliases": [
+    "firestore",
+    "fire store"
+   ]
+  },
+  {
+   "text": "Firebase",
+   "aliases": [
+    "firebase",
+    "fire base"
+   ]
+  },
+  {
+   "text": "Cloud Storage",
+   "aliases": [
+    "cloud storage"
+   ]
+  },
+  {
+   "text": "Pub/Sub",
+   "aliases": [
+    "pub sub"
+   ]
+  },
+  {
+   "text": "GKE",
+   "aliases": [
+    "g k e"
+   ]
+  },
+  {
+   "text": "Vertex AI",
+   "aliases": [
+    "vertex a i",
+    "vertex ai"
+   ]
+  },
+  {
+   "text": "Cloudflare",
+   "aliases": [
+    "cloud flare",
+    "cloud fair",
+    "cloudflare"
+   ]
+  },
+  {
+   "text": "Cloudflare Worker",
+   "aliases": [
+    "cloud flare worker",
+    "cloud worker",
+    "cloudflare worker"
+   ]
+  },
+  {
+   "text": "Workers KV",
+   "aliases": [
+    "workers k v",
+    "workers kv"
+   ]
+  },
+  {
+   "text": "R2",
+   "aliases": [
+    "r two",
+    "r2"
+   ]
+  },
+  {
+   "text": "D1",
+   "aliases": [
+    "d one",
+    "d1"
+   ]
+  },
+  {
+   "text": "Durable Objects",
+   "aliases": [
+    "durable objects"
+   ]
+  },
+  {
+   "text": "Cloudflare Pages",
+   "aliases": [
+    "cloudflare pages",
+    "cloud flare pages"
+   ]
+  },
+  {
+   "text": "Wrangler",
+   "aliases": [
+    "wrangler"
+   ]
+  },
+  {
+   "text": "Vercel",
+   "aliases": [
+    "vercel",
+    "versel",
+    "ver cell"
+   ]
+  },
+  {
+   "text": "Netlify",
+   "aliases": [
+    "netlify",
+    "net lify"
+   ]
+  },
+  {
+   "text": "Supabase",
+   "aliases": [
+    "supabase",
+    "supa base",
+    "super base"
+   ]
+  },
+  {
+   "text": "Heroku",
+   "aliases": [
+    "heroku"
+   ]
+  },
+  {
+   "text": "DigitalOcean",
+   "aliases": [
+    "digital ocean"
+   ]
+  },
+  {
+   "text": "Railway",
+   "aliases": [
+    "railway"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Fly.io",
+   "aliases": [
+    "fly dot i o",
+    "fly i o"
+   ]
+  },
+  {
+   "text": "Render",
+   "aliases": [
+    "render"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Hetzner",
+   "aliases": [
+    "hetzner",
+    "hetzner cloud"
+   ]
+  },
+  {
+   "text": "Linode",
+   "aliases": [
+    "linode"
+   ]
+  },
+  {
+   "text": "Vultr",
+   "aliases": [
+    "vultr"
+   ]
+  },
+  {
+   "text": "Backblaze",
+   "aliases": [
+    "backblaze",
+    "back blaze"
+   ]
+  },
+  {
+   "text": "Fastly",
+   "aliases": [
+    "fastly"
+   ]
+  },
+  {
+   "text": "Akamai",
+   "aliases": [
+    "akamai"
+   ]
+  },
+  {
+   "text": "Terraform",
+   "aliases": [
+    "terraform",
+    "terra form"
+   ]
+  },
+  {
+   "text": "Pulumi",
+   "aliases": [
+    "pulumi"
+   ]
+  },
+  {
+   "text": "Ansible",
+   "aliases": [
+    "ansible"
+   ]
+  },
+  {
+   "text": "Kubernetes",
+   "aliases": [
+    "kubernetes",
+    "k eight s",
+    "k8s"
+   ]
+  },
+  {
+   "text": "Helm",
+   "aliases": [
+    "helm"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Docker",
+   "aliases": [
+    "docker"
+   ]
+  },
+  {
+   "text": "Docker Compose",
+   "aliases": [
+    "docker compose"
+   ]
+  },
+  {
+   "text": "Podman",
+   "aliases": [
+    "podman",
+    "pod man"
+   ]
+  },
+  {
+   "text": "Nomad",
+   "aliases": [
+    "nomad"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Consul",
+   "aliases": [
+    "consul"
+   ]
+  },
+  {
+   "text": "Vault",
+   "aliases": [
+    "vault"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "Datadog",
+   "aliases": [
+    "datadog",
+    "data dog"
+   ]
+  },
+  {
+   "text": "Grafana",
+   "aliases": [
+    "grafana"
+   ]
+  },
+  {
+   "text": "Prometheus",
+   "aliases": [
+    "prometheus"
+   ]
+  },
+  {
+   "text": "Sentry",
+   "aliases": [
+    "sentry"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "PagerDuty",
+   "aliases": [
+    "pager duty",
+    "pagerduty"
+   ]
+  },
+  {
+   "text": "Opsgenie",
+   "aliases": [
+    "ops genie",
+    "opsgenie"
+   ]
+  },
+  {
+   "text": "New Relic",
+   "aliases": [
+    "new relic"
+   ]
+  },
+  {
+   "text": "Splunk",
+   "aliases": [
+    "splunk"
+   ]
+  },
+  {
+   "text": "Elasticsearch",
+   "aliases": [
+    "elastic search"
+   ]
+  },
+  {
+   "text": "Kibana",
+   "aliases": [
+    "kibana"
+   ]
+  },
+  {
+   "text": "Logstash",
+   "aliases": [
+    "log stash",
+    "logstash"
+   ]
+  },
+  {
+   "text": "OpenTelemetry",
+   "aliases": [
+    "open telemetry",
+    "opentelemetry"
+   ]
+  }
+ ]
+}

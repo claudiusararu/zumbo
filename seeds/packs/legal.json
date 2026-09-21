@@ -1,0 +1,571 @@
+{
+ "pack": "legal",
+ "terms": [
+  {
+   "text": "NDA",
+   "aliases": [
+    "n d a",
+    "en dee ay"
+   ]
+  },
+  {
+   "text": "MSA",
+   "aliases": [
+    "m s a"
+   ]
+  },
+  {
+   "text": "SOW",
+   "aliases": [
+    "s o w",
+    "statement of work"
+   ]
+  },
+  {
+   "text": "DPA",
+   "aliases": [
+    "d p a"
+   ]
+  },
+  {
+   "text": "SLA",
+   "aliases": [
+    "s l a"
+   ]
+  },
+  {
+   "text": "GDPR",
+   "aliases": [
+    "g d p r",
+    "gee dee pee are"
+   ]
+  },
+  {
+   "text": "CCPA",
+   "aliases": [
+    "c c p a"
+   ]
+  },
+  {
+   "text": "HIPAA",
+   "aliases": [
+    "hipaa",
+    "hip a",
+    "hippa"
+   ]
+  },
+  {
+   "text": "SOC 2",
+   "aliases": [
+    "s o c two",
+    "sock two"
+   ]
+  },
+  {
+   "text": "ISO 27001",
+   "aliases": [
+    "i s o twenty seven thousand one",
+    "iso two seven zero zero one"
+   ]
+  },
+  {
+   "text": "indemnification",
+   "aliases": [
+    "indemnification"
+   ]
+  },
+  {
+   "text": "force majeure",
+   "aliases": [
+    "force majeure",
+    "force mah zhur",
+    "force major"
+   ]
+  },
+  {
+   "text": "tort",
+   "aliases": [
+    "tort"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "estoppel",
+   "aliases": [
+    "estoppel",
+    "estopel"
+   ]
+  },
+  {
+   "text": "LLC",
+   "aliases": [
+    "l l c"
+   ]
+  },
+  {
+   "text": "LLP",
+   "aliases": [
+    "l l p"
+   ]
+  },
+  {
+   "text": "S corp",
+   "aliases": [
+    "s corp",
+    "s corporation"
+   ]
+  },
+  {
+   "text": "C corp",
+   "aliases": [
+    "c corp",
+    "c corporation"
+   ]
+  },
+  {
+   "text": "IP",
+   "aliases": [
+    "i p",
+    "intellectual property"
+   ]
+  },
+  {
+   "text": "trademark",
+   "aliases": [
+    "trademark",
+    "trade mark"
+   ]
+  },
+  {
+   "text": "copyright",
+   "aliases": [
+    "copyright",
+    "copy right"
+   ]
+  },
+  {
+   "text": "DMCA",
+   "aliases": [
+    "d m c a"
+   ]
+  },
+  {
+   "text": "arbitration",
+   "aliases": [
+    "arbitration"
+   ]
+  },
+  {
+   "text": "jurisdiction",
+   "aliases": [
+    "jurisdiction"
+   ]
+  },
+  {
+   "text": "pro bono",
+   "aliases": [
+    "pro bono",
+    "pro bo no"
+   ]
+  },
+  {
+   "text": "prima facie",
+   "aliases": [
+    "prima facie",
+    "pry ma fay sha",
+    "preema facie"
+   ]
+  },
+  {
+   "text": "de facto",
+   "aliases": [
+    "de facto",
+    "day facto"
+   ]
+  },
+  {
+   "text": "inter alia",
+   "aliases": [
+    "inter alia",
+    "inter ah lee ah"
+   ]
+  },
+  {
+   "text": "bona fide",
+   "aliases": [
+    "bona fide",
+    "bo na fide",
+    "bonafide"
+   ]
+  },
+  {
+   "text": "habeas corpus",
+   "aliases": [
+    "habeas corpus",
+    "hay bee us corpus"
+   ]
+  },
+  {
+   "text": "EULA",
+   "aliases": [
+    "eula",
+    "you la",
+    "e u l a"
+   ]
+  },
+  {
+   "text": "ToS",
+   "aliases": [
+    "t o s",
+    "terms of service"
+   ]
+  },
+  {
+   "text": "KYC",
+   "aliases": [
+    "k y c"
+   ]
+  },
+  {
+   "text": "AML",
+   "aliases": [
+    "a m l"
+   ]
+  },
+  {
+   "text": "SEC",
+   "aliases": [
+    "s e c"
+   ]
+  },
+  {
+   "text": "FTC",
+   "aliases": [
+    "f t c"
+   ]
+  },
+  {
+   "text": "DocuSign",
+   "aliases": [
+    "docusign",
+    "docu sign"
+   ]
+  },
+  {
+   "text": "Clio",
+   "aliases": [
+    "clio"
+   ]
+  },
+  {
+   "text": "LexisNexis",
+   "aliases": [
+    "lexisnexis",
+    "lexis nexis"
+   ]
+  },
+  {
+   "text": "Westlaw",
+   "aliases": [
+    "westlaw",
+    "west law"
+   ]
+  },
+  {
+   "text": "litigation",
+   "aliases": [
+    "litigation"
+   ]
+  },
+  {
+   "text": "plaintiff",
+   "aliases": [
+    "plaintiff"
+   ]
+  },
+  {
+   "text": "defendant",
+   "aliases": [
+    "defendant"
+   ]
+  },
+  {
+   "text": "breach of contract",
+   "aliases": [
+    "breach of contract"
+   ]
+  },
+  {
+   "text": "liquidated damages",
+   "aliases": [
+    "liquidated damages"
+   ]
+  },
+  {
+   "text": "non-compete",
+   "aliases": [
+    "non compete",
+    "noncompete"
+   ]
+  },
+  {
+   "text": "non-disclosure agreement",
+   "aliases": [
+    "non disclosure agreement"
+   ]
+  },
+  {
+   "text": "governing law",
+   "aliases": [
+    "governing law"
+   ]
+  },
+  {
+   "text": "severability",
+   "aliases": [
+    "severability"
+   ]
+  },
+  {
+   "text": "indemnify",
+   "aliases": [
+    "indemnify"
+   ]
+  },
+  {
+   "text": "warranty",
+   "aliases": [
+    "warranty"
+   ]
+  },
+  {
+   "text": "representations and warranties",
+   "aliases": [
+    "representations and warranties",
+    "reps and warranties"
+   ]
+  },
+  {
+   "text": "limitation of liability",
+   "aliases": [
+    "limitation of liability"
+   ]
+  },
+  {
+   "text": "confidentiality clause",
+   "aliases": [
+    "confidentiality clause"
+   ]
+  },
+  {
+   "text": "termination clause",
+   "aliases": [
+    "termination clause"
+   ]
+  },
+  {
+   "text": "assignment clause",
+   "aliases": [
+    "assignment clause"
+   ]
+  },
+  {
+   "text": "choice of law",
+   "aliases": [
+    "choice of law"
+   ]
+  },
+  {
+   "text": "mediation",
+   "aliases": [
+    "mediation"
+   ]
+  },
+  {
+   "text": "subpoena",
+   "aliases": [
+    "subpoena",
+    "suh pee na"
+   ]
+  },
+  {
+   "text": "affidavit",
+   "aliases": [
+    "affidavit",
+    "a fi day vit"
+   ]
+  },
+  {
+   "text": "deposition",
+   "aliases": [
+    "deposition"
+   ]
+  },
+  {
+   "text": "notary",
+   "aliases": [
+    "notary"
+   ]
+  },
+  {
+   "text": "escrow",
+   "aliases": [
+    "escrow",
+    "es crow"
+   ]
+  },
+  {
+   "text": "fiduciary duty",
+   "aliases": [
+    "fiduciary duty",
+    "fi doo shee airy duty"
+   ]
+  },
+  {
+   "text": "statute of limitations",
+   "aliases": [
+    "statute of limitations"
+   ]
+  },
+  {
+   "text": "injunction",
+   "aliases": [
+    "injunction"
+   ]
+  },
+  {
+   "text": "class action",
+   "aliases": [
+    "class action"
+   ]
+  },
+  {
+   "text": "amicus brief",
+   "aliases": [
+    "amicus brief",
+    "ah me cus brief"
+   ]
+  },
+  {
+   "text": "precedent",
+   "aliases": [
+    "precedent"
+   ]
+  },
+  {
+   "text": "common law",
+   "aliases": [
+    "common law"
+   ]
+  },
+  {
+   "text": "case law",
+   "aliases": [
+    "case law"
+   ]
+  },
+  {
+   "text": "due diligence",
+   "aliases": [
+    "due diligence",
+    "due dilligence"
+   ]
+  },
+  {
+   "text": "power of attorney",
+   "aliases": [
+    "power of attorney"
+   ]
+  },
+  {
+   "text": "cease and desist",
+   "aliases": [
+    "cease and desist"
+   ]
+  },
+  {
+   "text": "boilerplate",
+   "aliases": [
+    "boilerplate"
+   ]
+  },
+  {
+   "text": "whereas clause",
+   "aliases": [
+    "whereas clause"
+   ]
+  },
+  {
+   "text": "counterparty",
+   "aliases": [
+    "counterparty"
+   ]
+  },
+  {
+   "text": "Ironclad",
+   "aliases": [
+    "ironclad"
+   ],
+   "minSimilarity": 0.9
+  },
+  {
+   "text": "contract lifecycle management",
+   "aliases": [
+    "contract lifecycle management",
+    "c l m"
+   ]
+  },
+  {
+   "text": "redline",
+   "aliases": [
+    "redline",
+    "red line"
+   ]
+  },
+  {
+   "text": "e-signature",
+   "aliases": [
+    "e signature",
+    "electronic signature"
+   ]
+  },
+  {
+   "text": "Data Processing Agreement",
+   "aliases": [
+    "data processing agreement"
+   ]
+  },
+  {
+   "text": "Master Services Agreement",
+   "aliases": [
+    "master services agreement"
+   ]
+  },
+  {
+   "text": "employment agreement",
+   "aliases": [
+    "employment agreement"
+   ]
+  },
+  {
+   "text": "non-solicitation",
+   "aliases": [
+    "non solicitation",
+    "nonsolicitation"
+   ]
+  },
+  {
+   "text": "tortious interference",
+   "aliases": [
+    "tortious interference"
+   ]
+  },
+  {
+   "text": "LegalZoom",
+   "aliases": [
+    "legalzoom",
+    "legal zoom"
+   ]
+  }
+ ]
+}
