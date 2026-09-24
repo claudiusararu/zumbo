@@ -20,3 +20,7 @@ build/sparkle-tools/
 # the real project spec (team, bundle id, update feed, Sparkle key) stays local;
 # copy project.example.yml to project.yml and fill in your own values
 project.yml
+
+# release output (DMG, appcast); the published appcast lives at
+# updates.zumbo.app/appcast.xml
+dist/

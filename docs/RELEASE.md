@@ -14,8 +14,9 @@ in that machine's keychains and nowhere else.
 3. `scripts/release.sh`
 4. When it finishes it prints the tag command. Run it:
    `git tag v<version> && git push origin v<version>`
-5. Commit the updated `dist/appcast.xml` (it is tracked on purpose - it is the
-   record of what was published).
+5. Keep `dist/appcast.xml`: it is gitignored, and the next release adds its
+   `<item>` on top of it. The published copy is
+   `https://updates.zumbo.app/appcast.xml`.
 
 ## What the script does
 
@@ -98,7 +99,7 @@ Flags:
 | Sparkle public key | `SUPublicEDKey` in `project.yml`, and every shipped bundle |
 | Sparkle private key | login keychain only, item "Private key for signing Sparkle updates" |
 | Sparkle CLI tools | `build/sparkle-tools/` (gitignored, re-downloadable) |
-| Published appcast | `dist/appcast.xml`, tracked in git |
+| Published appcast | `dist/appcast.xml`, local only (gitignored) |
 
 Nothing in any R2 bucket is ever deleted. Old DMGs stay up: an appcast entry
 that 404s is worse than a stale one.
