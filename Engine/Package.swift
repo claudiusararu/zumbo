@@ -14,9 +14,13 @@ let package = Package(
     targets: [
         .target(
             name: "VesperEngine",
-            dependencies: [.product(name: "FluidAudio", package: "FluidAudio")],
+            dependencies: [
+                .product(name: "FluidAudio", package: "FluidAudio"),
+                "ObjCExceptionCatcher",
+            ],
             resources: [.copy("Resources/vocab-dev-starter.json")]
         ),
+        .target(name: "ObjCExceptionCatcher"),
         .executableTarget(
             name: "zumbo-cli",
             dependencies: ["VesperEngine"]

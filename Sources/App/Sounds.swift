@@ -1,11 +1,13 @@
 import AVFoundation
+import VesperEngine
 
 /// Three short tones, synthesized in memory (no audio files): `start`, two
 /// rising notes (C5 then E5); `finish`, the same two notes falling (E5 then
 /// C5); `reminder`, a slower, higher pair (G5 then C6) in the same family so
 /// it reads as one sound language, not a different alert. Built once as
 /// `AVAudioPCMBuffer`s and played through a single `AVAudioEngine` +
-/// `AVAudioPlayerNode`, started lazily on first play and then kept running.
+/// `AVAudioPlayerNode`, started lazily on first play and restarted whenever
+/// an output change (AirPods connecting, headphones unplugged) stopped it.
 /// Routes through the default output only - this never touches
 /// `engine.inputNode`, so it cannot interfere with the separate engine the
 /// app uses to record the microphone at the same time.
@@ -35,7 +37,6 @@ final class Sounds {
 
     private let engine = AVAudioEngine()
     private let player = AVAudioPlayerNode()
-    private var engineStarted = false
 
     private let startBuffer: AVAudioPCMBuffer
     private let finishBuffer: AVAudioPCMBuffer
@@ -53,13 +54,19 @@ final class Sounds {
         engine.connect(player, to: engine.mainMixerNode, format: format)
     }
 
-    /// Fire-and-forget: starts the engine on first use, schedules the tone
-    /// and returns immediately. Never blocks on I/O - `AVAudioEngine.start()`
-    /// only configures the existing output graph, it does not open a device.
+    /// Fire-and-forget: starts the engine when it is not running (first use,
+    /// or after a device change stopped it), schedules the tone and returns
+    /// immediately. Never blocks on I/O - `AVAudioEngine.start()` only
+    /// configures the existing output graph, it does not open a device.
+    /// Checks `isRunning`, not a started-once flag: a device change can stop
+    /// the engine, and a flag would never start it again. A tone that cannot
+    /// play is skipped; the engine and player calls go through the catcher
+    /// because AVFAudio reports some device states by raising.
     func play(_ tone: Tone) {
-        if !engineStarted {
-            engineStarted = (try? engine.start()) != nil
-            guard engineStarted else { return }
+        if !engine.isRunning {
+            var started = false
+            try? catchingObjCException { started = (try? engine.start()) != nil }
+            guard started else { return }
         }
         let buffer: AVAudioPCMBuffer
         switch tone {
@@ -67,8 +74,10 @@ final class Sounds {
         case .finish: buffer = finishBuffer
         case .reminder: buffer = reminderBuffer
         }
-        player.scheduleBuffer(buffer, at: nil)
-        if !player.isPlaying { player.play() }
+        try? catchingObjCException {
+            player.scheduleBuffer(buffer, at: nil)
+            if !player.isPlaying { player.play() }
+        }
     }
 
     /// Sine notes back to back, each with an attack/sustain/release envelope
