@@ -76,6 +76,7 @@ public struct DictationResult: Sendable {
 public final class DictationSession: DictationEngine {
     private let capture: AudioCapture
     private nonisolated let transcriber: Transcriber
+    private nonisolated let speechDetector: SpeechDetector
     private let devContext: DevContextGate
     private let dictionary: UserDictionaryStore
     private let textInserter: TextInserter
@@ -162,6 +163,7 @@ public final class DictationSession: DictationEngine {
     public init(
         capture: AudioCapture = AudioCapture(),
         transcriber: Transcriber = Transcriber(),
+        speechDetector: SpeechDetector = SpeechDetector(),
         devContext: DevContextGate = DevContextGate(),
         dictionary: UserDictionaryStore = UserDictionaryStore(),
         textInserter: TextInserter = TextInserter(),
@@ -170,6 +172,7 @@ public final class DictationSession: DictationEngine {
     ) {
         self.capture = capture
         self.transcriber = transcriber
+        self.speechDetector = speechDetector
         self.devContext = devContext
         self.dictionary = dictionary
         self.textInserter = textInserter
@@ -189,6 +192,7 @@ public final class DictationSession: DictationEngine {
         recordingStart = Date()
         try capture.start()
         Task { try? await transcriber.warmUp() }
+        Task { await speechDetector.prepare() }
     }
 
     @discardableResult
@@ -215,6 +219,14 @@ public final class DictationSession: DictationEngine {
     @discardableResult
     public func transcribe(samples: [Float], duration: TimeInterval) async throws -> String {
         state = .transcribing
+        // No speech in the take: Parakeet would invent a short phrase
+        // ("Thank you.") and it would be pasted. Empty text is what the app
+        // already shows as "Nothing heard".
+        guard await speechDetector.containsSpeech(samples) else {
+            log.info("no speech in \(String(format: "%.1f", duration), privacy: .public) s of audio, nothing transcribed")
+            state = .done
+            return ""
+        }
         do {
             // The boosting context is warm from `loadModel()`, so the plain
             // pass here already includes the spotter and the rescoring pass.
