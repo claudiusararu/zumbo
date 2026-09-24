@@ -401,7 +401,12 @@ final class DictationCoordinator {
         }
 
         engine.apply(settings: settings)
-        if settings.playSounds { sounds.play(.start) }
+        // A Bluetooth headset switches to its call mode when the microphone
+        // opens, and whatever is playing at that moment is cut off, so there
+        // the start tone waits until the microphone is running. Everywhere
+        // else it plays right away, before the microphone.
+        let toneAfterMic = settings.playSounds && sounds.outputIsBluetooth
+        if settings.playSounds && !toneAfterMic { sounds.play(.start) }
         notch.transition(to: .recording)
         installEscapeMonitor()
         noticeInputMonitoringIfNeeded()
@@ -428,6 +433,7 @@ final class DictationCoordinator {
             guard let self else { return }
             do {
                 try await self.engine.start()
+                if toneAfterMic && self.isDictating { self.sounds.play(.start) }
             } catch {
                 self.log.error("engine start failed: \(error.localizedDescription, privacy: .public)")
                 self.isDictating = false

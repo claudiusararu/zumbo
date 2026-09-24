@@ -1,13 +1,14 @@
 import AVFoundation
+import CoreAudio
 import VesperEngine
 
 /// Three short tones, synthesized in memory (no audio files): `start`, two
 /// rising notes (C5 then E5); `finish`, the same two notes falling (E5 then
 /// C5); `reminder`, a slower, higher pair (G5 then C6) in the same family so
 /// it reads as one sound language, not a different alert. Built once as
-/// `AVAudioPCMBuffer`s and played through a single `AVAudioEngine` +
-/// `AVAudioPlayerNode`, started lazily on first play and restarted whenever
-/// an output change (AirPods connecting, headphones unplugged) stopped it.
+/// `AVAudioPCMBuffer`s and played through one `AVAudioEngine` +
+/// `AVAudioPlayerNode`, built lazily on first play and built again whenever
+/// the default output changes (AirPods connecting, headphones unplugged).
 /// Routes through the default output only - this never touches
 /// `engine.inputNode`, so it cannot interfere with the separate engine the
 /// app uses to record the microphone at the same time.
@@ -35,38 +36,40 @@ final class Sounds {
     private static let reminderRelease: Double = 0.060
     private static let reminderPeak: Float = 0.16
 
-    private let engine = AVAudioEngine()
-    private let player = AVAudioPlayerNode()
+    /// Rebuilt whenever the default output device is not the one it was built
+    /// on. An engine built for the laptop speakers keeps playing after AirPods
+    /// connect, but the start tone comes out broken in the AirPods; a fresh
+    /// engine sounds right, same as launching the app with them connected.
+    private var engine = AVAudioEngine()
+    private var player = AVAudioPlayerNode()
+    private var engineOutputDevice: AudioDeviceID?
+    private let format: AVAudioFormat
 
     private let startBuffer: AVAudioPCMBuffer
     private let finishBuffer: AVAudioPCMBuffer
     private let reminderBuffer: AVAudioPCMBuffer
 
     init() {
-        let format = AVAudioFormat(standardFormatWithSampleRate: Self.sampleRate, channels: 1)!
+        format = AVAudioFormat(standardFormatWithSampleRate: Self.sampleRate, channels: 1)!
         startBuffer = Self.buildBuffer(notes: [Self.noteHz.low, Self.noteHz.high], format: format)
         finishBuffer = Self.buildBuffer(notes: [Self.noteHz.high, Self.noteHz.low], format: format)
         reminderBuffer = Self.buildBuffer(
             notes: [Self.reminderHz.low, Self.reminderHz.high], format: format,
             noteDuration: Self.reminderNoteDuration, attack: Self.reminderAttack,
             release: Self.reminderRelease, peak: Self.reminderPeak)
-        engine.attach(player)
-        engine.connect(player, to: engine.mainMixerNode, format: format)
     }
 
-    /// Fire-and-forget: starts the engine when it is not running (first use,
-    /// or after a device change stopped it), schedules the tone and returns
-    /// immediately. Never blocks on I/O - `AVAudioEngine.start()` only
-    /// configures the existing output graph, it does not open a device.
-    /// Checks `isRunning`, not a started-once flag: a device change can stop
-    /// the engine, and a flag would never start it again. A tone that cannot
-    /// play is skipped; the engine and player calls go through the catcher
-    /// because AVFAudio reports some device states by raising.
+    /// Fire-and-forget: makes sure the engine is running on the current
+    /// output device (building a fresh one on first use or after the output
+    /// changed), schedules the tone and returns immediately. Never blocks on
+    /// I/O - `AVAudioEngine.start()` only configures the output graph, it
+    /// does not open a device. A tone that cannot play is skipped; the
+    /// engine and player calls go through the catcher because AVFAudio
+    /// reports some device states by raising.
     func play(_ tone: Tone) {
-        if !engine.isRunning {
-            var started = false
-            try? catchingObjCException { started = (try? engine.start()) != nil }
-            guard started else { return }
+        let output = Self.defaultOutputDevice()
+        if output != engineOutputDevice || !engine.isRunning {
+            guard rebuildEngine(for: output) else { return }
         }
         let buffer: AVAudioPCMBuffer
         switch tone {
@@ -78,6 +81,53 @@ final class Sounds {
             player.scheduleBuffer(buffer, at: nil)
             if !player.isPlaying { player.play() }
         }
+    }
+
+    /// Replaces the engine and player with fresh ones wired for `output` and
+    /// starts them. Returns false when the engine will not start; the next
+    /// `play` tries again.
+    private func rebuildEngine(for output: AudioDeviceID?) -> Bool {
+        engine.stop()
+        engine = AVAudioEngine()
+        player = AVAudioPlayerNode()
+        engine.attach(player)
+        engine.connect(player, to: engine.mainMixerNode, format: format)
+        var started = false
+        try? catchingObjCException { started = (try? engine.start()) != nil }
+        engineOutputDevice = started ? output : nil
+        return started
+    }
+
+    /// True when the default output is a Bluetooth device (AirPods and other
+    /// headsets), the one kind of output that changes mode when the
+    /// microphone opens.
+    var outputIsBluetooth: Bool {
+        guard let device = Self.defaultOutputDevice() else { return false }
+        var transport: UInt32 = 0
+        var size = UInt32(MemoryLayout<UInt32>.size)
+        var address = AudioObjectPropertyAddress(
+            mSelector: kAudioDevicePropertyTransportType,
+            mScope: kAudioObjectPropertyScopeGlobal,
+            mElement: kAudioObjectPropertyElementMain)
+        guard AudioObjectGetPropertyData(device, &address, 0, nil, &size, &transport) == noErr else {
+            return false
+        }
+        return transport == kAudioDeviceTransportTypeBluetooth
+            || transport == kAudioDeviceTransportTypeBluetoothLE
+    }
+
+    /// The system's default output device right now, or nil if CoreAudio
+    /// cannot say. One property read, cheap enough to do on every tone.
+    private static func defaultOutputDevice() -> AudioDeviceID? {
+        var device = AudioDeviceID(0)
+        var size = UInt32(MemoryLayout<AudioDeviceID>.size)
+        var address = AudioObjectPropertyAddress(
+            mSelector: kAudioHardwarePropertyDefaultOutputDevice,
+            mScope: kAudioObjectPropertyScopeGlobal,
+            mElement: kAudioObjectPropertyElementMain)
+        let status = AudioObjectGetPropertyData(
+            AudioObjectID(kAudioObjectSystemObject), &address, 0, nil, &size, &device)
+        return status == noErr && device != 0 ? device : nil
     }
 
     /// Sine notes back to back, each with an attack/sustain/release envelope
